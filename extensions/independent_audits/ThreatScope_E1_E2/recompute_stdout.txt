@@ -1,0 +1,25 @@
+{
+  "status": "INDEPENDENT_DECISION_TABLE_RECOMPUTATION_PASS",
+  "export_files_sha256": "10/10 PASS",
+  "e1_records": 1728,
+  "e1_valid": 1675,
+  "e1_invalid": 53,
+  "e2_records": 2304,
+  "e2_unique_windows": 144,
+  "e2_agreement": {
+    "bf16": 0.9739583333333334,
+    "nf4": 0.9861111111111112
+  },
+  "e2_publisher_equal_effect_pp": {
+    "greedy": 0.6944444444444445,
+    "scoring": 0.2976190476190477
+  },
+  "e2_procedure_DID_pp": 0.3968253968253968,
+  "e2_publisher_signs": {
+    "positive": 5,
+    "negative": 2,
+    "zero": 2
+  },
+  "e2_exact_signflip_p": 0.359375
+}
+E1_RECOMPUTATION_PASS: all 3 models

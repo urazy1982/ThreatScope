@@ -1,0 +1,70 @@
+{
+  "zip_testzip": null,
+  "member_count": 3490,
+  "tracked_code_hashes": 11,
+  "tracked_hashes_all_pass": true,
+  "checkpoint_count": 3456,
+  "per_cell_counts": {
+    "meta-llama/Llama-3.2-3B-Instruct / bf16": 576,
+    "meta-llama/Llama-3.2-3B-Instruct / nf4": 576,
+    "mistralai/Mistral-7B-Instruct-v0.3 / bf16": 576,
+    "mistralai/Mistral-7B-Instruct-v0.3 / nf4": 576,
+    "Qwen/Qwen2.5-3B-Instruct / bf16": 576,
+    "Qwen/Qwen2.5-3B-Instruct / nf4": 576
+  },
+  "checkpoint_structural_issues": [],
+  "checkpoint_issue_count": 0,
+  "decision_rows": 3456,
+  "decision_comparison_errors": 0,
+  "window_rows": 432,
+  "window_D_comparison_errors": 0,
+  "publisher_rows": 24,
+  "publisher_comparison_errors": 0,
+  "summary": [
+    {
+      "model": "Qwen/Qwen2.5-3B-Instruct",
+      "delta_pp": 18.67453231292517,
+      "signflip_p": 0.0078125,
+      "positive": 8,
+      "negative": 0,
+      "zero": 0,
+      "leave_one_publisher_out_min_pp": 17.118966634272756,
+      "leave_one_publisher_out_max_pp": 20.19436345966958,
+      "reported_delta_match": true,
+      "reported_p_match": true,
+      "holm3_p": 0.0234375
+    },
+    {
+      "model": "meta-llama/Llama-3.2-3B-Instruct",
+      "delta_pp": 5.266439909297052,
+      "signflip_p": 0.046875,
+      "positive": 6,
+      "negative": 1,
+      "zero": 1,
+      "leave_one_publisher_out_min_pp": 4.063006154842888,
+      "leave_one_publisher_out_max_pp": 6.217201166180757,
+      "reported_delta_match": true,
+      "reported_p_match": true,
+      "holm3_p": 0.09375
+    },
+    {
+      "model": "mistralai/Mistral-7B-Instruct-v0.3",
+      "delta_pp": 1.9458616780045352,
+      "signflip_p": 0.203125,
+      "positive": 4,
+      "negative": 4,
+      "zero": 0,
+      "leave_one_publisher_out_min_pp": 1.3054745707806932,
+      "leave_one_publisher_out_max_pp": 2.762390670553936,
+      "reported_delta_match": true,
+      "reported_p_match": true,
+      "holm3_p": 0.203125
+    }
+  ],
+  "audit_input_hash": "84c02a30c6f077d1c2d0e645be480616e66d93dd61ca5d660acb77bed37216b3",
+  "expected_input_hash": "84c02a30c6f077d1c2d0e645be480616e66d93dd61ca5d660acb77bed37216b3",
+  "source_text_present": false,
+  "freeze_inputs_present": false,
+  "gate_report_present": false,
+  "status": "PASS"
+}

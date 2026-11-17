@@ -1,0 +1,86 @@
+{
+  "status": "PASS",
+  "protocol": "ThreatScope-E4-FP4-v0.1-historical-ArmA-interior-report-holdout",
+  "frozen_E3_sha256": "84c02a30c6f077d1c2d0e645be480616e66d93dd61ca5d660acb77bed37216b3",
+  "baseline_csv_sha256": "e750458e3a91688601255d15a6507adeeeb8c54f48d803064f25af0559ba4d5f",
+  "fp4_checkpoints": 1152,
+  "cells": [
+    {
+      "model": "Qwen/Qwen2.5-3B-Instruct",
+      "total": 576,
+      "valid": 529,
+      "invalid": 47
+    },
+    {
+      "model": "meta-llama/Llama-3.2-3B-Instruct",
+      "total": 576,
+      "valid": 576,
+      "invalid": 0
+    }
+  ],
+  "effects": [
+    {
+      "model": "Qwen/Qwen2.5-3B-Instruct",
+      "contrast": "NF4_minus_BF16",
+      "effect_pp": 18.67453231,
+      "p_exploratory": 0.0078125,
+      "publishers": 8,
+      "positive": 8,
+      "negative": 0,
+      "tied": 0
+    },
+    {
+      "model": "Qwen/Qwen2.5-3B-Instruct",
+      "contrast": "FP4_minus_BF16",
+      "effect_pp": 27.15667517,
+      "p_exploratory": 0.0078125,
+      "publishers": 8,
+      "positive": 8,
+      "negative": 0,
+      "tied": 0
+    },
+    {
+      "model": "Qwen/Qwen2.5-3B-Instruct",
+      "contrast": "FP4_minus_NF4",
+      "effect_pp": 8.48214286,
+      "p_exploratory": 0.171875,
+      "publishers": 8,
+      "positive": 5,
+      "negative": 3,
+      "tied": 0,
+      "holm2_primary_p": 0.34375
+    },
+    {
+      "model": "meta-llama/Llama-3.2-3B-Instruct",
+      "contrast": "NF4_minus_BF16",
+      "effect_pp": 5.26643991,
+      "p_exploratory": 0.046875,
+      "publishers": 8,
+      "positive": 6,
+      "negative": 1,
+      "tied": 1
+    },
+    {
+      "model": "meta-llama/Llama-3.2-3B-Instruct",
+      "contrast": "FP4_minus_BF16",
+      "effect_pp": 7.4787415,
+      "p_exploratory": 0.0234375,
+      "publishers": 8,
+      "positive": 7,
+      "negative": 1,
+      "tied": 0
+    },
+    {
+      "model": "meta-llama/Llama-3.2-3B-Instruct",
+      "contrast": "FP4_minus_NF4",
+      "effect_pp": 2.21230159,
+      "p_exploratory": 0.1953125,
+      "publishers": 8,
+      "positive": 6,
+      "negative": 2,
+      "tied": 0,
+      "holm2_primary_p": 0.34375
+    }
+  ],
+  "note": "Retrospective same-archive E3 windows, exploratory, eight publisher sign flip; BF16/NF4 reused from E3."
+}

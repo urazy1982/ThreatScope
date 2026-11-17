@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "Please cite this ThreatScope software/data release; once published, also cite the associated article."
+title: "ThreatScope: Quantization-Dependent Example-Index Sensitivity — Reproducibility and Extension Evidence"
+type: software
+version: 1.1.0
+date-released: 2026-11-16
+license: MIT
+repository-code: "https://github.com/urazy1982/ThreatScope"
+keywords:
+  - cyber threat intelligence
+  - quantization
+  - prompt sensitivity
+  - large language models
+  - reproducibility
+  - BF16
+  - NF4
+  - FP4
+authors:
+  - family-names: Yavanoğlu
+    given-names: Uraz
+    orcid: "https://orcid.org/0000-0001-8358-8150"
+    affiliation: "Department of Computer Engineering, Gazi University, Ankara, Türkiye"
+references:
+  - type: unpublished
+    title: "One Digit, Different Decisions: Quantization-Dependent Prompt Sensitivity in Cyber-Threat Intelligence"
+    authors:
+      - family-names: Yavanoğlu
+        given-names: Uraz
+        orcid: "https://orcid.org/0000-0001-8358-8150"
+    year: 2026
+    notes: "Manuscript prepared for submission to Applied Artificial Intelligence (Taylor & Francis)."

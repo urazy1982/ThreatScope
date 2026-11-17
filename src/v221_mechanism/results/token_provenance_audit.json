@@ -1,0 +1,75 @@
+{
+  "status": "REFERENCE_PROVENANCE_AND_TOKEN_COUNTS_PASS",
+  "source_revision": "c06c0183be808d2e7b2bcbdb351426b75c8cde0f",
+  "dataset_sha256": "461682f329a5cca95715d6d7a12356dddb3f38f3adf0e221a2443bdecfdd354e",
+  "source_metadata_sha256": "3275d2c19071d800bf3e0147105e66114b2aa94025576cd43e187edcff78ce12",
+  "readiness": "REFERENCE_ARCHIVE_VERIFIED; V2.2 B/C TOKENIZERS AND GPU OUTPUTS NOT RUN",
+  "limitations": [
+    "SMAH baseline contains only selected windows, not original full reports",
+    "Near-duplicate shingle screen is not definitive semantic identity evidence",
+    "Preflight v2.1.4 output lacks dataset-bound checksum and cannot alone authorize GPU",
+    "GPU gate remains CLOSED in v2.1.4/v2.1.5"
+  ],
+  "models": [
+    {
+      "model": "Qwen/Qwen2.5-3B-Instruct",
+      "actual_archived_max_input_tokens": 1285,
+      "preflight_report_max_input_tokens": 1285,
+      "prompt_token_length_disagreements": 0,
+      "precisions": {
+        "bf16": {
+          "mean_latency_seconds": 0.18384538194444444,
+          "sum_latency_seconds": 211.78988,
+          "mean_generated_tokens": 10.72048611111111,
+          "capped_generations": 0
+        },
+        "nf4": {
+          "mean_latency_seconds": 0.2708830729166667,
+          "sum_latency_seconds": 312.0573,
+          "mean_generated_tokens": 12.399305555555555,
+          "capped_generations": 0
+        }
+      }
+    },
+    {
+      "model": "meta-llama/Llama-3.2-3B-Instruct",
+      "actual_archived_max_input_tokens": 919,
+      "preflight_report_max_input_tokens": 919,
+      "prompt_token_length_disagreements": 0,
+      "precisions": {
+        "bf16": {
+          "mean_latency_seconds": 0.20358756944444445,
+          "sum_latency_seconds": 234.53288,
+          "mean_generated_tokens": 15.355902777777779,
+          "capped_generations": 0
+        },
+        "nf4": {
+          "mean_latency_seconds": 0.24438660590277778,
+          "sum_latency_seconds": 281.53337,
+          "mean_generated_tokens": 14.269097222222221,
+          "capped_generations": 0
+        }
+      }
+    },
+    {
+      "model": "mistralai/Mistral-7B-Instruct-v0.3",
+      "actual_archived_max_input_tokens": 1367,
+      "preflight_report_max_input_tokens": 1367,
+      "prompt_token_length_disagreements": 0,
+      "precisions": {
+        "bf16": {
+          "mean_latency_seconds": 0.3344900520833333,
+          "sum_latency_seconds": 385.33254,
+          "mean_generated_tokens": 18.015625,
+          "capped_generations": 0
+        },
+        "nf4": {
+          "mean_latency_seconds": 0.3486708159722222,
+          "sum_latency_seconds": 401.66878,
+          "mean_generated_tokens": 16.624131944444443,
+          "capped_generations": 0
+        }
+      }
+    }
+  ]
+}

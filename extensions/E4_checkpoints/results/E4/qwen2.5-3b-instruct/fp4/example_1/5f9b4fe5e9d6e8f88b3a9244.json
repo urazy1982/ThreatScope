@@ -1,0 +1,20 @@
+{
+  "anchor": 1,
+  "error": "JSONDecodeError: Expecting value: line 3 column 151 (char 298)",
+  "generated_tokens": 96,
+  "generation_cap_reached": true,
+  "identity_sha256": "e3c6b2a49b5149f82dcda4cef85763eecd5ed2aa4279817977acb84e07f3b772",
+  "indices": [],
+  "input_sha256": "de7aa29e25bdd9931c9b15753b960b2ed1f7a8a2e2e2c2cc37a20ca2ae88cdc9",
+  "input_tokens": 576,
+  "latency_seconds": 1.8806,
+  "model": "Qwen/Qwen2.5-3B-Instruct",
+  "precision": "fp4",
+  "prompt_sha256": "8dc11b36b4e7078bcbe7980ed1616a378e22e19fbbe4c6b56744545793a02e98",
+  "raw": "[\n{\"i\":1,\"target\":\"Regarding the attacks observed in 2022 and 2024, we have also attributed these to The Mask, mainly for the following reasons:\"},\n{\"i\":22,\"target\":\"In both 2019 and 2022 cases, the same unique file name was used to deploy implants to infected machines: ~dfae01202c5f0dba42.cmd;\"},\n",
+  "raw_sha256": "78085cfba44cf8b86d8f8382af35176e88807d2bbc331b268fe011e7e2a98fbb",
+  "record_sha256": "749d783ce00eee3c409bbd25209850b981c1cbb9abac357562bf1cb7260255c5",
+  "revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+  "valid": false,
+  "window_id": "5f9b4fe5e9d6e8f88b3a9244"
+}

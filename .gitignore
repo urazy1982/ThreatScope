@@ -1,0 +1,18 @@
+# never commit report text
+**/inputs.jsonl
+annotation/private_sheets/
+annotation/labels/*.xlsx
+src/v221_mechanism/reference/ThreatStudy_v216_Complete_Results.zip
+# local outputs
+results_rerun/
+__pycache__/
+.pytest_cache/
+*.pyc
+# never commit annotation sheets, justifications or any file containing report text
+*AI_FULL_1152*
+*HUMAN_ANNOTATOR*
+*PRIVATE_ID_MAP*
+annotation/private/
+a1.csv
+a2.csv
+*ADJUDICATION*

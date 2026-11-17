@@ -1,0 +1,8 @@
+{
+  "bitsandbytes": "0.50.2",
+  "cuda": "12.8",
+  "gpu": "NVIDIA GeForce RTX 5090",
+  "revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+  "torch": "2.10.0+cu128",
+  "transformers": "5.22.2"
+}

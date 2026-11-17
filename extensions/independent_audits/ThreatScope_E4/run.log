@@ -1,0 +1,95 @@
+{
+  "status": "PASS_DECISION_LEVEL_AUDIT",
+  "zip_entry_count": 1183,
+  "zip_testzip": "PASS",
+  "fp4_checkpoint_count": 1152,
+  "checkpoint_raw_hashes": "PASS",
+  "checkpoint_record_hashes": "PASS",
+  "checkpoint_identity": "PASS",
+  "checkpoint_schema": "PASS",
+  "export_matches_checkpoint": "PASS",
+  "baseline_decision_rows": 3456,
+  "complete_grid": 4608,
+  "windows": 72,
+  "publisher_rows": 16,
+  "effect_reproduction": "6/6 PASS",
+  "holm2_reproduction": "2/2 PASS",
+  "cells": [
+    {
+      "model": "Qwen/Qwen2.5-3B-Instruct",
+      "total": 576,
+      "valid": 529,
+      "invalid": 47
+    },
+    {
+      "model": "meta-llama/Llama-3.2-3B-Instruct",
+      "total": 576,
+      "valid": 576,
+      "invalid": 0
+    }
+  ],
+  "effects": [
+    {
+      "model": "Qwen/Qwen2.5-3B-Instruct",
+      "contrast": "NF4_minus_BF16",
+      "effect_pp": 18.67453231292517,
+      "p_exploratory": 0.0078125,
+      "positive": 8,
+      "negative": 0,
+      "tied": 0
+    },
+    {
+      "model": "Qwen/Qwen2.5-3B-Instruct",
+      "contrast": "FP4_minus_BF16",
+      "effect_pp": 27.156675170068027,
+      "p_exploratory": 0.0078125,
+      "positive": 8,
+      "negative": 0,
+      "tied": 0
+    },
+    {
+      "model": "Qwen/Qwen2.5-3B-Instruct",
+      "contrast": "FP4_minus_NF4",
+      "effect_pp": 8.48214285714286,
+      "p_exploratory": 0.171875,
+      "positive": 5,
+      "negative": 3,
+      "tied": 0,
+      "holm2_primary_p": 0.34375
+    },
+    {
+      "model": "meta-llama/Llama-3.2-3B-Instruct",
+      "contrast": "NF4_minus_BF16",
+      "effect_pp": 5.266439909297052,
+      "p_exploratory": 0.046875,
+      "positive": 6,
+      "negative": 1,
+      "tied": 1
+    },
+    {
+      "model": "meta-llama/Llama-3.2-3B-Instruct",
+      "contrast": "FP4_minus_BF16",
+      "effect_pp": 7.47874149659864,
+      "p_exploratory": 0.0234375,
+      "positive": 7,
+      "negative": 1,
+      "tied": 0
+    },
+    {
+      "model": "meta-llama/Llama-3.2-3B-Instruct",
+      "contrast": "FP4_minus_NF4",
+      "effect_pp": 2.212301587301587,
+      "p_exploratory": 0.1953125,
+      "positive": 6,
+      "negative": 2,
+      "tied": 0,
+      "holm2_primary_p": 0.34375
+    }
+  ],
+  "limitations": [
+    "Full input and E3 gate are not present; original source-text and holdout provenance not independently reverified.",
+    "Archived E3 baseline decisions are included but original E3 checkpoint bodies are absent.",
+    "Cannot independently rerun CUDA inference, model revision bytes, or four-bit weight quantization from decision records.",
+    "Invalid outputs are treated as empty selections under historical Arm A rule; alternate invalid-output sensitivity needs separate evaluation."
+  ]
+}

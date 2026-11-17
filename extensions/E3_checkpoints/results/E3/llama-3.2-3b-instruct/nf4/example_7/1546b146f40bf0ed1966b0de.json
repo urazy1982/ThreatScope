@@ -1,0 +1,23 @@
+{
+  "anchor": 7,
+  "error": null,
+  "generated_tokens": 8,
+  "generation_cap_reached": false,
+  "identity_sha256": "fc6f3df185f905af6c4a35b97362180793074dc50de3834792299146d6801005",
+  "indices": [
+    5,
+    6
+  ],
+  "input_sha256": "f949bc52af757c3143a7e8e9f80228d6bfb1cb69df1ea47df6aff83d88326c9f",
+  "input_tokens": 544,
+  "latency_seconds": 0.15102,
+  "model": "meta-llama/Llama-3.2-3B-Instruct",
+  "precision": "nf4",
+  "prompt_sha256": "50559eda4f56584d8f18818c67bf3e19a3c495ef70b04e96f81d3299427b46b3",
+  "raw": "{\"relevant\":[5,6]}",
+  "raw_sha256": "3c6f3f23d3fec05a4b46da39e69df619f896d1c275e95cb1c003f3be167c9595",
+  "record_sha256": "a364c3929a7d31418d3a77ef637a3d06f4c76245ce1d64cf9a0ec871d394da0b",
+  "revision": "0cb88a4f764b7a12671c53f0838cd831a0843b95",
+  "valid": true,
+  "window_id": "1546b146f40bf0ed1966b0de"
+}

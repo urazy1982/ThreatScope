@@ -1,0 +1,20 @@
+{
+  "anchor": 6,
+  "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+  "generated_tokens": 96,
+  "generation_cap_reached": true,
+  "identity_sha256": "e3c6b2a49b5149f82dcda4cef85763eecd5ed2aa4279817977acb84e07f3b772",
+  "indices": [],
+  "input_sha256": "27cf73fe1aa9a7449cf7bd08506ab7c21d75ba8e61e387ce2446758957211047",
+  "input_tokens": 524,
+  "latency_seconds": 1.90231,
+  "model": "Qwen/Qwen2.5-3B-Instruct",
+  "precision": "fp4",
+  "prompt_sha256": "25c421ddb6b8f25949d1ffb66fbcbf9a56b34bcd183c70fae0cd3878c813ef69",
+  "raw": "target\":\"[\"5\"] [{\"i\":6,\"target\":\"For the malware analysis purposes, we also include the earlier Framework POS version with the purported “grp1” campaign identifier and contains debug track 2 data presumably for testing purposes.\"}][\"context_before\":\"\",\"i\":7,\"target\":\"The Framework POS main function flow is as follows pseudocode from creating the caller thread to build out the communication protocol and resolve necessary host information.\"},{\"context_before\":\"\",\"i\":8,\"target\":\"",
+  "raw_sha256": "50b07b7d0784af5186f8ca9ea29728c90eb10d1551b6870a1621875b8c1bbf26",
+  "record_sha256": "47647ae48016e07279376d65b52c6a67d02f2c87b3688dcf1788e76197b2a0fd",
+  "revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+  "valid": false,
+  "window_id": "43f957a95147ef376bbd6a03"
+}

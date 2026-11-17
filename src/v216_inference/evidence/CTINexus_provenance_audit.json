@@ -1,0 +1,3448 @@
+{
+  "input_root": "/home/uraz/threat-study/external/CTINexus_original/data",
+  "files_read": 298,
+  "parse_errors": [],
+  "by_partition": {
+    "annotation": 149,
+    "demo": 139,
+    "test": 10
+  },
+  "source_label_coverage": 0,
+  "source_label_values": {},
+  "unique_exact_texts": 148,
+  "unique_normalized_texts": 148,
+  "exact_duplicate_groups": [
+    {
+      "files": [
+        "annotation/0-days-exploited-by-commercial-surveillance-vendor-in-egypt.json",
+        "demo/0-days-exploited-by-commercial-surveillance-vendor-in-egypt.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/3am-ransomware-lockbit.json",
+        "demo/3am-ransomware-lockbit.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/active-north-korean-campaign-targeting-security-researchers.json",
+        "demo/active-north-korean-campaign-targeting-security-researchers.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/agonizing-serpens-targets-israeli-tech-higher-ed-sectors.json",
+        "demo/agonizing-serpens-targets-israeli-tech-higher-ed-sectors.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/amd-apple-qualcomm-gpus-leak-ai-data-in-leftoverlocals-attacks.json",
+        "demo/amd-apple-qualcomm-gpus-leak-ai-data-in-leftoverlocals-attacks.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/an-in-depth-look-at-cuba-ransomware.json",
+        "demo/an-in-depth-look-at-cuba-ransomware.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/an-in-depth-look-at-quantum-ransomware.json",
+        "demo/an-in-depth-look-at-quantum-ransomware.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/an-in-depth-look-at-rhysida-ransomware.json",
+        "demo/an-in-depth-look-at-rhysida-ransomware.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/apache-erp-0day-underscores-dangers-of-incomplete-patches.json",
+        "demo/apache-erp-0day-underscores-dangers-of-incomplete-patches.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/apple-fixes-first-zero-day-bug-exploited-in-attacks-this-year.json",
+        "demo/apple-fixes-first-zero-day-bug-exploited-in-attacks-this-year.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/apt-lazarus-macos-malware.json",
+        "demo/apt-lazarus-macos-malware.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/apts-swarm-zimbra-zero-day-to-steal-government-info-worldwide.json",
+        "demo/apts-swarm-zimbra-zero-day-to-steal-government-info-worldwide.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/attackers-exploit-microsoft-office-bug-spyware.json",
+        "demo/attackers-exploit-microsoft-office-bug-spyware.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/attackers-target-max-severity-apache-activemq-bug-to-drop-ransomware.json",
+        "demo/attackers-target-max-severity-apache-activemq-bug-to-drop-ransomware.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/black-basta-bl00dy-ransomware-exploiting-recent-screenconnect-flaws.json",
+        "demo/black-basta-bl00dy-ransomware-exploiting-recent-screenconnect-flaws.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/blackcat-ransomware-releases-new-utility-munchkin.json",
+        "demo/blackcat-ransomware-releases-new-utility-munchkin.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/buckeye-windows-zero-day-exploit.json",
+        "demo/buckeye-windows-zero-day-exploit.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/budworm-tool-update-telecoms-govt.json",
+        "demo/budworm-tool-update-telecoms-govt.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/cadet-blizzard-emerges-as-a-novel-and-distinct-russian-threat-actor.json",
+        "demo/cadet-blizzard-emerges-as-a-novel-and-distinct-russian-threat-actor.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/chinese-hackers-exploit-vmware-bug-as-zero-day-for-two-years.json",
+        "demo/chinese-hackers-exploit-vmware-bug-as-zero-day-for-two-years.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/chinese-hackers-exploited-new-zero-day.json",
+        "demo/chinese-hackers-exploited-new-zero-day.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/chrome-update-patches-zero-day-vulnerabilities-exploited-at-pwn2own.json",
+        "demo/chrome-update-patches-zero-day-vulnerabilities-exploited-at-pwn2own.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/chromeloader-hijacker-threats.json",
+        "demo/chromeloader-hijacker-threats.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/cisa-urges-patch-11-bug.json",
+        "demo/cisa-urges-patch-11-bug.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/citrix-warns-of-new-netscaler-zero-days-exploited-in-attacks.json",
+        "demo/citrix-warns-of-new-netscaler-zero-days-exploited-in-attacks.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/cl0p-group-distributes-ransomware-data-with-torrents.json",
+        "demo/cl0p-group-distributes-ransomware-data-with-torrents.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/cloaked-ursa-phishing.json",
+        "demo/cloaked-ursa-phishing.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/comcast-xfinity-breached-citrix-bleed-35m-customers.json",
+        "demo/comcast-xfinity-breached-citrix-bleed-35m-customers.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/crambus-middle-east-government.json",
+        "demo/crambus-middle-east-government.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/critical-bluetooth-flaw-exposes-android-apple-and-linux-devices-to-keystroke-injection-attack.json",
+        "test/critical-bluetooth-flaw-exposes-android-apple-and-linux-devices-to-keystroke-injection-attack.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/critical-risk-in-google-workspace-delegation-feature.json",
+        "demo/critical-risk-in-google-workspace-delegation-feature.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/critical-zero-day-in-apache-ofbiz-erp.json",
+        "demo/critical-zero-day-in-apache-ofbiz-erp.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/crypto-clipper-targets-portuguese-speakers.json",
+        "demo/crypto-clipper-targets-portuguese-speakers.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/cybercriminals-are-selling-access-to-chinese-surveillance-cameras.json",
+        "demo/cybercriminals-are-selling-access-to-chinese-surveillance-cameras.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/defending-new-vectors-threat-actors-attempt-sql-server-to-cloud-lateral-movement.json",
+        "demo/defending-new-vectors-threat-actors-attempt-sql-server-to-cloud-lateral-movement.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/diamond-sleet-supply-chain-compromise-distributes-a-modified-cyberlink-installer.json",
+        "demo/diamond-sleet-supply-chain-compromise-distributes-a-modified-cyberlink-installer.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/elusive-toddycat-apt-targets-microsoft-exchange-servers.json",
+        "test/elusive-toddycat-apt-targets-microsoft-exchange-servers.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/equation-cyberespionage-group.json",
+        "demo/equation-cyberespionage-group.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/equation-cyberespionage-group_1.json",
+        "demo/equation-cyberespionage-group_1.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/evasive-jupyter-infostealer-campaign-dangerous-variant.json",
+        "demo/evasive-jupyter-infostealer-campaign-dangerous-variant.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/everything-you-need-to-know-about-apt-fancy-bear.json",
+        "demo/everything-you-need-to-know-about-apt-fancy-bear.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/everything-you-need-to-know-about-royal-ransomware.json",
+        "demo/everything-you-need-to-know-about-royal-ransomware.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/exploit-released-for-fortra-goanywhere-mft-auth-bypass-bug.json",
+        "demo/exploit-released-for-fortra-goanywhere-mft-auth-bypass-bug.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/exposing-earth-berberoka-a-multiplatform-apt-campaign-targeting-online-gambling-sites.json",
+        "demo/exposing-earth-berberoka-a-multiplatform-apt-campaign-targeting-online-gambling-sites.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/exposing-initial-access-broker-ties-conti.json",
+        "demo/exposing-initial-access-broker-ties-conti.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/fake-cve-2023-40477-poc-hides-venomrat.json",
+        "demo/fake-cve-2023-40477-poc-hides-venomrat.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/fargo-ransomware-attacking-microsoft-sql-servers.json",
+        "demo/fargo-ransomware-attacking-microsoft-sql-servers.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/fbi-androxgh0st-malware-botnet-steals-aws-microsoft-credentials.json",
+        "demo/fbi-androxgh0st-malware-botnet-steals-aws-microsoft-credentials.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/financially-motivated-threat-actors-misusing-app-installer.json",
+        "demo/financially-motivated-threat-actors-misusing-app-installer.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/fivehands-ransomware-overview.json",
+        "demo/fivehands-ransomware-overview.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/flax-typhoon-using-legitimate-software-to-quietly-access-taiwanese-organizations.json",
+        "demo/flax-typhoon-using-legitimate-software-to-quietly-access-taiwanese-organizations.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/flax-typhoon-using-legitimate-software-to-quietly-access-taiwanese-organizations_1.json",
+        "demo/flax-typhoon-using-legitimate-software-to-quietly-access-taiwanese-organizations_1.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/flea-backdoor-microsoft-graph-apt15.json",
+        "demo/flea-backdoor-microsoft-graph-apt15.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/follina-exploited-by-state-sponsored-hackers.json",
+        "demo/follina-exploited-by-state-sponsored-hackers.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/follina-msdt-exploit-malware.json",
+        "demo/follina-msdt-exploit-malware.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/fortra-warns-of-new-critical-goanywhere-mft-auth-bypass-patch-now.json",
+        "demo/fortra-warns-of-new-critical-goanywhere-mft-auth-bypass-patch-now.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/github-rotates-keys-to-mitigate-impact-of-credential-exposing-flaw.json",
+        "demo/github-rotates-keys-to-mitigate-impact-of-credential-exposing-flaw.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/global-teamcity-exploitation-opens-door-to-solarwinds-style-nightmare.json",
+        "demo/global-teamcity-exploitation-opens-door-to-solarwinds-style-nightmare.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/google-fixes-first-actively-exploited-chrome-zero-day-of-2024.json",
+        "demo/google-fixes-first-actively-exploited-chrome-zero-day-of-2024.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/google-patches-another-chrome-zero-day-as-browser-attacks-mount.json",
+        "demo/google-patches-another-chrome-zero-day-as-browser-attacks-mount.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/google-patches-chromes-fifth-zero-day-of-the-year.json",
+        "demo/google-patches-chromes-fifth-zero-day-of-the-year.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/google-tag-coldriver-russian-phishing-malware.json",
+        "demo/google-tag-coldriver-russian-phishing-malware.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/government-backed-actors-exploiting-winrar-vulnerability.json",
+        "demo/government-backed-actors-exploiting-winrar-vulnerability.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/grayfly-china-sidewalk-malware.json",
+        "test/grayfly-china-sidewalk-malware.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/h0lygh0st-ransomware-north-korea.json",
+        "demo/h0lygh0st-ransomware-north-korea.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/hackers-exploiting-old-ms-excel.json",
+        "demo/hackers-exploiting-old-ms-excel.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/hackers-start-exploiting-critical-atlassian-confluence-rce-flaw.json",
+        "demo/hackers-start-exploiting-critical-atlassian-confluence-rce-flaw.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/in-depth-look-at-apt35-aka-charming-kitten.json",
+        "demo/in-depth-look-at-apt35-aka-charming-kitten.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/in-depth-look-at-iranian-apt-muddywater.json",
+        "demo/in-depth-look-at-iranian-apt-muddywater.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/in-depth-look-at-yanluowang-ransomware.json",
+        "demo/in-depth-look-at-yanluowang-ransomware.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/internet-explorer-0-day-exploited-by-north-korean-actor-apt37.json",
+        "demo/internet-explorer-0-day-exploited-by-north-korean-actor-apt37.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/iphone-users-urged-to-update-to-patch-2-zero-days-under-attack.json",
+        "test/iphone-users-urged-to-update-to-patch-2-zero-days-under-attack.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/iran-apt-seedworm-africa-telecoms.json",
+        "demo/iran-apt-seedworm-africa-telecoms.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/kasseika-ransomware-uses-antivirus-driver-to-kill-other-antiviruses.json",
+        "test/kasseika-ransomware-uses-antivirus-driver-to-kill-other-antiviruses.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/kimsuky-hackers-deploying-appleseed.json",
+        "demo/kimsuky-hackers-deploying-appleseed.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/log4j-vulnerabilities-attacks.json",
+        "demo/log4j-vulnerabilities-attacks.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/magento-vulnerability-exploited-to-deploy-persistent-backdoor.json",
+        "demo/magento-vulnerability-exploited-to-deploy-persistent-backdoor.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/magnet-goblin-delivers-linux-malware-using-one-day-vulnerabilities.json",
+        "demo/magnet-goblin-delivers-linux-malware-using-one-day-vulnerabilities.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/malicious-actors-target-comm-apps-such-as-zoom-slack-discord.json",
+        "demo/malicious-actors-target-comm-apps-such-as-zoom-slack-discord.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/malicious-operations-of-exposed-iam-keys-cryptojacking.json",
+        "demo/malicious-operations-of-exposed-iam-keys-cryptojacking.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/malware-distributor-storm-0324-facilitates-ransomware-access.json",
+        "demo/malware-distributor-storm-0324-facilitates-ransomware-access.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/malware-upload-attack-hits-pypi-repository.json",
+        "demo/malware-upload-attack-hits-pypi-repository.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/mastodon-vulnerability-allows-attackers-to-take-over-accounts.json",
+        "demo/mastodon-vulnerability-allows-attackers-to-take-over-accounts.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/microsoft-patches-dogwalk-zero-day-and-17-critical-flaws.json",
+        "demo/microsoft-patches-dogwalk-zero-day-and-17-critical-flaws.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/microsoft-warns-of-new-falsefont.json",
+        "demo/microsoft-warns-of-new-falsefont.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/microsoft-workaround-0day-attack.json",
+        "demo/microsoft-workaround-0day-attack.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/microsoft-zeroday-exploit.json",
+        "demo/microsoft-zeroday-exploit.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/midnight-blizzard-conducts-targeted-social-engineering-over-microsoft-teams.json",
+        "test/midnight-blizzard-conducts-targeted-social-engineering-over-microsoft-teams.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/mispadu-banking-trojan-resurfaces.json",
+        "demo/mispadu-banking-trojan-resurfaces.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/mitel-voip-bug-exploited.json",
+        "demo/mitel-voip-bug-exploited.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/moveit-vulnerabilities-exploits.json",
+        "demo/moveit-vulnerabilities-exploits.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/multiple-north-korean-threat-actors-exploiting-the-teamcity-cve-2023-42793-vulnerability.json",
+        "demo/multiple-north-korean-threat-actors-exploiting-the-teamcity-cve-2023-42793-vulnerability.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/new-iranian-apt-data-extraction-tool.json",
+        "demo/new-iranian-apt-data-extraction-tool.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/new-jinxloader-targeting-users-with.json",
+        "demo/new-jinxloader-targeting-users-with.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/new-macos-vulnerability-migraine-could-bypass-system-integrity-protection.json",
+        "demo/new-macos-vulnerability-migraine-could-bypass-system-integrity-protection.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/new-ransomware-strains-cactus-and-3am.json",
+        "demo/new-ransomware-strains-cactus-and-3am.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/new-ransomware-strains-cryptnet-mallox-and-xollam.json",
+        "demo/new-ransomware-strains-cryptnet-mallox-and-xollam.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/new-rugmi-malware-loader-surges-with.json",
+        "demo/new-rugmi-malware-loader-surges-with.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/new-sneaky-xamalicious-android-malware.json",
+        "demo/new-sneaky-xamalicious-android-malware.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/new-spookier-gh0st-rat-uzbekistan-south-korea.json",
+        "demo/new-spookier-gh0st-rat-uzbekistan-south-korea.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/north-korea-debuts-spectralblur-malware-amid-macos-onslaught.json",
+        "demo/north-korea-debuts-spectralblur-malware-amid-macos-onslaught.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/operation-earth-kitsune-tracking-slub-s-current-operations.json",
+        "demo/operation-earth-kitsune-tracking-slub-s-current-operations.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/over-100-organizations-targeted-in-recent-strelastealer-attacks.json",
+        "demo/over-100-organizations-targeted-in-recent-strelastealer-attacks.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/over-5-300-gitlab-servers-exposed-to-zero-click-account-takeover-attacks.json",
+        "demo/over-5-300-gitlab-servers-exposed-to-zero-click-account-takeover-attacks.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/peach-sandstorm-password-spray-campaigns-enable-intelligence-collection-at-high-value-targets.json",
+        "demo/peach-sandstorm-password-spray-campaigns-enable-intelligence-collection-at-high-value-targets.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/peer-to-peer-worm-p2pinfect.json",
+        "demo/peer-to-peer-worm-p2pinfect.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/pegasus-forcedentry-protection.json",
+        "demo/pegasus-forcedentry-protection.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/pensive-ursa-uses-upgraded-kazuar-backdoor.json",
+        "annotation/pensive-ursa-uses-upgraded-kazuar-backdoor_1.json",
+        "demo/pensive-ursa-uses-upgraded-kazuar-backdoor.json",
+        "demo/pensive-ursa-uses-upgraded-kazuar-backdoor_1.json"
+      ],
+      "count": 4
+    },
+    {
+      "files": [
+        "annotation/plugx-variants-in-usbs.json",
+        "demo/plugx-variants-in-usbs.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/public-exploits-atlassian-confluence-flaw.json",
+        "demo/public-exploits-atlassian-confluence-flaw.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/purplefox-malware-infects-thousands-of-computers-in-ukraine.json",
+        "demo/purplefox-malware-infects-thousands-of-computers-in-ukraine.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/ragnar-locker-ransomware.json",
+        "demo/ragnar-locker-ransomware.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/ransomware-spotlight-akira.json",
+        "demo/ransomware-spotlight-akira.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/ransomware-spotlight-blackcat.json",
+        "demo/ransomware-spotlight-blackcat.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/ransomware-spotlight-clop.json",
+        "demo/ransomware-spotlight-clop.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/ransomware-spotlight-conti.json",
+        "demo/ransomware-spotlight-conti.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/ransomware-spotlight-lockbit.json",
+        "demo/ransomware-spotlight-lockbit.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/ransomware-spotlight-magniber.json",
+        "demo/ransomware-spotlight-magniber.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/ransomware-spotlight-ransomexx.json",
+        "demo/ransomware-spotlight-ransomexx.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/ransomware-spotlight-targetcompany.json",
+        "test/ransomware-spotlight-targetcompany.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/ransomware-spotlight-trigona.json",
+        "demo/ransomware-spotlight-trigona.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/recent-teamcity-vulnerability-exploited-in-ransomware-attacks.json",
+        "test/recent-teamcity-vulnerability-exploited-in-ransomware-attacks.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/researchers-release-details-on-two-patched-outlook-zero-click-flaws.json",
+        "demo/researchers-release-details-on-two-patched-outlook-zero-click-flaws.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/reservation-links-prey-on-travelers.json",
+        "demo/reservation-links-prey-on-travelers.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/russia-star-blizzard-apt-upgrades-stealth-unmasked.json",
+        "demo/russia-star-blizzard-apt-upgrades-stealth-unmasked.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/russian-hackers-stole-microsoft-corporate-emails-in-month-long-breach.json",
+        "test/russian-hackers-stole-microsoft-corporate-emails-in-month-long-breach.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/ryuk-2020-distributing-ransomware-via-trickbot-and-bazarloader.json",
+        "demo/ryuk-2020-distributing-ransomware-via-trickbot-and-bazarloader.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/sea-turtle-cyber-espionage-campaign.json",
+        "demo/sea-turtle-cyber-espionage-campaign.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/social-engineering-attacks-lure-indian-users-to-install-android-banking-trojans.json",
+        "demo/social-engineering-attacks-lure-indian-users-to-install-android-banking-trojans.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/spectralblur-new-macos-backdoor-threat.json",
+        "demo/spectralblur-new-macos-backdoor-threat.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/star-blizzard-increases-sophistication-and-evasion-in-ongoing-attacks.json",
+        "demo/star-blizzard-increases-sophistication-and-evasion-in-ongoing-attacks.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/suspicious-nuget-package-harvesting-information-from-industrial-systems.json",
+        "demo/suspicious-nuget-package-harvesting-information-from-industrial-systems.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/syrian-threat-group-peddles-destructive-silverrat.json",
+        "demo/syrian-threat-group-peddles-destructive-silverrat.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/threat-brief-cve-2023-4966-netscaler-citrix-bleed.json",
+        "demo/threat-brief-cve-2023-4966-netscaler-citrix-bleed.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/threat-group-using-rare-data-transfer-tactic-in-new-remcosrat-campaign.json",
+        "demo/threat-group-using-rare-data-transfer-tactic-in-new-remcosrat-campaign.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/threat-recap-darkside-crysis-negasteal-coinminer.json",
+        "demo/threat-recap-darkside-crysis-negasteal-coinminer.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/two-campaigns-by-north-korea-bad-actors-target-job-hunters.json",
+        "demo/two-campaigns-by-north-korea-bad-actors-target-job-hunters.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/two-microsoft-zero-day-vulnerabilities-exploited-by-attackers.json",
+        "demo/two-microsoft-zero-day-vulnerabilities-exploited-by-attackers.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/uac-0050-group-using-new-phishing.json",
+        "demo/uac-0050-group-using-new-phishing.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/uac-0099-using-winrar-exploit-to-target.json",
+        "demo/uac-0099-using-winrar-exploit-to-target.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/ukraine-remains-russias-biggest-cyber-focus-in-2023.json",
+        "demo/ukraine-remains-russias-biggest-cyber-focus-in-2023.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/urgent-new-chrome-zero-day.json",
+        "demo/urgent-new-chrome-zero-day.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/volt-typhoon-targets-us-critical-infrastructure-with-living-off-the-land-techniques.json",
+        "demo/volt-typhoon-targets-us-critical-infrastructure-with-living-off-the-land-techniques.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/vultur-android-malware-gets-extensive-device-interaction-capabilities.json",
+        "demo/vultur-android-malware-gets-extensive-device-interaction-capabilities.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/wallescape-linux-vulnerability-leaks-user-passwords.json",
+        "test/wallescape-linux-vulnerability-leaks-user-passwords.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/windows-zero-day-exploited-by-north-korean-hackers-in-rootkit-attack.json",
+        "demo/windows-zero-day-exploited-by-north-korean-hackers-in-rootkit-attack.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/zimbra-0-day-used-to-target-international-government-organizations.json",
+        "demo/zimbra-0-day-used-to-target-international-government-organizations.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/zuorat-soho-routers.json",
+        "demo/zuorat-soho-routers.json"
+      ],
+      "count": 2
+    }
+  ],
+  "normalized_duplicate_groups": [
+    {
+      "files": [
+        "annotation/0-days-exploited-by-commercial-surveillance-vendor-in-egypt.json",
+        "demo/0-days-exploited-by-commercial-surveillance-vendor-in-egypt.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/3am-ransomware-lockbit.json",
+        "demo/3am-ransomware-lockbit.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/active-north-korean-campaign-targeting-security-researchers.json",
+        "demo/active-north-korean-campaign-targeting-security-researchers.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/agonizing-serpens-targets-israeli-tech-higher-ed-sectors.json",
+        "demo/agonizing-serpens-targets-israeli-tech-higher-ed-sectors.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/amd-apple-qualcomm-gpus-leak-ai-data-in-leftoverlocals-attacks.json",
+        "demo/amd-apple-qualcomm-gpus-leak-ai-data-in-leftoverlocals-attacks.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/an-in-depth-look-at-cuba-ransomware.json",
+        "demo/an-in-depth-look-at-cuba-ransomware.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/an-in-depth-look-at-quantum-ransomware.json",
+        "demo/an-in-depth-look-at-quantum-ransomware.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/an-in-depth-look-at-rhysida-ransomware.json",
+        "demo/an-in-depth-look-at-rhysida-ransomware.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/apache-erp-0day-underscores-dangers-of-incomplete-patches.json",
+        "demo/apache-erp-0day-underscores-dangers-of-incomplete-patches.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/apple-fixes-first-zero-day-bug-exploited-in-attacks-this-year.json",
+        "demo/apple-fixes-first-zero-day-bug-exploited-in-attacks-this-year.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/apt-lazarus-macos-malware.json",
+        "demo/apt-lazarus-macos-malware.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/apts-swarm-zimbra-zero-day-to-steal-government-info-worldwide.json",
+        "demo/apts-swarm-zimbra-zero-day-to-steal-government-info-worldwide.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/attackers-exploit-microsoft-office-bug-spyware.json",
+        "demo/attackers-exploit-microsoft-office-bug-spyware.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/attackers-target-max-severity-apache-activemq-bug-to-drop-ransomware.json",
+        "demo/attackers-target-max-severity-apache-activemq-bug-to-drop-ransomware.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/black-basta-bl00dy-ransomware-exploiting-recent-screenconnect-flaws.json",
+        "demo/black-basta-bl00dy-ransomware-exploiting-recent-screenconnect-flaws.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/blackcat-ransomware-releases-new-utility-munchkin.json",
+        "demo/blackcat-ransomware-releases-new-utility-munchkin.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/buckeye-windows-zero-day-exploit.json",
+        "demo/buckeye-windows-zero-day-exploit.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/budworm-tool-update-telecoms-govt.json",
+        "demo/budworm-tool-update-telecoms-govt.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/cadet-blizzard-emerges-as-a-novel-and-distinct-russian-threat-actor.json",
+        "demo/cadet-blizzard-emerges-as-a-novel-and-distinct-russian-threat-actor.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/chinese-hackers-exploit-vmware-bug-as-zero-day-for-two-years.json",
+        "demo/chinese-hackers-exploit-vmware-bug-as-zero-day-for-two-years.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/chinese-hackers-exploited-new-zero-day.json",
+        "demo/chinese-hackers-exploited-new-zero-day.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/chrome-update-patches-zero-day-vulnerabilities-exploited-at-pwn2own.json",
+        "demo/chrome-update-patches-zero-day-vulnerabilities-exploited-at-pwn2own.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/chromeloader-hijacker-threats.json",
+        "demo/chromeloader-hijacker-threats.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/cisa-urges-patch-11-bug.json",
+        "demo/cisa-urges-patch-11-bug.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/citrix-warns-of-new-netscaler-zero-days-exploited-in-attacks.json",
+        "demo/citrix-warns-of-new-netscaler-zero-days-exploited-in-attacks.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/cl0p-group-distributes-ransomware-data-with-torrents.json",
+        "demo/cl0p-group-distributes-ransomware-data-with-torrents.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/cloaked-ursa-phishing.json",
+        "demo/cloaked-ursa-phishing.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/comcast-xfinity-breached-citrix-bleed-35m-customers.json",
+        "demo/comcast-xfinity-breached-citrix-bleed-35m-customers.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/crambus-middle-east-government.json",
+        "demo/crambus-middle-east-government.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/critical-bluetooth-flaw-exposes-android-apple-and-linux-devices-to-keystroke-injection-attack.json",
+        "test/critical-bluetooth-flaw-exposes-android-apple-and-linux-devices-to-keystroke-injection-attack.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/critical-risk-in-google-workspace-delegation-feature.json",
+        "demo/critical-risk-in-google-workspace-delegation-feature.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/critical-zero-day-in-apache-ofbiz-erp.json",
+        "demo/critical-zero-day-in-apache-ofbiz-erp.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/crypto-clipper-targets-portuguese-speakers.json",
+        "demo/crypto-clipper-targets-portuguese-speakers.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/cybercriminals-are-selling-access-to-chinese-surveillance-cameras.json",
+        "demo/cybercriminals-are-selling-access-to-chinese-surveillance-cameras.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/defending-new-vectors-threat-actors-attempt-sql-server-to-cloud-lateral-movement.json",
+        "demo/defending-new-vectors-threat-actors-attempt-sql-server-to-cloud-lateral-movement.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/diamond-sleet-supply-chain-compromise-distributes-a-modified-cyberlink-installer.json",
+        "demo/diamond-sleet-supply-chain-compromise-distributes-a-modified-cyberlink-installer.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/elusive-toddycat-apt-targets-microsoft-exchange-servers.json",
+        "test/elusive-toddycat-apt-targets-microsoft-exchange-servers.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/equation-cyberespionage-group.json",
+        "demo/equation-cyberespionage-group.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/equation-cyberespionage-group_1.json",
+        "demo/equation-cyberespionage-group_1.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/evasive-jupyter-infostealer-campaign-dangerous-variant.json",
+        "demo/evasive-jupyter-infostealer-campaign-dangerous-variant.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/everything-you-need-to-know-about-apt-fancy-bear.json",
+        "demo/everything-you-need-to-know-about-apt-fancy-bear.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/everything-you-need-to-know-about-royal-ransomware.json",
+        "demo/everything-you-need-to-know-about-royal-ransomware.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/exploit-released-for-fortra-goanywhere-mft-auth-bypass-bug.json",
+        "demo/exploit-released-for-fortra-goanywhere-mft-auth-bypass-bug.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/exposing-earth-berberoka-a-multiplatform-apt-campaign-targeting-online-gambling-sites.json",
+        "demo/exposing-earth-berberoka-a-multiplatform-apt-campaign-targeting-online-gambling-sites.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/exposing-initial-access-broker-ties-conti.json",
+        "demo/exposing-initial-access-broker-ties-conti.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/fake-cve-2023-40477-poc-hides-venomrat.json",
+        "demo/fake-cve-2023-40477-poc-hides-venomrat.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/fargo-ransomware-attacking-microsoft-sql-servers.json",
+        "demo/fargo-ransomware-attacking-microsoft-sql-servers.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/fbi-androxgh0st-malware-botnet-steals-aws-microsoft-credentials.json",
+        "demo/fbi-androxgh0st-malware-botnet-steals-aws-microsoft-credentials.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/financially-motivated-threat-actors-misusing-app-installer.json",
+        "demo/financially-motivated-threat-actors-misusing-app-installer.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/fivehands-ransomware-overview.json",
+        "demo/fivehands-ransomware-overview.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/flax-typhoon-using-legitimate-software-to-quietly-access-taiwanese-organizations.json",
+        "demo/flax-typhoon-using-legitimate-software-to-quietly-access-taiwanese-organizations.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/flax-typhoon-using-legitimate-software-to-quietly-access-taiwanese-organizations_1.json",
+        "demo/flax-typhoon-using-legitimate-software-to-quietly-access-taiwanese-organizations_1.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/flea-backdoor-microsoft-graph-apt15.json",
+        "demo/flea-backdoor-microsoft-graph-apt15.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/follina-exploited-by-state-sponsored-hackers.json",
+        "demo/follina-exploited-by-state-sponsored-hackers.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/follina-msdt-exploit-malware.json",
+        "demo/follina-msdt-exploit-malware.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/fortra-warns-of-new-critical-goanywhere-mft-auth-bypass-patch-now.json",
+        "demo/fortra-warns-of-new-critical-goanywhere-mft-auth-bypass-patch-now.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/github-rotates-keys-to-mitigate-impact-of-credential-exposing-flaw.json",
+        "demo/github-rotates-keys-to-mitigate-impact-of-credential-exposing-flaw.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/global-teamcity-exploitation-opens-door-to-solarwinds-style-nightmare.json",
+        "demo/global-teamcity-exploitation-opens-door-to-solarwinds-style-nightmare.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/google-fixes-first-actively-exploited-chrome-zero-day-of-2024.json",
+        "demo/google-fixes-first-actively-exploited-chrome-zero-day-of-2024.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/google-patches-another-chrome-zero-day-as-browser-attacks-mount.json",
+        "demo/google-patches-another-chrome-zero-day-as-browser-attacks-mount.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/google-patches-chromes-fifth-zero-day-of-the-year.json",
+        "demo/google-patches-chromes-fifth-zero-day-of-the-year.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/google-tag-coldriver-russian-phishing-malware.json",
+        "demo/google-tag-coldriver-russian-phishing-malware.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/government-backed-actors-exploiting-winrar-vulnerability.json",
+        "demo/government-backed-actors-exploiting-winrar-vulnerability.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/grayfly-china-sidewalk-malware.json",
+        "test/grayfly-china-sidewalk-malware.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/h0lygh0st-ransomware-north-korea.json",
+        "demo/h0lygh0st-ransomware-north-korea.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/hackers-exploiting-old-ms-excel.json",
+        "demo/hackers-exploiting-old-ms-excel.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/hackers-start-exploiting-critical-atlassian-confluence-rce-flaw.json",
+        "demo/hackers-start-exploiting-critical-atlassian-confluence-rce-flaw.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/in-depth-look-at-apt35-aka-charming-kitten.json",
+        "demo/in-depth-look-at-apt35-aka-charming-kitten.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/in-depth-look-at-iranian-apt-muddywater.json",
+        "demo/in-depth-look-at-iranian-apt-muddywater.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/in-depth-look-at-yanluowang-ransomware.json",
+        "demo/in-depth-look-at-yanluowang-ransomware.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/internet-explorer-0-day-exploited-by-north-korean-actor-apt37.json",
+        "demo/internet-explorer-0-day-exploited-by-north-korean-actor-apt37.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/iphone-users-urged-to-update-to-patch-2-zero-days-under-attack.json",
+        "test/iphone-users-urged-to-update-to-patch-2-zero-days-under-attack.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/iran-apt-seedworm-africa-telecoms.json",
+        "demo/iran-apt-seedworm-africa-telecoms.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/kasseika-ransomware-uses-antivirus-driver-to-kill-other-antiviruses.json",
+        "test/kasseika-ransomware-uses-antivirus-driver-to-kill-other-antiviruses.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/kimsuky-hackers-deploying-appleseed.json",
+        "demo/kimsuky-hackers-deploying-appleseed.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/log4j-vulnerabilities-attacks.json",
+        "demo/log4j-vulnerabilities-attacks.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/magento-vulnerability-exploited-to-deploy-persistent-backdoor.json",
+        "demo/magento-vulnerability-exploited-to-deploy-persistent-backdoor.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/magnet-goblin-delivers-linux-malware-using-one-day-vulnerabilities.json",
+        "demo/magnet-goblin-delivers-linux-malware-using-one-day-vulnerabilities.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/malicious-actors-target-comm-apps-such-as-zoom-slack-discord.json",
+        "demo/malicious-actors-target-comm-apps-such-as-zoom-slack-discord.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/malicious-operations-of-exposed-iam-keys-cryptojacking.json",
+        "demo/malicious-operations-of-exposed-iam-keys-cryptojacking.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/malware-distributor-storm-0324-facilitates-ransomware-access.json",
+        "demo/malware-distributor-storm-0324-facilitates-ransomware-access.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/malware-upload-attack-hits-pypi-repository.json",
+        "demo/malware-upload-attack-hits-pypi-repository.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/mastodon-vulnerability-allows-attackers-to-take-over-accounts.json",
+        "demo/mastodon-vulnerability-allows-attackers-to-take-over-accounts.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/microsoft-patches-dogwalk-zero-day-and-17-critical-flaws.json",
+        "demo/microsoft-patches-dogwalk-zero-day-and-17-critical-flaws.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/microsoft-warns-of-new-falsefont.json",
+        "demo/microsoft-warns-of-new-falsefont.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/microsoft-workaround-0day-attack.json",
+        "demo/microsoft-workaround-0day-attack.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/microsoft-zeroday-exploit.json",
+        "demo/microsoft-zeroday-exploit.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/midnight-blizzard-conducts-targeted-social-engineering-over-microsoft-teams.json",
+        "test/midnight-blizzard-conducts-targeted-social-engineering-over-microsoft-teams.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/mispadu-banking-trojan-resurfaces.json",
+        "demo/mispadu-banking-trojan-resurfaces.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/mitel-voip-bug-exploited.json",
+        "demo/mitel-voip-bug-exploited.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/moveit-vulnerabilities-exploits.json",
+        "demo/moveit-vulnerabilities-exploits.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/multiple-north-korean-threat-actors-exploiting-the-teamcity-cve-2023-42793-vulnerability.json",
+        "demo/multiple-north-korean-threat-actors-exploiting-the-teamcity-cve-2023-42793-vulnerability.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/new-iranian-apt-data-extraction-tool.json",
+        "demo/new-iranian-apt-data-extraction-tool.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/new-jinxloader-targeting-users-with.json",
+        "demo/new-jinxloader-targeting-users-with.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/new-macos-vulnerability-migraine-could-bypass-system-integrity-protection.json",
+        "demo/new-macos-vulnerability-migraine-could-bypass-system-integrity-protection.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/new-ransomware-strains-cactus-and-3am.json",
+        "demo/new-ransomware-strains-cactus-and-3am.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/new-ransomware-strains-cryptnet-mallox-and-xollam.json",
+        "demo/new-ransomware-strains-cryptnet-mallox-and-xollam.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/new-rugmi-malware-loader-surges-with.json",
+        "demo/new-rugmi-malware-loader-surges-with.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/new-sneaky-xamalicious-android-malware.json",
+        "demo/new-sneaky-xamalicious-android-malware.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/new-spookier-gh0st-rat-uzbekistan-south-korea.json",
+        "demo/new-spookier-gh0st-rat-uzbekistan-south-korea.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/north-korea-debuts-spectralblur-malware-amid-macos-onslaught.json",
+        "demo/north-korea-debuts-spectralblur-malware-amid-macos-onslaught.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/operation-earth-kitsune-tracking-slub-s-current-operations.json",
+        "demo/operation-earth-kitsune-tracking-slub-s-current-operations.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/over-100-organizations-targeted-in-recent-strelastealer-attacks.json",
+        "demo/over-100-organizations-targeted-in-recent-strelastealer-attacks.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/over-5-300-gitlab-servers-exposed-to-zero-click-account-takeover-attacks.json",
+        "demo/over-5-300-gitlab-servers-exposed-to-zero-click-account-takeover-attacks.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/peach-sandstorm-password-spray-campaigns-enable-intelligence-collection-at-high-value-targets.json",
+        "demo/peach-sandstorm-password-spray-campaigns-enable-intelligence-collection-at-high-value-targets.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/peer-to-peer-worm-p2pinfect.json",
+        "demo/peer-to-peer-worm-p2pinfect.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/pegasus-forcedentry-protection.json",
+        "demo/pegasus-forcedentry-protection.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/pensive-ursa-uses-upgraded-kazuar-backdoor.json",
+        "annotation/pensive-ursa-uses-upgraded-kazuar-backdoor_1.json",
+        "demo/pensive-ursa-uses-upgraded-kazuar-backdoor.json",
+        "demo/pensive-ursa-uses-upgraded-kazuar-backdoor_1.json"
+      ],
+      "count": 4
+    },
+    {
+      "files": [
+        "annotation/plugx-variants-in-usbs.json",
+        "demo/plugx-variants-in-usbs.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/public-exploits-atlassian-confluence-flaw.json",
+        "demo/public-exploits-atlassian-confluence-flaw.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/purplefox-malware-infects-thousands-of-computers-in-ukraine.json",
+        "demo/purplefox-malware-infects-thousands-of-computers-in-ukraine.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/ragnar-locker-ransomware.json",
+        "demo/ragnar-locker-ransomware.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/ransomware-spotlight-akira.json",
+        "demo/ransomware-spotlight-akira.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/ransomware-spotlight-blackcat.json",
+        "demo/ransomware-spotlight-blackcat.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/ransomware-spotlight-clop.json",
+        "demo/ransomware-spotlight-clop.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/ransomware-spotlight-conti.json",
+        "demo/ransomware-spotlight-conti.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/ransomware-spotlight-lockbit.json",
+        "demo/ransomware-spotlight-lockbit.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/ransomware-spotlight-magniber.json",
+        "demo/ransomware-spotlight-magniber.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/ransomware-spotlight-ransomexx.json",
+        "demo/ransomware-spotlight-ransomexx.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/ransomware-spotlight-targetcompany.json",
+        "test/ransomware-spotlight-targetcompany.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/ransomware-spotlight-trigona.json",
+        "demo/ransomware-spotlight-trigona.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/recent-teamcity-vulnerability-exploited-in-ransomware-attacks.json",
+        "test/recent-teamcity-vulnerability-exploited-in-ransomware-attacks.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/researchers-release-details-on-two-patched-outlook-zero-click-flaws.json",
+        "demo/researchers-release-details-on-two-patched-outlook-zero-click-flaws.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/reservation-links-prey-on-travelers.json",
+        "demo/reservation-links-prey-on-travelers.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/russia-star-blizzard-apt-upgrades-stealth-unmasked.json",
+        "demo/russia-star-blizzard-apt-upgrades-stealth-unmasked.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/russian-hackers-stole-microsoft-corporate-emails-in-month-long-breach.json",
+        "test/russian-hackers-stole-microsoft-corporate-emails-in-month-long-breach.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/ryuk-2020-distributing-ransomware-via-trickbot-and-bazarloader.json",
+        "demo/ryuk-2020-distributing-ransomware-via-trickbot-and-bazarloader.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/sea-turtle-cyber-espionage-campaign.json",
+        "demo/sea-turtle-cyber-espionage-campaign.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/social-engineering-attacks-lure-indian-users-to-install-android-banking-trojans.json",
+        "demo/social-engineering-attacks-lure-indian-users-to-install-android-banking-trojans.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/spectralblur-new-macos-backdoor-threat.json",
+        "demo/spectralblur-new-macos-backdoor-threat.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/star-blizzard-increases-sophistication-and-evasion-in-ongoing-attacks.json",
+        "demo/star-blizzard-increases-sophistication-and-evasion-in-ongoing-attacks.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/suspicious-nuget-package-harvesting-information-from-industrial-systems.json",
+        "demo/suspicious-nuget-package-harvesting-information-from-industrial-systems.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/syrian-threat-group-peddles-destructive-silverrat.json",
+        "demo/syrian-threat-group-peddles-destructive-silverrat.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/threat-brief-cve-2023-4966-netscaler-citrix-bleed.json",
+        "demo/threat-brief-cve-2023-4966-netscaler-citrix-bleed.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/threat-group-using-rare-data-transfer-tactic-in-new-remcosrat-campaign.json",
+        "demo/threat-group-using-rare-data-transfer-tactic-in-new-remcosrat-campaign.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/threat-recap-darkside-crysis-negasteal-coinminer.json",
+        "demo/threat-recap-darkside-crysis-negasteal-coinminer.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/two-campaigns-by-north-korea-bad-actors-target-job-hunters.json",
+        "demo/two-campaigns-by-north-korea-bad-actors-target-job-hunters.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/two-microsoft-zero-day-vulnerabilities-exploited-by-attackers.json",
+        "demo/two-microsoft-zero-day-vulnerabilities-exploited-by-attackers.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/uac-0050-group-using-new-phishing.json",
+        "demo/uac-0050-group-using-new-phishing.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/uac-0099-using-winrar-exploit-to-target.json",
+        "demo/uac-0099-using-winrar-exploit-to-target.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/ukraine-remains-russias-biggest-cyber-focus-in-2023.json",
+        "demo/ukraine-remains-russias-biggest-cyber-focus-in-2023.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/urgent-new-chrome-zero-day.json",
+        "demo/urgent-new-chrome-zero-day.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/volt-typhoon-targets-us-critical-infrastructure-with-living-off-the-land-techniques.json",
+        "demo/volt-typhoon-targets-us-critical-infrastructure-with-living-off-the-land-techniques.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/vultur-android-malware-gets-extensive-device-interaction-capabilities.json",
+        "demo/vultur-android-malware-gets-extensive-device-interaction-capabilities.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/wallescape-linux-vulnerability-leaks-user-passwords.json",
+        "test/wallescape-linux-vulnerability-leaks-user-passwords.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/windows-zero-day-exploited-by-north-korean-hackers-in-rootkit-attack.json",
+        "demo/windows-zero-day-exploited-by-north-korean-hackers-in-rootkit-attack.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/zimbra-0-day-used-to-target-international-government-organizations.json",
+        "demo/zimbra-0-day-used-to-target-international-government-organizations.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/zuorat-soho-routers.json",
+        "demo/zuorat-soho-routers.json"
+      ],
+      "count": 2
+    }
+  ],
+  "matching_basename_groups": [
+    {
+      "files": [
+        "annotation/0-days-exploited-by-commercial-surveillance-vendor-in-egypt.json",
+        "demo/0-days-exploited-by-commercial-surveillance-vendor-in-egypt.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/3am-ransomware-lockbit.json",
+        "demo/3am-ransomware-lockbit.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/active-north-korean-campaign-targeting-security-researchers.json",
+        "demo/active-north-korean-campaign-targeting-security-researchers.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/agonizing-serpens-targets-israeli-tech-higher-ed-sectors.json",
+        "demo/agonizing-serpens-targets-israeli-tech-higher-ed-sectors.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/amd-apple-qualcomm-gpus-leak-ai-data-in-leftoverlocals-attacks.json",
+        "demo/amd-apple-qualcomm-gpus-leak-ai-data-in-leftoverlocals-attacks.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/an-in-depth-look-at-cuba-ransomware.json",
+        "demo/an-in-depth-look-at-cuba-ransomware.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/an-in-depth-look-at-quantum-ransomware.json",
+        "demo/an-in-depth-look-at-quantum-ransomware.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/an-in-depth-look-at-rhysida-ransomware.json",
+        "demo/an-in-depth-look-at-rhysida-ransomware.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/apache-erp-0day-underscores-dangers-of-incomplete-patches.json",
+        "demo/apache-erp-0day-underscores-dangers-of-incomplete-patches.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/apple-fixes-first-zero-day-bug-exploited-in-attacks-this-year.json",
+        "demo/apple-fixes-first-zero-day-bug-exploited-in-attacks-this-year.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/apt-lazarus-macos-malware.json",
+        "demo/apt-lazarus-macos-malware.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/apts-swarm-zimbra-zero-day-to-steal-government-info-worldwide.json",
+        "demo/apts-swarm-zimbra-zero-day-to-steal-government-info-worldwide.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/attackers-exploit-microsoft-office-bug-spyware.json",
+        "demo/attackers-exploit-microsoft-office-bug-spyware.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/attackers-target-max-severity-apache-activemq-bug-to-drop-ransomware.json",
+        "demo/attackers-target-max-severity-apache-activemq-bug-to-drop-ransomware.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/black-basta-bl00dy-ransomware-exploiting-recent-screenconnect-flaws.json",
+        "demo/black-basta-bl00dy-ransomware-exploiting-recent-screenconnect-flaws.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/blackcat-ransomware-releases-new-utility-munchkin.json",
+        "demo/blackcat-ransomware-releases-new-utility-munchkin.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/buckeye-windows-zero-day-exploit.json",
+        "demo/buckeye-windows-zero-day-exploit.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/budworm-tool-update-telecoms-govt.json",
+        "demo/budworm-tool-update-telecoms-govt.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/cadet-blizzard-emerges-as-a-novel-and-distinct-russian-threat-actor.json",
+        "demo/cadet-blizzard-emerges-as-a-novel-and-distinct-russian-threat-actor.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/chinese-hackers-exploit-vmware-bug-as-zero-day-for-two-years.json",
+        "demo/chinese-hackers-exploit-vmware-bug-as-zero-day-for-two-years.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/chinese-hackers-exploited-new-zero-day.json",
+        "demo/chinese-hackers-exploited-new-zero-day.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/chrome-update-patches-zero-day-vulnerabilities-exploited-at-pwn2own.json",
+        "demo/chrome-update-patches-zero-day-vulnerabilities-exploited-at-pwn2own.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/chromeloader-hijacker-threats.json",
+        "demo/chromeloader-hijacker-threats.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/cisa-urges-patch-11-bug.json",
+        "demo/cisa-urges-patch-11-bug.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/citrix-warns-of-new-netscaler-zero-days-exploited-in-attacks.json",
+        "demo/citrix-warns-of-new-netscaler-zero-days-exploited-in-attacks.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/cl0p-group-distributes-ransomware-data-with-torrents.json",
+        "demo/cl0p-group-distributes-ransomware-data-with-torrents.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/cloaked-ursa-phishing.json",
+        "demo/cloaked-ursa-phishing.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/comcast-xfinity-breached-citrix-bleed-35m-customers.json",
+        "demo/comcast-xfinity-breached-citrix-bleed-35m-customers.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/crambus-middle-east-government.json",
+        "demo/crambus-middle-east-government.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/critical-bluetooth-flaw-exposes-android-apple-and-linux-devices-to-keystroke-injection-attack.json",
+        "test/critical-bluetooth-flaw-exposes-android-apple-and-linux-devices-to-keystroke-injection-attack.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/critical-risk-in-google-workspace-delegation-feature.json",
+        "demo/critical-risk-in-google-workspace-delegation-feature.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/critical-zero-day-in-apache-ofbiz-erp.json",
+        "demo/critical-zero-day-in-apache-ofbiz-erp.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/crypto-clipper-targets-portuguese-speakers.json",
+        "demo/crypto-clipper-targets-portuguese-speakers.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/cybercriminals-are-selling-access-to-chinese-surveillance-cameras.json",
+        "demo/cybercriminals-are-selling-access-to-chinese-surveillance-cameras.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/defending-new-vectors-threat-actors-attempt-sql-server-to-cloud-lateral-movement.json",
+        "demo/defending-new-vectors-threat-actors-attempt-sql-server-to-cloud-lateral-movement.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/diamond-sleet-supply-chain-compromise-distributes-a-modified-cyberlink-installer.json",
+        "demo/diamond-sleet-supply-chain-compromise-distributes-a-modified-cyberlink-installer.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/elusive-toddycat-apt-targets-microsoft-exchange-servers.json",
+        "test/elusive-toddycat-apt-targets-microsoft-exchange-servers.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/equation-cyberespionage-group.json",
+        "demo/equation-cyberespionage-group.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/equation-cyberespionage-group_1.json",
+        "demo/equation-cyberespionage-group_1.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/evasive-jupyter-infostealer-campaign-dangerous-variant.json",
+        "demo/evasive-jupyter-infostealer-campaign-dangerous-variant.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/everything-you-need-to-know-about-apt-fancy-bear.json",
+        "demo/everything-you-need-to-know-about-apt-fancy-bear.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/everything-you-need-to-know-about-royal-ransomware.json",
+        "demo/everything-you-need-to-know-about-royal-ransomware.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/exploit-released-for-fortra-goanywhere-mft-auth-bypass-bug.json",
+        "demo/exploit-released-for-fortra-goanywhere-mft-auth-bypass-bug.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/exposing-earth-berberoka-a-multiplatform-apt-campaign-targeting-online-gambling-sites.json",
+        "demo/exposing-earth-berberoka-a-multiplatform-apt-campaign-targeting-online-gambling-sites.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/exposing-initial-access-broker-ties-conti.json",
+        "demo/exposing-initial-access-broker-ties-conti.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/fake-cve-2023-40477-poc-hides-venomrat.json",
+        "demo/fake-cve-2023-40477-poc-hides-venomrat.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/fargo-ransomware-attacking-microsoft-sql-servers.json",
+        "demo/fargo-ransomware-attacking-microsoft-sql-servers.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/fbi-androxgh0st-malware-botnet-steals-aws-microsoft-credentials.json",
+        "demo/fbi-androxgh0st-malware-botnet-steals-aws-microsoft-credentials.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/financially-motivated-threat-actors-misusing-app-installer.json",
+        "demo/financially-motivated-threat-actors-misusing-app-installer.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/fivehands-ransomware-overview.json",
+        "demo/fivehands-ransomware-overview.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/flax-typhoon-using-legitimate-software-to-quietly-access-taiwanese-organizations.json",
+        "demo/flax-typhoon-using-legitimate-software-to-quietly-access-taiwanese-organizations.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/flax-typhoon-using-legitimate-software-to-quietly-access-taiwanese-organizations_1.json",
+        "demo/flax-typhoon-using-legitimate-software-to-quietly-access-taiwanese-organizations_1.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/flea-backdoor-microsoft-graph-apt15.json",
+        "demo/flea-backdoor-microsoft-graph-apt15.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/follina-exploited-by-state-sponsored-hackers.json",
+        "demo/follina-exploited-by-state-sponsored-hackers.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/follina-msdt-exploit-malware.json",
+        "demo/follina-msdt-exploit-malware.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/fortra-warns-of-new-critical-goanywhere-mft-auth-bypass-patch-now.json",
+        "demo/fortra-warns-of-new-critical-goanywhere-mft-auth-bypass-patch-now.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/github-rotates-keys-to-mitigate-impact-of-credential-exposing-flaw.json",
+        "demo/github-rotates-keys-to-mitigate-impact-of-credential-exposing-flaw.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/global-teamcity-exploitation-opens-door-to-solarwinds-style-nightmare.json",
+        "demo/global-teamcity-exploitation-opens-door-to-solarwinds-style-nightmare.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/google-fixes-first-actively-exploited-chrome-zero-day-of-2024.json",
+        "demo/google-fixes-first-actively-exploited-chrome-zero-day-of-2024.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/google-patches-another-chrome-zero-day-as-browser-attacks-mount.json",
+        "demo/google-patches-another-chrome-zero-day-as-browser-attacks-mount.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/google-patches-chromes-fifth-zero-day-of-the-year.json",
+        "demo/google-patches-chromes-fifth-zero-day-of-the-year.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/google-tag-coldriver-russian-phishing-malware.json",
+        "demo/google-tag-coldriver-russian-phishing-malware.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/government-backed-actors-exploiting-winrar-vulnerability.json",
+        "demo/government-backed-actors-exploiting-winrar-vulnerability.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/grayfly-china-sidewalk-malware.json",
+        "test/grayfly-china-sidewalk-malware.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/h0lygh0st-ransomware-north-korea.json",
+        "demo/h0lygh0st-ransomware-north-korea.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/hackers-exploiting-old-ms-excel.json",
+        "demo/hackers-exploiting-old-ms-excel.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/hackers-start-exploiting-critical-atlassian-confluence-rce-flaw.json",
+        "demo/hackers-start-exploiting-critical-atlassian-confluence-rce-flaw.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/in-depth-look-at-apt35-aka-charming-kitten.json",
+        "demo/in-depth-look-at-apt35-aka-charming-kitten.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/in-depth-look-at-iranian-apt-muddywater.json",
+        "demo/in-depth-look-at-iranian-apt-muddywater.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/in-depth-look-at-yanluowang-ransomware.json",
+        "demo/in-depth-look-at-yanluowang-ransomware.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/internet-explorer-0-day-exploited-by-north-korean-actor-apt37.json",
+        "demo/internet-explorer-0-day-exploited-by-north-korean-actor-apt37.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/iphone-users-urged-to-update-to-patch-2-zero-days-under-attack.json",
+        "test/iphone-users-urged-to-update-to-patch-2-zero-days-under-attack.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/iran-apt-seedworm-africa-telecoms.json",
+        "demo/iran-apt-seedworm-africa-telecoms.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/kasseika-ransomware-uses-antivirus-driver-to-kill-other-antiviruses.json",
+        "test/kasseika-ransomware-uses-antivirus-driver-to-kill-other-antiviruses.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/kimsuky-hackers-deploying-appleseed.json",
+        "demo/kimsuky-hackers-deploying-appleseed.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/log4j-vulnerabilities-attacks.json",
+        "demo/log4j-vulnerabilities-attacks.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/magento-vulnerability-exploited-to-deploy-persistent-backdoor.json",
+        "demo/magento-vulnerability-exploited-to-deploy-persistent-backdoor.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/magnet-goblin-delivers-linux-malware-using-one-day-vulnerabilities.json",
+        "demo/magnet-goblin-delivers-linux-malware-using-one-day-vulnerabilities.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/malicious-actors-target-comm-apps-such-as-zoom-slack-discord.json",
+        "demo/malicious-actors-target-comm-apps-such-as-zoom-slack-discord.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/malicious-operations-of-exposed-iam-keys-cryptojacking.json",
+        "demo/malicious-operations-of-exposed-iam-keys-cryptojacking.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/malware-distributor-storm-0324-facilitates-ransomware-access.json",
+        "demo/malware-distributor-storm-0324-facilitates-ransomware-access.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/malware-upload-attack-hits-pypi-repository.json",
+        "demo/malware-upload-attack-hits-pypi-repository.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/mastodon-vulnerability-allows-attackers-to-take-over-accounts.json",
+        "demo/mastodon-vulnerability-allows-attackers-to-take-over-accounts.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/microsoft-patches-dogwalk-zero-day-and-17-critical-flaws.json",
+        "demo/microsoft-patches-dogwalk-zero-day-and-17-critical-flaws.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/microsoft-warns-of-new-falsefont.json",
+        "demo/microsoft-warns-of-new-falsefont.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/microsoft-workaround-0day-attack.json",
+        "demo/microsoft-workaround-0day-attack.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/microsoft-zeroday-exploit.json",
+        "demo/microsoft-zeroday-exploit.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/midnight-blizzard-conducts-targeted-social-engineering-over-microsoft-teams.json",
+        "test/midnight-blizzard-conducts-targeted-social-engineering-over-microsoft-teams.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/mispadu-banking-trojan-resurfaces.json",
+        "demo/mispadu-banking-trojan-resurfaces.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/mitel-voip-bug-exploited.json",
+        "demo/mitel-voip-bug-exploited.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/moveit-vulnerabilities-exploits.json",
+        "demo/moveit-vulnerabilities-exploits.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/multiple-north-korean-threat-actors-exploiting-the-teamcity-cve-2023-42793-vulnerability.json",
+        "demo/multiple-north-korean-threat-actors-exploiting-the-teamcity-cve-2023-42793-vulnerability.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/new-iranian-apt-data-extraction-tool.json",
+        "demo/new-iranian-apt-data-extraction-tool.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/new-jinxloader-targeting-users-with.json",
+        "demo/new-jinxloader-targeting-users-with.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/new-macos-vulnerability-migraine-could-bypass-system-integrity-protection.json",
+        "demo/new-macos-vulnerability-migraine-could-bypass-system-integrity-protection.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/new-ransomware-strains-cactus-and-3am.json",
+        "demo/new-ransomware-strains-cactus-and-3am.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/new-ransomware-strains-cryptnet-mallox-and-xollam.json",
+        "demo/new-ransomware-strains-cryptnet-mallox-and-xollam.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/new-rugmi-malware-loader-surges-with.json",
+        "demo/new-rugmi-malware-loader-surges-with.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/new-sneaky-xamalicious-android-malware.json",
+        "demo/new-sneaky-xamalicious-android-malware.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/new-spookier-gh0st-rat-uzbekistan-south-korea.json",
+        "demo/new-spookier-gh0st-rat-uzbekistan-south-korea.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/north-korea-debuts-spectralblur-malware-amid-macos-onslaught.json",
+        "demo/north-korea-debuts-spectralblur-malware-amid-macos-onslaught.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/operation-earth-kitsune-tracking-slub-s-current-operations.json",
+        "demo/operation-earth-kitsune-tracking-slub-s-current-operations.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/over-100-organizations-targeted-in-recent-strelastealer-attacks.json",
+        "demo/over-100-organizations-targeted-in-recent-strelastealer-attacks.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/over-5-300-gitlab-servers-exposed-to-zero-click-account-takeover-attacks.json",
+        "demo/over-5-300-gitlab-servers-exposed-to-zero-click-account-takeover-attacks.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/peach-sandstorm-password-spray-campaigns-enable-intelligence-collection-at-high-value-targets.json",
+        "demo/peach-sandstorm-password-spray-campaigns-enable-intelligence-collection-at-high-value-targets.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/peer-to-peer-worm-p2pinfect.json",
+        "demo/peer-to-peer-worm-p2pinfect.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/pegasus-forcedentry-protection.json",
+        "demo/pegasus-forcedentry-protection.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/pensive-ursa-uses-upgraded-kazuar-backdoor.json",
+        "demo/pensive-ursa-uses-upgraded-kazuar-backdoor.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/pensive-ursa-uses-upgraded-kazuar-backdoor_1.json",
+        "demo/pensive-ursa-uses-upgraded-kazuar-backdoor_1.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/plugx-variants-in-usbs.json",
+        "demo/plugx-variants-in-usbs.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/public-exploits-atlassian-confluence-flaw.json",
+        "demo/public-exploits-atlassian-confluence-flaw.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/purplefox-malware-infects-thousands-of-computers-in-ukraine.json",
+        "demo/purplefox-malware-infects-thousands-of-computers-in-ukraine.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/ragnar-locker-ransomware.json",
+        "demo/ragnar-locker-ransomware.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/ransomware-spotlight-akira.json",
+        "demo/ransomware-spotlight-akira.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/ransomware-spotlight-blackcat.json",
+        "demo/ransomware-spotlight-blackcat.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/ransomware-spotlight-clop.json",
+        "demo/ransomware-spotlight-clop.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/ransomware-spotlight-conti.json",
+        "demo/ransomware-spotlight-conti.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/ransomware-spotlight-lockbit.json",
+        "demo/ransomware-spotlight-lockbit.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/ransomware-spotlight-magniber.json",
+        "demo/ransomware-spotlight-magniber.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/ransomware-spotlight-ransomexx.json",
+        "demo/ransomware-spotlight-ransomexx.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/ransomware-spotlight-targetcompany.json",
+        "test/ransomware-spotlight-targetcompany.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/ransomware-spotlight-trigona.json",
+        "demo/ransomware-spotlight-trigona.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/recent-teamcity-vulnerability-exploited-in-ransomware-attacks.json",
+        "test/recent-teamcity-vulnerability-exploited-in-ransomware-attacks.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/researchers-release-details-on-two-patched-outlook-zero-click-flaws.json",
+        "demo/researchers-release-details-on-two-patched-outlook-zero-click-flaws.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/reservation-links-prey-on-travelers.json",
+        "demo/reservation-links-prey-on-travelers.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/russia-star-blizzard-apt-upgrades-stealth-unmasked.json",
+        "demo/russia-star-blizzard-apt-upgrades-stealth-unmasked.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/russian-hackers-stole-microsoft-corporate-emails-in-month-long-breach.json",
+        "test/russian-hackers-stole-microsoft-corporate-emails-in-month-long-breach.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/ryuk-2020-distributing-ransomware-via-trickbot-and-bazarloader.json",
+        "demo/ryuk-2020-distributing-ransomware-via-trickbot-and-bazarloader.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/sea-turtle-cyber-espionage-campaign.json",
+        "demo/sea-turtle-cyber-espionage-campaign.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/social-engineering-attacks-lure-indian-users-to-install-android-banking-trojans.json",
+        "demo/social-engineering-attacks-lure-indian-users-to-install-android-banking-trojans.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/spectralblur-new-macos-backdoor-threat.json",
+        "demo/spectralblur-new-macos-backdoor-threat.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/star-blizzard-increases-sophistication-and-evasion-in-ongoing-attacks.json",
+        "demo/star-blizzard-increases-sophistication-and-evasion-in-ongoing-attacks.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/suspicious-nuget-package-harvesting-information-from-industrial-systems.json",
+        "demo/suspicious-nuget-package-harvesting-information-from-industrial-systems.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/syrian-threat-group-peddles-destructive-silverrat.json",
+        "demo/syrian-threat-group-peddles-destructive-silverrat.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/threat-brief-cve-2023-4966-netscaler-citrix-bleed.json",
+        "demo/threat-brief-cve-2023-4966-netscaler-citrix-bleed.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/threat-group-using-rare-data-transfer-tactic-in-new-remcosrat-campaign.json",
+        "demo/threat-group-using-rare-data-transfer-tactic-in-new-remcosrat-campaign.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/threat-recap-darkside-crysis-negasteal-coinminer.json",
+        "demo/threat-recap-darkside-crysis-negasteal-coinminer.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/two-campaigns-by-north-korea-bad-actors-target-job-hunters.json",
+        "demo/two-campaigns-by-north-korea-bad-actors-target-job-hunters.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/two-microsoft-zero-day-vulnerabilities-exploited-by-attackers.json",
+        "demo/two-microsoft-zero-day-vulnerabilities-exploited-by-attackers.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/uac-0050-group-using-new-phishing.json",
+        "demo/uac-0050-group-using-new-phishing.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/uac-0099-using-winrar-exploit-to-target.json",
+        "demo/uac-0099-using-winrar-exploit-to-target.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/ukraine-remains-russias-biggest-cyber-focus-in-2023.json",
+        "demo/ukraine-remains-russias-biggest-cyber-focus-in-2023.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/urgent-new-chrome-zero-day.json",
+        "demo/urgent-new-chrome-zero-day.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/volt-typhoon-targets-us-critical-infrastructure-with-living-off-the-land-techniques.json",
+        "demo/volt-typhoon-targets-us-critical-infrastructure-with-living-off-the-land-techniques.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/vultur-android-malware-gets-extensive-device-interaction-capabilities.json",
+        "demo/vultur-android-malware-gets-extensive-device-interaction-capabilities.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/wallescape-linux-vulnerability-leaks-user-passwords.json",
+        "test/wallescape-linux-vulnerability-leaks-user-passwords.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/windows-zero-day-exploited-by-north-korean-hackers-in-rootkit-attack.json",
+        "demo/windows-zero-day-exploited-by-north-korean-hackers-in-rootkit-attack.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/zimbra-0-day-used-to-target-international-government-organizations.json",
+        "demo/zimbra-0-day-used-to-target-international-government-organizations.json"
+      ],
+      "count": 2
+    },
+    {
+      "files": [
+        "annotation/zuorat-soho-routers.json",
+        "demo/zuorat-soho-routers.json"
+      ],
+      "count": 2
+    }
+  ],
+  "partition_sets": {
+    "annotation": [
+      "012283934488b6f2110696c887106c1b2231e2ca57d0dde145cc5d574f322717",
+      "03718ad18f03e814c98aae3ae778c699e79f29c900127f6289276449901cf3e5",
+      "0616152b64fe3de2476b65f8e5ad365af2b647b62c9ef91142e62cfc667bf196",
+      "06f5fd90ae7090fcc94f62d9fc12235ce903b7993ac6005a26296febaad1a697",
+      "0851ffae104f718960090e91cabb23b11012e360d1c1e48f4f3b4caf35b5d7fd",
+      "0df50253a1b0fb2edf73c1f2863451248107ee8f5a98f13946252e21f0efe927",
+      "11006e0b2d6367e7c570832ea524f0b8144626841064401c4c3444471fdb1afd",
+      "110bf13cb03dffedf4bc1147daa1cb351e8f8e18b869bb8dd77c47e69dee3766",
+      "11b74419c46faad963e05a1625d16b87f87b3ed7e7569f56af9e46e0095c86b7",
+      "13aa0346a1baf53977385cb0d0b8bdea918d22216abe7ae47e82a4286caca3b8",
+      "13c962af95c25bf84f1c85522e464cde50904381d87df049002c03206f29bddc",
+      "16723705c0e64eba6d7c3d3a182481507abf4c426b4a01ed8e78d841e87e7c4b",
+      "16f1d0a81efc489ef8e09f45f4fe69ff988e8720b1e59f527802e654e96db9c6",
+      "1a253f4ec3854f016976bf20f57096b45952cc07c220b411e8401cd5eaf36692",
+      "1c248dbf2571f88e9e7e413f86d12621260e33ceb8cce9280c57e1f8dea9e48f",
+      "1c5f77b3d1eb11e0c23225124ca5256f437a0debfc703f4a6bc324524ee3c8ac",
+      "1ea8ee3fcd75b66888147ce8d6b825ee579f615c93b489736804d8f97528c601",
+      "1ff37bd6e982ccd37e99c20a349d7efc129f481cfa5248f8314609b767b516a5",
+      "22f76825c38730b40c88b1d03948347a6e8441693c0f87f5fa3450dc826db4d6",
+      "2324a146d99e4dbdad8b22448a009dab42cc3f6bb991175ae206c61dba239e07",
+      "235eb634f3febd7d137792a54ef3429f109c62ce769d7179fb29128af9df4d5d",
+      "23fc0eb1c83875840d95936c3a3d6cfe211cea5b975aa10d10a2eada14562b01",
+      "25e38c6ebd0e7f920c69c3f39f306192bb72dfbc77c8c5bd3c950c4fed41ab7d",
+      "262eec18d3ab71b133697537e6847a624bc0d6b9a6d751d96f0204eaa6507a5f",
+      "26e11117ae2fcdaacfa9b13a0731122df9ff3bbbc35c87c2907eb6078229057f",
+      "277314aead6a04ff3dd21c8bdababb1a50a638987aa1578b7792aa07122786cd",
+      "278c6f38a4c35978fa6f5040ad9586f25b2e6cdecebf7c49bfa572b0f5a1754c",
+      "28c1d383e91c1c79d8d3cbf35ba2fa7595647209200c8871ba202e34ab4346c3",
+      "2d99ebe7fdacad3ecb77213880c2d5397d3d0989f4609459a9ad4693aa2cded4",
+      "313428fd1fcc9a34240447d4e3c92706a9f4d3900608b134a5672b0739d1da25",
+      "3172ae89bb636ca456bb18f928a6239b16b91c6606650217f2968f0672c7b2ea",
+      "33fb87e6b7fa7657a1209a3ef3b25133695696b3d4113f4f5cf12d7aec738f4e",
+      "3582624df4a0a57d4b758ec2f6c4103882d5b2b7a5c16fce94cf145edfcc79f9",
+      "36c538617dfe988030b1b739f4e133693fafa9ae091273eef7352a9ebae8438c",
+      "36d1846cec1d1d329952125c25147e68aa550b06d6f142be39aa1c318cc345d5",
+      "3b068cdac09ed89a12f7979abcba2d7f3f0db0eb75ab967b7de5b8b9e221afd1",
+      "3b726cd0110846b4cc9d0f462c4bb55f9ec57320a7956a9f2897b288d5ecf335",
+      "3ba22eaf3c968f07bcfa3036bb0a62e3e7e845359202decb3220ba8eac63b4cd",
+      "3efb6d768da7dc758302d599ac9e4dd79ac58ec3a1e0a470f1da689340fe0d89",
+      "40af6aa663f67db8d114c665fc86e3ad7656bf4adcd1b25b2c2f86ba804ffea8",
+      "438a4d222f0f97a0ef6f8925425b218cad2053d5ad978c4d4cdd3741a655a094",
+      "442026856d11ef29dee9cc090cf10ba882c537bac0bd41b4bba19bcd30ca1e41",
+      "48e09dcde2f9cac21597030b2b8f2676ea5013ff3c00812e010482d03829624b",
+      "4a44076edbf6618c3fbf777b94b208a2b01fdc1cd9e9e801a7d46352c06721bc",
+      "4b29f32960d214cc8dae235f11477f1d836c3b311eaba893e3eb3d370ddf82cf",
+      "4eaba4546e9f105275d91ff0dd05ff2e11dfd344f0593c7587ab4ede90d4e0be",
+      "4f89a8eccad43816fe2fb79d79a6f2fe83f1afc44136eb13871504fe061dd345",
+      "51573e54beabaf2b6bf3246596aaf8e6b11e7f80b9dd501cba4a3c5c95bdf7a2",
+      "5540312fc1a524566abed2682a6a98f96c45881d9021d1d17c0267dd57532bc9",
+      "55a7870a7e96f323e8918c98a8ef12b3817d6f778a208b4da5ea5126b233da92",
+      "5a0487ef418119b57e9af2ddbc4228ac73c86f601edfe62192191625ef6740a9",
+      "5a457f4e89e8468284575feee990853053297008cff9b4f46b0d7b04ea757c76",
+      "5a49b4e24e0a03a270891cbf03b793c27243cbd2938b56c967e8daee9658f651",
+      "5a583b10e78cf57a5df47df9ab2f2bae41bfa9d8fcc1864d35527c29a74201e3",
+      "5a7fdd3e4c9e7a305f347807933370a1ce1895e31b91205e56c8ab84c78113d9",
+      "5b4dc41c27b3577893df2736fc64d1ad703d0e644de62d1dd8e42ba548948ddf",
+      "5d6009e64e52c37e616d0238a5a4073459b21fe71f7f4bd69fb447a7ae9573d5",
+      "5e93c56dc9c4f31c0fc2becd0bae718622a1e59e37a7256ca6008dd391263480",
+      "5f4a1424adf0152b52692db6fbf6c9bce65d3f29cdb06d305b13bbc666af8bcc",
+      "5f81bf2cb4904ccab504a8ee3e8c23908942b3ae8177cbd07f4ef2f046ed1f5f",
+      "659572a1f9b115bacfa1a54da2a9e5981dce057ed9b6b17cdb74603613dea8f0",
+      "66d11dc932e7b4c660ff3bb7015a154f773567928c20068bab885501cc506395",
+      "697e14be13fc1d5d897031e101ef7e7e3f2c93553257ba05e260eb39af1f7593",
+      "69b5a2e388231c84ce48016ec0b9b8bb0db7232ce3937547c80d58a805a914f2",
+      "6b674bd3eb22bddfd5b38b92032a8763bc0f46b08312599322c80e94d8ac0d0b",
+      "6f09251ca6177f419e1b4c778717476830349832873ff05eae389c79cbed81e6",
+      "6f68ff626ce6f85fabb28dea9157d1075d599e6e9a322cb7ddd532bf3d6e898b",
+      "71d4c7350848b3f826dc732337196fce41652cb9d94b881cf0c16d5ca8816af8",
+      "730834fcab12e81b65e4eeeb2b73ae4d7e37d11deb423711ce6ae2bae147d6e5",
+      "7422131d3814eb33828a067be8c62e974adbae3ff6884db067a293410d37899b",
+      "752edfa06100bfecd2347330dec9245a308dca2b99e1b1831297c0aa4e62cf60",
+      "7726be0d1e15c648ce4f7b128ae6eefd53c7fbbbc2b4768c33bdaca2810cf74f",
+      "785186f4e305d415acbf54abc78ce7adb9aa6a18a849415d8697a015189de5e2",
+      "79224068503a09bdc7a4d22de40c6442934fd5898eecd286d6d1440dcaa85be6",
+      "79bd2fc9e29ebcd5d883b20d1c82aee78ba5d1720cd553aa972d0d523a1f264c",
+      "7ace4668b35d05d4c72fd39bdf96e5b5998bf5bf08a5313e3de68c0289089440",
+      "7b5b66bcfaaf041c4d5e6a62a5d1f0105a8606d9ba08a8eb8a73e440d319496b",
+      "7d9fc8d88b10e05410264f036502ffb74d2476360d12b080427db5be32f09df9",
+      "7ede42a49e40577c172fd20990f384200676a48708a2e474dc2cde05e464e1aa",
+      "7faa69c9452e0d723384af23a45c4f4c9e36dd0d9586e3f1dce74294e7b978c4",
+      "7fb99357f781fda947bfb80faae4a984553f224f332831594ea055b5282f59a0",
+      "84a2fb9c880c9fc3edc064c5751f7ca32b9021acbe35f919f0d5ce09224e72c7",
+      "870008d44a6d5534113febecde3af5206cddb8b39ffa27bc3ff5f993efa3fc2d",
+      "893fde5d86379248efcf6b3e66f5c42b07b38080246791846d2128718223994c",
+      "8b217984a7c7dd00238885016a6ac11c8b42ba5b28a133a7cc2b1de8c13bba3a",
+      "90f0c4c5e8d851c53b4ec943135be68291d10f8b5b9ccc327cf744a29e8da063",
+      "9257a6af2c7f7d5f6566041173865fde6ee44c4c5d1c07e8bff557d52c678ed4",
+      "93816d6bbab5190eef747f9a114f6e02048d6710e4c4c1965df49fdf1a06e3e4",
+      "9385bd873862eda616ebdb71e46f54d1fa41c725b79839dbe14933fb921a56eb",
+      "94e1ace3a231745a4abdc592c48faaa995ba9e8ff71720e17f15f2ff6cacaccc",
+      "96cfb63b0e1938c890f1f35b99e9b5efe16cc5576986fc498f87faa204bf9bc2",
+      "98c6980a886a0bfdc042ee4721a76b0ff215cbca1b668762c41da1766ea7ee49",
+      "99409ed36a7475f1a0f09518beebf91c077f07c4caa1123b09e818e9518f7bd5",
+      "9c4dce6e55d8be5d73818bad29983dc46a57c1eb28c4d8f980b535ae9180c92a",
+      "9f82e70bdb08ff5709537ccabf2bbfc49d813ce5baeb9785bc51132103c767f5",
+      "a2a287340ad20bfa465625ef66e898ff86edd47934047daaafbcb2ac8c09534f",
+      "a55e7511676bb4438c0381b24a8723c0fc0d46f4d7672c73dee61bd055b757fc",
+      "a609d7a20bd4c2708cbfd2ed0a5af33f6241b612010752398810a189884a30fb",
+      "a93a8ca58027352e5dab8f970e668428f863561f9641ee59c8fd2a53f7a0b9b9",
+      "aa400ada40693bfdbed0b6cbdfbc3aa0820e6530371081f99b56936f29883cf3",
+      "aae7d6eab2b9caa09a7ecb5ebb5a9fa8964c9421f5f6752f09367e9d7e577b5e",
+      "ad880263ec77c247c7aa75de07216d3a0b847ad7892ad74d6740271678d592d0",
+      "b1a9ef3a87dbd7dc968fdb4ac93368e2470a3aac857af0a27f112f53daafea56",
+      "b2ddac74c04509ef03bc4efc74ac529efa6ef542df1e2c0d461b707cf35717c2",
+      "b963fcfc507258ab9c996a53d467e9539d09636fdcca9e0a1baf2c953025abc5",
+      "bbf187a62f112055946ee293d6d13db7ccf65300c751e11c13355592321c9edc",
+      "bcfc96f81c20cb16f2dc645e519bee339919d1273ab09a25a5bd9cf93cde8a37",
+      "be0df3a48f038b58c8c5a116e395149e87ff138dae3033b21e0e14f909493aa0",
+      "c24bc67ddcf5d6ed48bb362b4e6ac1fc626341b9bf3a3a2724d69d2eeb902403",
+      "c6274a7992c76e17843257a4d196320e591964c1fc49f2dc7c9dbaebf7afeac9",
+      "c6b6efe49de565caf67cba786b41ffe0cf6a7ecb022d7787ef4d581a2e56b274",
+      "c7804da2eccbee15ea1a3c85d70d87251506d35082b9f17720fb81acd5fe317a",
+      "c7a74d599839f903898c9c872f4b77e9b228ad7560dc78bf542b8e5bff6772f2",
+      "cab15837b108bc9e1e1f8e3a348b7f3f346975af5f341d0f4a3bf7b73b5fb609",
+      "cb1e73a36b83a3e9b0d4643dc9f6f5c6a33b63f4bb7e860a8ee1a0e932132b10",
+      "cbc9dd076bf9c9b5c6972ae9b648ca4a2b6e9cbbbe9058f1ea7c5bb429d226bd",
+      "cd48de6dbd5c125535524d6a9abadedc40a3edce30219da34aec02a3f7135812",
+      "cd51c86b5dadf0dbdda77f478bc2071ac9f4fbb34e76bcfe1026e41404c03030",
+      "cd67845ef2e002a8fa084338c6d2af6dc480cd92dcf6abc8388ce93b9aaa1e9d",
+      "cdfb6db4b9d1451a39e748c63519f0a625543818c5c7b4c26654ce858a022da8",
+      "ce6ba66546efcd160df3443e36ae64009edbfec26b2349516106d2e359c200af",
+      "cfd7848ea077e198784a15f8bf09b5f748fcf26dbd3394c5e721804a0b60278f",
+      "d02e33343e02094993796bfc83b819d028ca2a5181dfd6516db14ca82426f85d",
+      "d04e098e8a110e619b8dc918e06d8795e33dd70f6e59bad992294974a3d38ca2",
+      "d1755855ef0dafff10890b52959635b1078e87425fe2fc2805ac21466842177b",
+      "d57b194cb096c3525e9ed4af8950437c46e63527c63441bdc1bb1047d74036e0",
+      "d58a7e96ce3c2647d5d6e402b2340c68405baf3f92fe03d2ffc4a956956c4264",
+      "d656d7d31f9a93e7ed025e79530f4dc0094acc6c0234fe3e829001f653803a93",
+      "d7b10c1c47db6cba43fc94932a8a4c410e5376b2230765e8dd5e08b38d19d1ee",
+      "d9cf92507c78563b50570f8f74f9f9b33b47ecedeca3d09ff521e8ce819400ef",
+      "dbdf7c4ce63b77a7f00a867505c3ef63a77a1675cee59b788f2d09bfa06e0fce",
+      "dda9df8a9f52d3ec55441c18d0ef02d8bff28514608224324f6fc99e171484e6",
+      "ddcd4599b57e7fa8a8f0241fd1ca0a0e45a6ebb0c76dfa1baf3b142f276db390",
+      "e46a0f65f1a5905b314cc43a0ae1294dc2c3076de04eb2ba36a7cee2e18dc766",
+      "e598cb0ca69a3525cdfab532e52b554297a29a1393a49368f9ef602d4a3ba8b7",
+      "e7a0665ebc2132daf07f6e0b90902a7cdea6ca1f4f9c90dbde8897e6c4d6934e",
+      "eafd7292d6b0a1ce516b0570d01ab0966aeeb855b6424de7ebccf8753a5a0134",
+      "ec5bdef2b6680e0abcd5442cada37acabcc62541572713ac32f7ec2b5abec046",
+      "ed425ba3de90f52d05c73d1cf3e9bd6ae95b649d4512a9d24b503e22ab696109",
+      "eead046de77c1d2b53ae41e5ab2bed77fea80b9a6a4e432c9f39b79ca45b9ad8",
+      "f08017d5d798fd2c201bc97a7137330e4dd7577f879c69bdca73f9e4736ea293",
+      "f165971c59720a3fcd076c57aa7ad6732db1f967bd0196b256f4d9f525e68657",
+      "f2cc626874a32b7ed4d273efe282282a0bdd150fc5b5b782863f3c2a6d1a52aa",
+      "f346ac88b20cdda9ec709394b5a62de20423b73e7cf1465eaae9d594ef19928b",
+      "f82570002aae068295f3187bb50b378c44bb7f0306257abe1595a743d82154f3",
+      "f8a663052e9c84392c545da8d64d5b38588a377be5087e541ba55af31fb7c43d",
+      "fb66b5b660a7e8b3d2183c448cd9073123a6a7120c85315b9f8f909e50f54589",
+      "fba010acc5581b068e3f250b5a3a275e8c00d25ccbf39a64d1adadcee90a22a4"
+    ],
+    "demo": [
+      "012283934488b6f2110696c887106c1b2231e2ca57d0dde145cc5d574f322717",
+      "03718ad18f03e814c98aae3ae778c699e79f29c900127f6289276449901cf3e5",
+      "0616152b64fe3de2476b65f8e5ad365af2b647b62c9ef91142e62cfc667bf196",
+      "06f5fd90ae7090fcc94f62d9fc12235ce903b7993ac6005a26296febaad1a697",
+      "0851ffae104f718960090e91cabb23b11012e360d1c1e48f4f3b4caf35b5d7fd",
+      "0df50253a1b0fb2edf73c1f2863451248107ee8f5a98f13946252e21f0efe927",
+      "11006e0b2d6367e7c570832ea524f0b8144626841064401c4c3444471fdb1afd",
+      "110bf13cb03dffedf4bc1147daa1cb351e8f8e18b869bb8dd77c47e69dee3766",
+      "11b74419c46faad963e05a1625d16b87f87b3ed7e7569f56af9e46e0095c86b7",
+      "13aa0346a1baf53977385cb0d0b8bdea918d22216abe7ae47e82a4286caca3b8",
+      "13c962af95c25bf84f1c85522e464cde50904381d87df049002c03206f29bddc",
+      "16723705c0e64eba6d7c3d3a182481507abf4c426b4a01ed8e78d841e87e7c4b",
+      "16f1d0a81efc489ef8e09f45f4fe69ff988e8720b1e59f527802e654e96db9c6",
+      "1a253f4ec3854f016976bf20f57096b45952cc07c220b411e8401cd5eaf36692",
+      "1c248dbf2571f88e9e7e413f86d12621260e33ceb8cce9280c57e1f8dea9e48f",
+      "1c5f77b3d1eb11e0c23225124ca5256f437a0debfc703f4a6bc324524ee3c8ac",
+      "1ea8ee3fcd75b66888147ce8d6b825ee579f615c93b489736804d8f97528c601",
+      "1ff37bd6e982ccd37e99c20a349d7efc129f481cfa5248f8314609b767b516a5",
+      "22f76825c38730b40c88b1d03948347a6e8441693c0f87f5fa3450dc826db4d6",
+      "2324a146d99e4dbdad8b22448a009dab42cc3f6bb991175ae206c61dba239e07",
+      "235eb634f3febd7d137792a54ef3429f109c62ce769d7179fb29128af9df4d5d",
+      "23fc0eb1c83875840d95936c3a3d6cfe211cea5b975aa10d10a2eada14562b01",
+      "262eec18d3ab71b133697537e6847a624bc0d6b9a6d751d96f0204eaa6507a5f",
+      "26e11117ae2fcdaacfa9b13a0731122df9ff3bbbc35c87c2907eb6078229057f",
+      "277314aead6a04ff3dd21c8bdababb1a50a638987aa1578b7792aa07122786cd",
+      "278c6f38a4c35978fa6f5040ad9586f25b2e6cdecebf7c49bfa572b0f5a1754c",
+      "28c1d383e91c1c79d8d3cbf35ba2fa7595647209200c8871ba202e34ab4346c3",
+      "2d99ebe7fdacad3ecb77213880c2d5397d3d0989f4609459a9ad4693aa2cded4",
+      "313428fd1fcc9a34240447d4e3c92706a9f4d3900608b134a5672b0739d1da25",
+      "3172ae89bb636ca456bb18f928a6239b16b91c6606650217f2968f0672c7b2ea",
+      "33fb87e6b7fa7657a1209a3ef3b25133695696b3d4113f4f5cf12d7aec738f4e",
+      "36c538617dfe988030b1b739f4e133693fafa9ae091273eef7352a9ebae8438c",
+      "36d1846cec1d1d329952125c25147e68aa550b06d6f142be39aa1c318cc345d5",
+      "3b068cdac09ed89a12f7979abcba2d7f3f0db0eb75ab967b7de5b8b9e221afd1",
+      "3b726cd0110846b4cc9d0f462c4bb55f9ec57320a7956a9f2897b288d5ecf335",
+      "3ba22eaf3c968f07bcfa3036bb0a62e3e7e845359202decb3220ba8eac63b4cd",
+      "3efb6d768da7dc758302d599ac9e4dd79ac58ec3a1e0a470f1da689340fe0d89",
+      "40af6aa663f67db8d114c665fc86e3ad7656bf4adcd1b25b2c2f86ba804ffea8",
+      "438a4d222f0f97a0ef6f8925425b218cad2053d5ad978c4d4cdd3741a655a094",
+      "442026856d11ef29dee9cc090cf10ba882c537bac0bd41b4bba19bcd30ca1e41",
+      "48e09dcde2f9cac21597030b2b8f2676ea5013ff3c00812e010482d03829624b",
+      "4a44076edbf6618c3fbf777b94b208a2b01fdc1cd9e9e801a7d46352c06721bc",
+      "4b29f32960d214cc8dae235f11477f1d836c3b311eaba893e3eb3d370ddf82cf",
+      "4eaba4546e9f105275d91ff0dd05ff2e11dfd344f0593c7587ab4ede90d4e0be",
+      "4f89a8eccad43816fe2fb79d79a6f2fe83f1afc44136eb13871504fe061dd345",
+      "51573e54beabaf2b6bf3246596aaf8e6b11e7f80b9dd501cba4a3c5c95bdf7a2",
+      "5540312fc1a524566abed2682a6a98f96c45881d9021d1d17c0267dd57532bc9",
+      "55a7870a7e96f323e8918c98a8ef12b3817d6f778a208b4da5ea5126b233da92",
+      "5a0487ef418119b57e9af2ddbc4228ac73c86f601edfe62192191625ef6740a9",
+      "5a457f4e89e8468284575feee990853053297008cff9b4f46b0d7b04ea757c76",
+      "5a49b4e24e0a03a270891cbf03b793c27243cbd2938b56c967e8daee9658f651",
+      "5a583b10e78cf57a5df47df9ab2f2bae41bfa9d8fcc1864d35527c29a74201e3",
+      "5a7fdd3e4c9e7a305f347807933370a1ce1895e31b91205e56c8ab84c78113d9",
+      "5b4dc41c27b3577893df2736fc64d1ad703d0e644de62d1dd8e42ba548948ddf",
+      "5e93c56dc9c4f31c0fc2becd0bae718622a1e59e37a7256ca6008dd391263480",
+      "5f4a1424adf0152b52692db6fbf6c9bce65d3f29cdb06d305b13bbc666af8bcc",
+      "5f81bf2cb4904ccab504a8ee3e8c23908942b3ae8177cbd07f4ef2f046ed1f5f",
+      "659572a1f9b115bacfa1a54da2a9e5981dce057ed9b6b17cdb74603613dea8f0",
+      "66d11dc932e7b4c660ff3bb7015a154f773567928c20068bab885501cc506395",
+      "697e14be13fc1d5d897031e101ef7e7e3f2c93553257ba05e260eb39af1f7593",
+      "69b5a2e388231c84ce48016ec0b9b8bb0db7232ce3937547c80d58a805a914f2",
+      "6b674bd3eb22bddfd5b38b92032a8763bc0f46b08312599322c80e94d8ac0d0b",
+      "6f09251ca6177f419e1b4c778717476830349832873ff05eae389c79cbed81e6",
+      "6f68ff626ce6f85fabb28dea9157d1075d599e6e9a322cb7ddd532bf3d6e898b",
+      "730834fcab12e81b65e4eeeb2b73ae4d7e37d11deb423711ce6ae2bae147d6e5",
+      "7422131d3814eb33828a067be8c62e974adbae3ff6884db067a293410d37899b",
+      "7726be0d1e15c648ce4f7b128ae6eefd53c7fbbbc2b4768c33bdaca2810cf74f",
+      "785186f4e305d415acbf54abc78ce7adb9aa6a18a849415d8697a015189de5e2",
+      "79224068503a09bdc7a4d22de40c6442934fd5898eecd286d6d1440dcaa85be6",
+      "7ace4668b35d05d4c72fd39bdf96e5b5998bf5bf08a5313e3de68c0289089440",
+      "7b5b66bcfaaf041c4d5e6a62a5d1f0105a8606d9ba08a8eb8a73e440d319496b",
+      "7d9fc8d88b10e05410264f036502ffb74d2476360d12b080427db5be32f09df9",
+      "7ede42a49e40577c172fd20990f384200676a48708a2e474dc2cde05e464e1aa",
+      "7faa69c9452e0d723384af23a45c4f4c9e36dd0d9586e3f1dce74294e7b978c4",
+      "7fb99357f781fda947bfb80faae4a984553f224f332831594ea055b5282f59a0",
+      "84a2fb9c880c9fc3edc064c5751f7ca32b9021acbe35f919f0d5ce09224e72c7",
+      "870008d44a6d5534113febecde3af5206cddb8b39ffa27bc3ff5f993efa3fc2d",
+      "893fde5d86379248efcf6b3e66f5c42b07b38080246791846d2128718223994c",
+      "8b217984a7c7dd00238885016a6ac11c8b42ba5b28a133a7cc2b1de8c13bba3a",
+      "90f0c4c5e8d851c53b4ec943135be68291d10f8b5b9ccc327cf744a29e8da063",
+      "9257a6af2c7f7d5f6566041173865fde6ee44c4c5d1c07e8bff557d52c678ed4",
+      "93816d6bbab5190eef747f9a114f6e02048d6710e4c4c1965df49fdf1a06e3e4",
+      "9385bd873862eda616ebdb71e46f54d1fa41c725b79839dbe14933fb921a56eb",
+      "94e1ace3a231745a4abdc592c48faaa995ba9e8ff71720e17f15f2ff6cacaccc",
+      "96cfb63b0e1938c890f1f35b99e9b5efe16cc5576986fc498f87faa204bf9bc2",
+      "98c6980a886a0bfdc042ee4721a76b0ff215cbca1b668762c41da1766ea7ee49",
+      "99409ed36a7475f1a0f09518beebf91c077f07c4caa1123b09e818e9518f7bd5",
+      "9c4dce6e55d8be5d73818bad29983dc46a57c1eb28c4d8f980b535ae9180c92a",
+      "9f82e70bdb08ff5709537ccabf2bbfc49d813ce5baeb9785bc51132103c767f5",
+      "a2a287340ad20bfa465625ef66e898ff86edd47934047daaafbcb2ac8c09534f",
+      "a55e7511676bb4438c0381b24a8723c0fc0d46f4d7672c73dee61bd055b757fc",
+      "a609d7a20bd4c2708cbfd2ed0a5af33f6241b612010752398810a189884a30fb",
+      "a93a8ca58027352e5dab8f970e668428f863561f9641ee59c8fd2a53f7a0b9b9",
+      "aa400ada40693bfdbed0b6cbdfbc3aa0820e6530371081f99b56936f29883cf3",
+      "aae7d6eab2b9caa09a7ecb5ebb5a9fa8964c9421f5f6752f09367e9d7e577b5e",
+      "ad880263ec77c247c7aa75de07216d3a0b847ad7892ad74d6740271678d592d0",
+      "b1a9ef3a87dbd7dc968fdb4ac93368e2470a3aac857af0a27f112f53daafea56",
+      "b2ddac74c04509ef03bc4efc74ac529efa6ef542df1e2c0d461b707cf35717c2",
+      "b963fcfc507258ab9c996a53d467e9539d09636fdcca9e0a1baf2c953025abc5",
+      "bbf187a62f112055946ee293d6d13db7ccf65300c751e11c13355592321c9edc",
+      "bcfc96f81c20cb16f2dc645e519bee339919d1273ab09a25a5bd9cf93cde8a37",
+      "be0df3a48f038b58c8c5a116e395149e87ff138dae3033b21e0e14f909493aa0",
+      "c24bc67ddcf5d6ed48bb362b4e6ac1fc626341b9bf3a3a2724d69d2eeb902403",
+      "c6274a7992c76e17843257a4d196320e591964c1fc49f2dc7c9dbaebf7afeac9",
+      "c6b6efe49de565caf67cba786b41ffe0cf6a7ecb022d7787ef4d581a2e56b274",
+      "c7804da2eccbee15ea1a3c85d70d87251506d35082b9f17720fb81acd5fe317a",
+      "c7a74d599839f903898c9c872f4b77e9b228ad7560dc78bf542b8e5bff6772f2",
+      "cab15837b108bc9e1e1f8e3a348b7f3f346975af5f341d0f4a3bf7b73b5fb609",
+      "cb1e73a36b83a3e9b0d4643dc9f6f5c6a33b63f4bb7e860a8ee1a0e932132b10",
+      "cbc9dd076bf9c9b5c6972ae9b648ca4a2b6e9cbbbe9058f1ea7c5bb429d226bd",
+      "cd48de6dbd5c125535524d6a9abadedc40a3edce30219da34aec02a3f7135812",
+      "cd67845ef2e002a8fa084338c6d2af6dc480cd92dcf6abc8388ce93b9aaa1e9d",
+      "cdfb6db4b9d1451a39e748c63519f0a625543818c5c7b4c26654ce858a022da8",
+      "ce6ba66546efcd160df3443e36ae64009edbfec26b2349516106d2e359c200af",
+      "cfd7848ea077e198784a15f8bf09b5f748fcf26dbd3394c5e721804a0b60278f",
+      "d02e33343e02094993796bfc83b819d028ca2a5181dfd6516db14ca82426f85d",
+      "d04e098e8a110e619b8dc918e06d8795e33dd70f6e59bad992294974a3d38ca2",
+      "d1755855ef0dafff10890b52959635b1078e87425fe2fc2805ac21466842177b",
+      "d57b194cb096c3525e9ed4af8950437c46e63527c63441bdc1bb1047d74036e0",
+      "d58a7e96ce3c2647d5d6e402b2340c68405baf3f92fe03d2ffc4a956956c4264",
+      "d656d7d31f9a93e7ed025e79530f4dc0094acc6c0234fe3e829001f653803a93",
+      "d7b10c1c47db6cba43fc94932a8a4c410e5376b2230765e8dd5e08b38d19d1ee",
+      "d9cf92507c78563b50570f8f74f9f9b33b47ecedeca3d09ff521e8ce819400ef",
+      "dbdf7c4ce63b77a7f00a867505c3ef63a77a1675cee59b788f2d09bfa06e0fce",
+      "dda9df8a9f52d3ec55441c18d0ef02d8bff28514608224324f6fc99e171484e6",
+      "ddcd4599b57e7fa8a8f0241fd1ca0a0e45a6ebb0c76dfa1baf3b142f276db390",
+      "e598cb0ca69a3525cdfab532e52b554297a29a1393a49368f9ef602d4a3ba8b7",
+      "e7a0665ebc2132daf07f6e0b90902a7cdea6ca1f4f9c90dbde8897e6c4d6934e",
+      "eafd7292d6b0a1ce516b0570d01ab0966aeeb855b6424de7ebccf8753a5a0134",
+      "ec5bdef2b6680e0abcd5442cada37acabcc62541572713ac32f7ec2b5abec046",
+      "eead046de77c1d2b53ae41e5ab2bed77fea80b9a6a4e432c9f39b79ca45b9ad8",
+      "f08017d5d798fd2c201bc97a7137330e4dd7577f879c69bdca73f9e4736ea293",
+      "f165971c59720a3fcd076c57aa7ad6732db1f967bd0196b256f4d9f525e68657",
+      "f2cc626874a32b7ed4d273efe282282a0bdd150fc5b5b782863f3c2a6d1a52aa",
+      "f346ac88b20cdda9ec709394b5a62de20423b73e7cf1465eaae9d594ef19928b",
+      "f8a663052e9c84392c545da8d64d5b38588a377be5087e541ba55af31fb7c43d",
+      "fb66b5b660a7e8b3d2183c448cd9073123a6a7120c85315b9f8f909e50f54589",
+      "fba010acc5581b068e3f250b5a3a275e8c00d25ccbf39a64d1adadcee90a22a4"
+    ],
+    "test": [
+      "25e38c6ebd0e7f920c69c3f39f306192bb72dfbc77c8c5bd3c950c4fed41ab7d",
+      "3582624df4a0a57d4b758ec2f6c4103882d5b2b7a5c16fce94cf145edfcc79f9",
+      "5d6009e64e52c37e616d0238a5a4073459b21fe71f7f4bd69fb447a7ae9573d5",
+      "71d4c7350848b3f826dc732337196fce41652cb9d94b881cf0c16d5ca8816af8",
+      "752edfa06100bfecd2347330dec9245a308dca2b99e1b1831297c0aa4e62cf60",
+      "79bd2fc9e29ebcd5d883b20d1c82aee78ba5d1720cd553aa972d0d523a1f264c",
+      "cd51c86b5dadf0dbdda77f478bc2071ac9f4fbb34e76bcfe1026e41404c03030",
+      "e46a0f65f1a5905b314cc43a0ae1294dc2c3076de04eb2ba36a7cee2e18dc766",
+      "ed425ba3de90f52d05c73d1cf3e9bd6ae95b649d4512a9d24b503e22ab696109",
+      "f82570002aae068295f3187bb50b378c44bb7f0306257abe1595a743d82154f3"
+    ]
+  },
+  "data_sufficiency": {
+    "has_verified_publisher_metadata": false,
+    "can_run_10_publisher_test": false
+  },
+  "note": "Publisher attribution must be independently authenticated; filenames and partition labels are not publishers."
+}

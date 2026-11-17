@@ -1,0 +1,25 @@
+{
+  "anchor": 0,
+  "error": null,
+  "generated_tokens": 12,
+  "generation_cap_reached": false,
+  "identity_sha256": "e3c6b2a49b5149f82dcda4cef85763eecd5ed2aa4279817977acb84e07f3b772",
+  "indices": [
+    0,
+    2,
+    4,
+    7
+  ],
+  "input_sha256": "805f3130cdf4ea377fb92bce9e821a751e36a5d9ee80d27e59676e03e1f41609",
+  "input_tokens": 442,
+  "latency_seconds": 0.25344,
+  "model": "Qwen/Qwen2.5-3B-Instruct",
+  "precision": "fp4",
+  "prompt_sha256": "8db9449a58a811fe2ef76327a594b686ee423250aa525c85c490cd9deab72c94",
+  "raw": "{\"relevant\":[0,2,4,7]}",
+  "raw_sha256": "ea230a05e25ecfe65242621e3556d55d333f7b468b6497d8090e15f5eacee8dd",
+  "record_sha256": "6bf888ffb2c004eeb6ba72844f5b26d066fcb190eaae63206b5b6af755ac96db",
+  "revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+  "valid": true,
+  "window_id": "2b9e7e2111a99baa555a2933"
+}

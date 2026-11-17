@@ -1,0 +1,132 @@
+{
+  "source": "User-submitted E1 full audit and analysis log; archived checkpoint bytes NOT uploaded in this turn",
+  "protocol": "ThreatScope-E1-v1.1.2-minimal-example-intervention",
+  "observed_calls": 1728,
+  "valid": 1675,
+  "invalid": 53,
+  "validity_by_model_precision": {
+    "Qwen/Qwen2.5-3B-Instruct bf16": {
+      "N0_F1": 0.6666666666666666,
+      "N1_F1": 0.7,
+      "delta_F1_pp": 3.3333333333333326,
+      "N0_invalid": 6,
+      "N1_invalid": 3
+    },
+    "Qwen/Qwen2.5-3B-Instruct nf4": {
+      "N0_F1": 0.6070038910505836,
+      "N1_F1": 0.6353790613718412,
+      "delta_F1_pp": 2.837517032125758,
+      "N0_invalid": 4,
+      "N1_invalid": 6
+    },
+    "meta-llama/Llama-3.2-3B-Instruct bf16": {
+      "N0_F1": 0.5963302752293578,
+      "N1_F1": 0.6377952755905512,
+      "delta_F1_pp": 4.146500036119338,
+      "N0_invalid": 33,
+      "N1_invalid": 0
+    },
+    "meta-llama/Llama-3.2-3B-Instruct nf4": {
+      "N0_F1": 0.6,
+      "N1_F1": 0.6204081632653061,
+      "delta_F1_pp": 2.0408163265306145,
+      "N0_invalid": 0,
+      "N1_invalid": 1
+    },
+    "mistralai/Mistral-7B-Instruct-v0.3 bf16": {
+      "N0_F1": 0.6387832699619772,
+      "N1_F1": 0.6513409961685823,
+      "delta_F1_pp": 1.2557726206605113,
+      "N0_invalid": 0,
+      "N1_invalid": 0
+    },
+    "mistralai/Mistral-7B-Instruct-v0.3 nf4": {
+      "N0_F1": 0.6360153256704981,
+      "N1_F1": 0.6268656716417911,
+      "delta_F1_pp": -0.9149654028707044,
+      "N0_invalid": 0,
+      "N1_invalid": 0
+    }
+  },
+  "stability": [
+    {
+      "model": "Qwen/Qwen2.5-3B-Instruct",
+      "estimand": "paired_N1_minus_N0_cross_precision_disagreement",
+      "matched_windows": "130",
+      "total_windows": "144",
+      "matched_fraction": "0.9027777777777778",
+      "publishers_with_complete_cases": "9",
+      "publisher_equal_effect_pp": "-0.17526455026455023",
+      "exact_p_exploratory": "0.95703125",
+      "descriptive_bootstrap_CI95_low_pp": "-5.297364672364672",
+      "descriptive_bootstrap_CI95_high_pp": "5.913588726088726",
+      "bootstrap_draws": "4000",
+      "validity_gate": "INCOMPLETE_MATCHING_INTERPRET_CAUTIOUSLY",
+      "note": "Lower disagreement is not automatically better: check empty output and F1 guardrails.",
+      "holm3_primary_p": "1.0"
+    },
+    {
+      "model": "meta-llama/Llama-3.2-3B-Instruct",
+      "estimand": "paired_N1_minus_N0_cross_precision_disagreement",
+      "matched_windows": "110",
+      "total_windows": "144",
+      "matched_fraction": "0.7638888888888888",
+      "publishers_with_complete_cases": "9",
+      "publisher_equal_effect_pp": "2.4742849742849744",
+      "exact_p_exploratory": "0.359375",
+      "descriptive_bootstrap_CI95_low_pp": "-4.357112794612795",
+      "descriptive_bootstrap_CI95_high_pp": "8.173400673400673",
+      "bootstrap_draws": "4000",
+      "validity_gate": "INCOMPLETE_MATCHING_INTERPRET_CAUTIOUSLY",
+      "note": "Lower disagreement is not automatically better: check empty output and F1 guardrails.",
+      "holm3_primary_p": "1.0"
+    },
+    {
+      "model": "mistralai/Mistral-7B-Instruct-v0.3",
+      "estimand": "paired_N1_minus_N0_cross_precision_disagreement",
+      "matched_windows": "144",
+      "total_windows": "144",
+      "matched_fraction": "1.0",
+      "publishers_with_complete_cases": "9",
+      "publisher_equal_effect_pp": "2.170138888888889",
+      "exact_p_exploratory": "0.359375",
+      "descriptive_bootstrap_CI95_low_pp": "-2.4305555555555554",
+      "descriptive_bootstrap_CI95_high_pp": "6.944444444444445",
+      "bootstrap_draws": "4000",
+      "validity_gate": "ALL_WINDOWS_VALID",
+      "note": "Lower disagreement is not automatically better: check empty output and F1 guardrails.",
+      "holm3_primary_p": "1.0"
+    }
+  ],
+  "F1_interaction": [
+    {
+      "model": "Qwen/Qwen2.5-3B-Instruct",
+      "estimand": "F1_NF4_minus_BF16_difference_of_N1_minus_N0",
+      "publisher_equal_DID_pp": "-0.8844091136159791",
+      "exact_signflip_p": "0.82421875",
+      "positive_publishers": "6",
+      "negative_publishers": "3",
+      "note": "Exploratory human-reference precision-by-prompt interaction; not Arm A index sensitivity"
+    },
+    {
+      "model": "meta-llama/Llama-3.2-3B-Instruct",
+      "estimand": "F1_NF4_minus_BF16_difference_of_N1_minus_N0",
+      "publisher_equal_DID_pp": "-7.150081682827352",
+      "exact_signflip_p": "0.54296875",
+      "positive_publishers": "5",
+      "negative_publishers": "4",
+      "note": "Exploratory human-reference precision-by-prompt interaction; not Arm A index sensitivity"
+    },
+    {
+      "model": "mistralai/Mistral-7B-Instruct-v0.3",
+      "estimand": "F1_NF4_minus_BF16_difference_of_N1_minus_N0",
+      "publisher_equal_DID_pp": "-4.012100836217682",
+      "exact_signflip_p": "0.5703125",
+      "positive_publishers": "4",
+      "negative_publishers": "5",
+      "note": "Exploratory human-reference precision-by-prompt interaction; not Arm A index sensitivity"
+    }
+  ],
+  "total_gen_cap_reached": 0,
+  "method": "independent numerical consistency recomputation from pasted aggregate values only"
+}

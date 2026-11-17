@@ -1,0 +1,93 @@
+{
+  "status": "INDEPENDENT_DECISION_TABLE_RECOMPUTATION_PASS",
+  "export_files_sha256": "10/10 PASS",
+  "e1_records": 1728,
+  "e1_valid": 1675,
+  "e1_invalid": 53,
+  "e1_cells": {
+    "Qwen/Qwen2.5-3B-Instruct | bf16 | N0": {
+      "valid": 138,
+      "invalid": 6,
+      "valid_empty": 29
+    },
+    "Qwen/Qwen2.5-3B-Instruct | bf16 | N1": {
+      "valid": 141,
+      "invalid": 3,
+      "valid_empty": 17
+    },
+    "Qwen/Qwen2.5-3B-Instruct | nf4 | N0": {
+      "valid": 140,
+      "invalid": 4,
+      "valid_empty": 0
+    },
+    "Qwen/Qwen2.5-3B-Instruct | nf4 | N1": {
+      "valid": 138,
+      "invalid": 6,
+      "valid_empty": 1
+    },
+    "meta-llama/Llama-3.2-3B-Instruct | bf16 | N0": {
+      "valid": 111,
+      "invalid": 33,
+      "valid_empty": 0
+    },
+    "meta-llama/Llama-3.2-3B-Instruct | bf16 | N1": {
+      "valid": 144,
+      "invalid": 0,
+      "valid_empty": 0
+    },
+    "meta-llama/Llama-3.2-3B-Instruct | nf4 | N0": {
+      "valid": 144,
+      "invalid": 0,
+      "valid_empty": 0
+    },
+    "meta-llama/Llama-3.2-3B-Instruct | nf4 | N1": {
+      "valid": 143,
+      "invalid": 1,
+      "valid_empty": 0
+    },
+    "mistralai/Mistral-7B-Instruct-v0.3 | bf16 | N0": {
+      "valid": 144,
+      "invalid": 0,
+      "valid_empty": 0
+    },
+    "mistralai/Mistral-7B-Instruct-v0.3 | bf16 | N1": {
+      "valid": 144,
+      "invalid": 0,
+      "valid_empty": 8
+    },
+    "mistralai/Mistral-7B-Instruct-v0.3 | nf4 | N0": {
+      "valid": 144,
+      "invalid": 0,
+      "valid_empty": 0
+    },
+    "mistralai/Mistral-7B-Instruct-v0.3 | nf4 | N1": {
+      "valid": 144,
+      "invalid": 0,
+      "valid_empty": 0
+    }
+  },
+  "e2_records": 2304,
+  "e2_unique_windows": 144,
+  "e2_agreement": {
+    "bf16": 0.9739583333333334,
+    "nf4": 0.9861111111111112
+  },
+  "e2_publisher_equal_effect_pp": {
+    "greedy": 0.6944444444444445,
+    "scoring": 0.2976190476190477
+  },
+  "e2_procedure_DID_pp": 0.3968253968253968,
+  "e2_publisher_signs": {
+    "positive": 5,
+    "negative": 2,
+    "zero": 2
+  },
+  "e2_exact_signflip_p": 0.359375,
+  "limitations": [
+    "No archived checkpoint bodies; cannot verify inference provenance independently",
+    "No original text; cannot verify dataset content/human labels from this export",
+    "E1 quality F1 and E1 bootstrap require external human label mapping and/or raw prediction provenance",
+    "Two E2 prompt hashes differ by construction; independently compare historical and current prompts using original runners if claiming byte-identical prompts",
+    "Pooled bootstrap CI not independently reproduced without exact sampler specification and seed"
+  ]
+}

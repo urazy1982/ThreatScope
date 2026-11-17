@@ -1,0 +1,151 @@
+{
+ "items": 288,
+ "distinct_texts": 270,
+ "label_counts": {
+  "a1": {
+   "0": 165,
+   "1": 104,
+   "U": 19
+  },
+  "a2": {
+   "0": 138,
+   "1": 146,
+   "U": 4
+  },
+  "ai": {
+   "U": 5,
+   "1": 113,
+   "0": 170
+  }
+ },
+ "pairwise": {
+  "a1-a2": {
+   "n": 267,
+   "raw_agreement": 0.704119850187266,
+   "cohen_kappa": 0.41164821064963336,
+   "ci95_item_bootstrap": [
+    0.30889145496535786,
+    0.5126735728454925
+   ]
+  },
+  "a1-ai": {
+   "n": 266,
+   "raw_agreement": 0.9172932330827067,
+   "cohen_kappa": 0.8257192209184585,
+   "ci95_item_bootstrap": [
+    0.7503502381619501,
+    0.89393605292172
+   ]
+  },
+  "a2-ai": {
+   "n": 279,
+   "raw_agreement": 0.7240143369175627,
+   "cohen_kappa": 0.45139048494598927,
+   "ci95_item_bootstrap": [
+    0.35415351198444184,
+    0.5519475589076458
+   ]
+  }
+ },
+ "fleiss_kappa_three": {
+  "items_all_three_binary": 264,
+  "kappa": 0.562263071311065
+ },
+ "all_three_agree": 179,
+ "gold_rule": "majority of a1, a2, ai over {0,1}; U abstains; no gold if no label has two votes",
+ "gold_counts": {
+  "0": 161,
+  "1": 115,
+  "": 12
+ },
+ "adjudication": {
+  "items_needing_adjudication": 100,
+  "items_adjudicated": 100,
+  "complete": true,
+  "adjudicated_counts": {
+   "0": 172,
+   "1": 101,
+   "": 15
+  },
+  "agreement_with": {
+   "a1": {
+    "n": 267,
+    "raw_agreement": 0.9962546816479401,
+    "cohen_kappa": 0.9920528618626663
+   },
+   "a2": {
+    "n": 271,
+    "raw_agreement": 0.7047970479704797,
+    "cohen_kappa": 0.415633423180593
+   },
+   "ai": {
+    "n": 270,
+    "raw_agreement": 0.8962962962962963,
+    "cohen_kappa": 0.7803602556653108
+   }
+  },
+  "resolved_to_h1": 91,
+  "resolved_to_h2": 5,
+  "resolved_to_neither": 6,
+  "agreed_label_counts": {
+   "0": 65,
+   "U": 15,
+   "1": 20
+  },
+  "binary_disagreements": 79,
+  "binary_resolved_to_h1": 76
+ },
+ "outvoted": {
+  "a1_only_relevant": 5,
+  "a2_only_relevant": 45,
+  "ai_only_relevant": 1,
+  "a1_only_irrelevant": 10,
+  "a2_only_irrelevant": 18,
+  "ai_only_irrelevant": 6
+ },
+ "h_agree_counts": {
+  "0": 107,
+  "1": 81,
+  "": 100
+ },
+ "confidence_counts": {
+  "a1": {
+   "high": 195,
+   "medium": 93
+  },
+  "a2": {
+   "low": 107,
+   "high": 136,
+   "medium": 45
+  },
+  "ai": {
+   "low": 62,
+   "medium": 66,
+   "high": 160
+  }
+ },
+ "notes_per_category_a2": {
+  "attack_method": 1,
+  "adversary_behavior": 1,
+  "not_actionable": 3,
+  "infrastructure": 1,
+  "threat_evidence": 1,
+  "uncertain": 1
+ },
+ "qc": {
+  "a1": {
+   "distinct_evidence_notes": 271,
+   "confidence_determined_by_category": false
+  },
+  "a2": {
+   "distinct_evidence_notes": 8,
+   "confidence_determined_by_category": false
+  },
+  "ai": {
+   "distinct_evidence_notes": 225,
+   "confidence_determined_by_category": false
+  }
+ },
+ "windows_uniquely_identified": 32,
+ "labelled_slots": 371
+}

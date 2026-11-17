@@ -1,0 +1,41 @@
+{
+  "simulation_only": true,
+  "source_clusters": 10,
+  "draws_per_scenario": 4000,
+  "seed": 20261113,
+  "assumption": "independent normal publisher-level effects, fixed mean and SD=1",
+  "caveat": "Not empirical power, source selection or publisher-level exchangeability evidence",
+  "scenarios": [
+    {
+      "delta_over_publisher_sd": 0,
+      "unadjusted_p_below_0_05": 0.0455,
+      "conservative_three_test_p_below_0_01667": 0.0135
+    },
+    {
+      "delta_over_publisher_sd": 0.3,
+      "unadjusted_p_below_0_05": 0.1318,
+      "conservative_three_test_p_below_0_01667": 0.0542
+    },
+    {
+      "delta_over_publisher_sd": 0.5,
+      "unadjusted_p_below_0_05": 0.2755,
+      "conservative_three_test_p_below_0_01667": 0.13
+    },
+    {
+      "delta_over_publisher_sd": 0.8,
+      "unadjusted_p_below_0_05": 0.6038,
+      "conservative_three_test_p_below_0_01667": 0.3653
+    },
+    {
+      "delta_over_publisher_sd": 1.0,
+      "unadjusted_p_below_0_05": 0.803,
+      "conservative_three_test_p_below_0_01667": 0.5763
+    },
+    {
+      "delta_over_publisher_sd": 1.3,
+      "unadjusted_p_below_0_05": 0.9473,
+      "conservative_three_test_p_below_0_01667": 0.8203
+    }
+  ],
+  "two_sided_minimum_exact_p": 0.001953125
+}

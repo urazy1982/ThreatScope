@@ -1,0 +1,7 @@
+arm,model,delta_pp,exact_p,holm_within_arm,holm_across_B_C,positive_publishers,negative_publishers
+B,Qwen/Qwen2.5-3B-Instruct,11.421131,0.00390625,0.01171875,0.02343750,9,0
+B,meta-llama/Llama-3.2-3B-Instruct,7.155258,0.00390625,0.01171875,0.02343750,9,0
+B,mistralai/Mistral-7B-Instruct-v0.3,4.848710,0.01171875,0.01171875,0.03515625,8,1
+C,Qwen/Qwen2.5-3B-Instruct,0.297619,0.78515625,0.78515625,0.78515625,6,3
+C,meta-llama/Llama-3.2-3B-Instruct,6.944444,0.00390625,0.01171875,0.02343750,9,0
+C,mistralai/Mistral-7B-Instruct-v0.3,2.480159,0.01562500,0.03125000,0.03515625,8,1

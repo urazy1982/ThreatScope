@@ -1,0 +1,24 @@
+{
+  "status": "E2_CONSTRAINED_GREEDY_VS_HISTORICAL_ARM_C_COMPLETE",
+  "protocol": "ThreatScope-E2-v0.1.2-matched-singleton-greedy-vs-archived-scoring",
+  "comparison": "matched historical Arm C instruction/prompt and eight singleton suffixes; constrained greedy vs whole-suffix likelihood scoring",
+  "model": "Qwen/Qwen2.5-3B-Instruct",
+  "windows": 144,
+  "publishers": 9,
+  "greedy_generations": 2304,
+  "scoring_precision_delta_pp_publisher_equal": 0.2976190476190477,
+  "greedy_precision_delta_pp_publisher_equal": 0.6944444444444445,
+  "difference_of_precision_deltas_pp": 0.39682539682539686,
+  "greedy_vs_scoring_agreement_bf16": 0.9739583333333334,
+  "greedy_vs_scoring_agreement_nf4": 0.9861111111111112,
+  "exact_signflip_p_exploratory": 0.359375,
+  "positive_publishers": 6,
+  "negative_publishers": 2,
+  "descriptive_hierarchical_CI95_pp": [
+    -0.39682539682539675,
+    1.2896825396825395
+  ],
+  "signflip_assumptions": "requires publisher sign-exchangeability under null; nine clusters; exploratory",
+  "causal_scope": "procedure search contrast with the same singleton output space; no proof of complete mediation or operational CTI accuracy",
+  "source": "Frozen v1.0.0 archived Arm C per-window results + new E2 checkpoints"
+}

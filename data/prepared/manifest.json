@@ -1,0 +1,386 @@
+{
+  "calls_per_model_precision": 1152,
+  "config_sha256": "ed6c393370828f23d12990da609995be33a3f6853aefa7691fb37911219cbdc8",
+  "dataset_content_multiset_sha256": "62ef022a6e1e51dd23379256bb5da45ffe7f94b67c9d0edc80da181781bb8335",
+  "dataset_path_requested": "/home/uraz/threat-study/aptcorpus_v214_work/dataset/reports.json",
+  "dataset_report_count": 72,
+  "dataset_sha256": "461682f329a5cca95715d6d7a12356dddb3f38f3adf0e221a2443bdecfdd354e",
+  "input_sha256": "e22310e37efe29c2f29f8ec51b931d765a371cc9f7628b52337fa86ce338500b",
+  "no_gold_labels": true,
+  "protocol": "threatstudy-aptpublisher-balance-v2.1.4-overlap-repair-20261113",
+  "publisher_counts_eligible": {
+    "asec_apt": 8,
+    "bitdefender_apt": 8,
+    "groupib_apt": 8,
+    "securelist_apt": 8,
+    "sentinellabs_apt": 8,
+    "talos_apt": 8,
+    "trendmicro_apt": 8,
+    "unit42_apt": 8,
+    "volexity_apt": 8
+  },
+  "selected_reports": [
+    {
+      "available_sentences": 184,
+      "report_id": "caa78ca403fd0c531e3e000f",
+      "source": "securelist_apt"
+    },
+    {
+      "available_sentences": 185,
+      "report_id": "bebe65925903102027513abd",
+      "source": "securelist_apt"
+    },
+    {
+      "available_sentences": 108,
+      "report_id": "3964579998da6168ad089359",
+      "source": "securelist_apt"
+    },
+    {
+      "available_sentences": 100,
+      "report_id": "0e69f9d5c098b82cae4436e9",
+      "source": "securelist_apt"
+    },
+    {
+      "available_sentences": 84,
+      "report_id": "e556ea880c8c6b46bd3d45b0",
+      "source": "securelist_apt"
+    },
+    {
+      "available_sentences": 45,
+      "report_id": "7558bc25268ede53a9160f56",
+      "source": "securelist_apt"
+    },
+    {
+      "available_sentences": 72,
+      "report_id": "efb0b426e7b3d2c4b345984a",
+      "source": "securelist_apt"
+    },
+    {
+      "available_sentences": 33,
+      "report_id": "4514257579ba7eaf209c7e43",
+      "source": "securelist_apt"
+    },
+    {
+      "available_sentences": 93,
+      "report_id": "9d42bd97809d72a5e3889014",
+      "source": "trendmicro_apt"
+    },
+    {
+      "available_sentences": 145,
+      "report_id": "09fcbc3b349537c6cddc6a2a",
+      "source": "trendmicro_apt"
+    },
+    {
+      "available_sentences": 70,
+      "report_id": "64c0ba5206a0d9fc33bedd43",
+      "source": "trendmicro_apt"
+    },
+    {
+      "available_sentences": 181,
+      "report_id": "1c06e91154e49f7a608e01ff",
+      "source": "trendmicro_apt"
+    },
+    {
+      "available_sentences": 243,
+      "report_id": "4a8f3bef02f48db855deae44",
+      "source": "trendmicro_apt"
+    },
+    {
+      "available_sentences": 230,
+      "report_id": "195e0045df690a4f957ad878",
+      "source": "trendmicro_apt"
+    },
+    {
+      "available_sentences": 110,
+      "report_id": "bb0b7c49e360dd786f3757fe",
+      "source": "trendmicro_apt"
+    },
+    {
+      "available_sentences": 83,
+      "report_id": "e62d826ffcd4e4a9b28e2a1f",
+      "source": "trendmicro_apt"
+    },
+    {
+      "available_sentences": 66,
+      "report_id": "b977960bd2c7db27f9a12919",
+      "source": "unit42_apt"
+    },
+    {
+      "available_sentences": 238,
+      "report_id": "0410e0a1cd67b6f35d6a0617",
+      "source": "unit42_apt"
+    },
+    {
+      "available_sentences": 260,
+      "report_id": "38075979110b7d53ff14f344",
+      "source": "unit42_apt"
+    },
+    {
+      "available_sentences": 119,
+      "report_id": "e069e4b0268a3fb1e3fe95e8",
+      "source": "unit42_apt"
+    },
+    {
+      "available_sentences": 243,
+      "report_id": "c729da232a33dbb604e5df8b",
+      "source": "unit42_apt"
+    },
+    {
+      "available_sentences": 81,
+      "report_id": "14194dc35ccd45c21e3d72f6",
+      "source": "unit42_apt"
+    },
+    {
+      "available_sentences": 79,
+      "report_id": "b73e08d2096b106d9a307088",
+      "source": "unit42_apt"
+    },
+    {
+      "available_sentences": 85,
+      "report_id": "4f600f1ce6684474842959b8",
+      "source": "unit42_apt"
+    },
+    {
+      "available_sentences": 103,
+      "report_id": "fa8104f3562039c933f18221",
+      "source": "bitdefender_apt"
+    },
+    {
+      "available_sentences": 171,
+      "report_id": "f1b89dea6e7b72513cc6709b",
+      "source": "bitdefender_apt"
+    },
+    {
+      "available_sentences": 366,
+      "report_id": "25ff6a8c503a25199c0ab36c",
+      "source": "bitdefender_apt"
+    },
+    {
+      "available_sentences": 240,
+      "report_id": "60702b56fcf15db86925ae9b",
+      "source": "bitdefender_apt"
+    },
+    {
+      "available_sentences": 208,
+      "report_id": "88cd45ec84017a715794cf55",
+      "source": "bitdefender_apt"
+    },
+    {
+      "available_sentences": 198,
+      "report_id": "f80f710c4a9e540b0f6d1321",
+      "source": "bitdefender_apt"
+    },
+    {
+      "available_sentences": 282,
+      "report_id": "6bb07611f1eeb10d26fa0642",
+      "source": "bitdefender_apt"
+    },
+    {
+      "available_sentences": 135,
+      "report_id": "9639044939b4bd85f8a082d1",
+      "source": "bitdefender_apt"
+    },
+    {
+      "available_sentences": 113,
+      "report_id": "815d9f3c81141e8304544705",
+      "source": "talos_apt"
+    },
+    {
+      "available_sentences": 154,
+      "report_id": "f2760e5d477c1d0201dfcde9",
+      "source": "talos_apt"
+    },
+    {
+      "available_sentences": 51,
+      "report_id": "5e1ae8598a3190a40e971e75",
+      "source": "talos_apt"
+    },
+    {
+      "available_sentences": 104,
+      "report_id": "34a69ba899aa008f4adb073e",
+      "source": "talos_apt"
+    },
+    {
+      "available_sentences": 79,
+      "report_id": "45eb68d7afa1e6957c7f63cd",
+      "source": "talos_apt"
+    },
+    {
+      "available_sentences": 142,
+      "report_id": "9a0df0daa6e9bbd8be7e59ca",
+      "source": "talos_apt"
+    },
+    {
+      "available_sentences": 87,
+      "report_id": "058f843aeaa9ec4adca82c6f",
+      "source": "talos_apt"
+    },
+    {
+      "available_sentences": 72,
+      "report_id": "50c373eae1b2148f3741d738",
+      "source": "talos_apt"
+    },
+    {
+      "available_sentences": 157,
+      "report_id": "2eb0f2523ce8ecb713812b25",
+      "source": "groupib_apt"
+    },
+    {
+      "available_sentences": 183,
+      "report_id": "09d53ec381a357b429dd016f",
+      "source": "groupib_apt"
+    },
+    {
+      "available_sentences": 139,
+      "report_id": "557c634c63b9b17ee244314f",
+      "source": "groupib_apt"
+    },
+    {
+      "available_sentences": 101,
+      "report_id": "c0bbf873a9313fdb1f5e5663",
+      "source": "groupib_apt"
+    },
+    {
+      "available_sentences": 178,
+      "report_id": "cd2f258cf12817c97f07c551",
+      "source": "groupib_apt"
+    },
+    {
+      "available_sentences": 118,
+      "report_id": "a6c69f2da9f7e80a216c1b53",
+      "source": "groupib_apt"
+    },
+    {
+      "available_sentences": 133,
+      "report_id": "451a055c289880043ee47fe9",
+      "source": "groupib_apt"
+    },
+    {
+      "available_sentences": 162,
+      "report_id": "cdf25b6a6bfd4f760596c1a0",
+      "source": "groupib_apt"
+    },
+    {
+      "available_sentences": 92,
+      "report_id": "e1e56cee65e987682ba6b0e0",
+      "source": "volexity_apt"
+    },
+    {
+      "available_sentences": 82,
+      "report_id": "fa25c7a71a1a1146afb51527",
+      "source": "volexity_apt"
+    },
+    {
+      "available_sentences": 96,
+      "report_id": "5ff5e264538458f7827ba4af",
+      "source": "volexity_apt"
+    },
+    {
+      "available_sentences": 107,
+      "report_id": "fed34ed7f1e2736e46401586",
+      "source": "volexity_apt"
+    },
+    {
+      "available_sentences": 106,
+      "report_id": "5a84fc7216175c6f3b4d792a",
+      "source": "volexity_apt"
+    },
+    {
+      "available_sentences": 158,
+      "report_id": "6c2a617a1c95f346d305253f",
+      "source": "volexity_apt"
+    },
+    {
+      "available_sentences": 87,
+      "report_id": "9cfddca3a5c3c13e3828fcb2",
+      "source": "volexity_apt"
+    },
+    {
+      "available_sentences": 56,
+      "report_id": "5e044650f0385cd52e7476b4",
+      "source": "volexity_apt"
+    },
+    {
+      "available_sentences": 78,
+      "report_id": "f2171d05a9167276915654d3",
+      "source": "sentinellabs_apt"
+    },
+    {
+      "available_sentences": 62,
+      "report_id": "9335217ba8a0ccbf22677e43",
+      "source": "sentinellabs_apt"
+    },
+    {
+      "available_sentences": 107,
+      "report_id": "b9a539605b27b20e43fda88f",
+      "source": "sentinellabs_apt"
+    },
+    {
+      "available_sentences": 82,
+      "report_id": "dd3dacbd03245509f876e999",
+      "source": "sentinellabs_apt"
+    },
+    {
+      "available_sentences": 56,
+      "report_id": "e2520d9ebd7f837187dabda3",
+      "source": "sentinellabs_apt"
+    },
+    {
+      "available_sentences": 68,
+      "report_id": "514a6e1c1b0bd4e6a76121dd",
+      "source": "sentinellabs_apt"
+    },
+    {
+      "available_sentences": 116,
+      "report_id": "022242a45abbdba229f274a9",
+      "source": "sentinellabs_apt"
+    },
+    {
+      "available_sentences": 173,
+      "report_id": "a0f5e2b4222c151757e0215e",
+      "source": "sentinellabs_apt"
+    },
+    {
+      "available_sentences": 34,
+      "report_id": "d34baf35bada3863bda1bfdb",
+      "source": "asec_apt"
+    },
+    {
+      "available_sentences": 30,
+      "report_id": "9c426231b5491f50a599df78",
+      "source": "asec_apt"
+    },
+    {
+      "available_sentences": 75,
+      "report_id": "18ae905f53869e511d0d05a5",
+      "source": "asec_apt"
+    },
+    {
+      "available_sentences": 25,
+      "report_id": "9b3472f961e79fea65e85afe",
+      "source": "asec_apt"
+    },
+    {
+      "available_sentences": 36,
+      "report_id": "e73c7ac9a81f8ddc084e9a3c",
+      "source": "asec_apt"
+    },
+    {
+      "available_sentences": 30,
+      "report_id": "f136e7997b8e975d35a0aad0",
+      "source": "asec_apt"
+    },
+    {
+      "available_sentences": 64,
+      "report_id": "22ef22184a3d86c7a3e96b85",
+      "source": "asec_apt"
+    },
+    {
+      "available_sentences": 87,
+      "report_id": "d3dfc320054b73e1ec44902b",
+      "source": "asec_apt"
+    }
+  ],
+  "total_calls": 6912,
+  "windows": 144
+}

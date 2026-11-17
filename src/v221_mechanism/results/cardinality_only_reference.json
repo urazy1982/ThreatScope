@@ -1,0 +1,46 @@
+{
+  "status": "CARDINALITY_PRESERVING_REFERENCE_DONE",
+  "seed": 20261113,
+  "draws_per_model": 10000,
+  "models": [
+    {
+      "model": "Qwen/Qwen2.5-3B-Instruct",
+      "observed_raw_interaction": 0.11359126984126984,
+      "draws": 10000,
+      "null_mean": -0.00013035714285714284,
+      "null_standard_deviation": 0.018540959708062615,
+      "null_central_95_interval": [
+        -0.036210317460317464,
+        0.036210317460317464
+      ],
+      "empirical_two_sided_tail_fraction": 9.999000099990002e-05,
+      "interpretation": "Exploratory index-exchangeability reference, not a randomized experiment or evidence of mediation"
+    },
+    {
+      "model": "meta-llama/Llama-3.2-3B-Instruct",
+      "observed_raw_interaction": 0.049727182539682536,
+      "draws": 10000,
+      "null_mean": -0.00011200396825396802,
+      "null_standard_deviation": 0.021224485480982134,
+      "null_central_95_interval": [
+        -0.04154265873015873,
+        0.0417906746031746
+      ],
+      "empirical_two_sided_tail_fraction": 0.0193980601939806,
+      "interpretation": "Exploratory index-exchangeability reference, not a randomized experiment or evidence of mediation"
+    },
+    {
+      "model": "mistralai/Mistral-7B-Instruct-v0.3",
+      "observed_raw_interaction": 0.06014384920634921,
+      "draws": 10000,
+      "null_mean": -0.00017509920634920637,
+      "null_standard_deviation": 0.021787488041167632,
+      "null_central_95_interval": [
+        -0.04303075396825397,
+        0.04327876984126984
+      ],
+      "empirical_two_sided_tail_fraction": 0.0047995200479952005,
+      "interpretation": "Exploratory index-exchangeability reference, not a randomized experiment or evidence of mediation"
+    }
+  ]
+}

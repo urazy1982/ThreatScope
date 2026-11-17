@@ -1,0 +1,26 @@
+{
+  "status": "COMPUTED",
+  "rows": [
+    {
+      "model": "Qwen/Qwen2.5-3B-Instruct",
+      "publishers": 8,
+      "nf4_minus_bf16_pp": 18.674532,
+      "exact_signflip_p_exploratory": 0.0078125,
+      "validity_note": "8-publisher historical-archive retrospective holdout; not independent corpus"
+    },
+    {
+      "model": "meta-llama/Llama-3.2-3B-Instruct",
+      "publishers": 8,
+      "nf4_minus_bf16_pp": 5.26644,
+      "exact_signflip_p_exploratory": 0.046875,
+      "validity_note": "8-publisher historical-archive retrospective holdout; not independent corpus"
+    },
+    {
+      "model": "mistralai/Mistral-7B-Instruct-v0.3",
+      "publishers": 8,
+      "nf4_minus_bf16_pp": 1.945862,
+      "exact_signflip_p_exploratory": 0.203125,
+      "validity_note": "8-publisher historical-archive retrospective holdout; not independent corpus"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "anchor": 7,
+  "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+  "generated_tokens": 96,
+  "generation_cap_reached": true,
+  "identity_sha256": "e3c6b2a49b5149f82dcda4cef85763eecd5ed2aa4279817977acb84e07f3b772",
+  "indices": [],
+  "input_sha256": "27cf73fe1aa9a7449cf7bd08506ab7c21d75ba8e61e387ce2446758957211047",
+  "input_tokens": 524,
+  "latency_seconds": 1.92987,
+  "model": "Qwen/Qwen2.5-3B-Instruct",
+  "precision": "fp4",
+  "prompt_sha256": "4c70d785c843132ae95463243416058c63a69392d9339efca2b3f8c23abdd038",
+  "raw": "target\":\"[\"6\"]  \nThe TARGET sentences for the \"adversary behavior\" category are as follows:\n\n- The malware variants were spotted with the group utilizing the 64-bit malware variant with two export functions \"workerIntstance\" and \"debugPoint\".\n- The malware variants were revealed to be part of the group's malware.\n- Notably, Framework POS malware appears to continue to have low detection ratio according to the detections displayed on VirusTotal (as of September ",
+  "raw_sha256": "eeb0230eae16fd290260cd531e612e44847c3af78dc216e67e722c15881b43f7",
+  "record_sha256": "dbd349eea1b53e17b3b837e32273c0e5b5e32118bb3f1f4f243092a26e3aa7ad",
+  "revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+  "valid": false,
+  "window_id": "43f957a95147ef376bbd6a03"
+}

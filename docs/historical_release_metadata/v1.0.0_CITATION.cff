@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "If you use this artifact, please cite the article and this software release."
+title: "ThreatScope: research artifact for One Digit, Different Decisions"
+abstract: >-
+  Code, text-free checkpoints and reproduction scripts for a study of
+  quantization-dependent example-index sensitivity (BF16 vs NF4) in
+  structured cyber-threat intelligence relevance selection with three
+  instruction-tuned LLMs and three output procedures.
+type: software
+version: 1.0.0
+date-released: 2026-11-13
+license: MIT
+repository-code: "https://github.com/urazy1982/ThreatScope"
+keywords:
+  - cyber threat intelligence
+  - large language models
+  - quantization
+  - in-context learning
+  - prompt sensitivity
+  - structured output
+authors:
+  - family-names: Yavanoğlu
+    given-names: Uraz
+    orcid: "https://orcid.org/0000-0001-8358-8150"
+    affiliation: "Department of Computer Engineering, Gazi University, Ankara, Türkiye"
+    email: uraz@gazi.edu.tr
+preferred-citation:
+  type: article
+  title: "One Digit, Different Decisions: Quantization-Dependent Example Sensitivity in Structured Cyber-Threat Intelligence Relevance Selection"
+  authors:
+    - family-names: Yavanoğlu
+      given-names: Uraz
+      orcid: "https://orcid.org/0000-0001-8358-8150"
+  journal: "Computers & Security"
+  year: 2026
+  status: in-preparation

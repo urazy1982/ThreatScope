@@ -1,0 +1,120 @@
+{
+  "status": "E5_CROSS_STUDY_DECISION_LEVEL_CHECKS_PASS",
+  "source_zip_sha256": {
+    "E1E2": "5303fcb7e16111068d297b33e9dce83ff147c84399bbb102e567d72d9ddd076a",
+    "E3": "fe7ec4a5bb4662deb47d12ac4ce78fede1b45f40ddddacca3035c6272bc5d4c6",
+    "E4": "fd1d50732f54b9235d3a40869a7fde4c62de872c6d596ec638590b992145f36f"
+  },
+  "counts": {
+    "E1": 1728,
+    "E2": 2304,
+    "E3": 3456,
+    "E4": 1152
+  },
+  "unique_E3_windows": 72,
+  "unique_E4_windows": 72,
+  "E1_valid": 1675,
+  "E1_invalid": 53,
+  "E4_valid_by_model": {
+    "Qwen/Qwen2.5-3B-Instruct": 529,
+    "meta-llama/Llama-3.2-3B-Instruct": 576
+  },
+  "E2_agreement": {
+    "bf16": 0.9739583333333334,
+    "nf4": 0.9861111111111112
+  },
+  "E3_results": [
+    {
+      "model": "Qwen/Qwen2.5-3B-Instruct",
+      "publishers": 8,
+      "nf4_minus_bf16_pp": 18.674532,
+      "exact_signflip_p_exploratory": 0.0078125,
+      "validity_note": "8-publisher historical-archive retrospective holdout; not independent corpus"
+    },
+    {
+      "model": "meta-llama/Llama-3.2-3B-Instruct",
+      "publishers": 8,
+      "nf4_minus_bf16_pp": 5.26644,
+      "exact_signflip_p_exploratory": 0.046875,
+      "validity_note": "8-publisher historical-archive retrospective holdout; not independent corpus"
+    },
+    {
+      "model": "mistralai/Mistral-7B-Instruct-v0.3",
+      "publishers": 8,
+      "nf4_minus_bf16_pp": 1.945862,
+      "exact_signflip_p_exploratory": 0.203125,
+      "validity_note": "8-publisher historical-archive retrospective holdout; not independent corpus"
+    }
+  ],
+  "E4_effects": [
+    {
+      "model": "Qwen/Qwen2.5-3B-Instruct",
+      "contrast": "NF4_minus_BF16",
+      "effect_pp": 18.67453231,
+      "p_exploratory": 0.0078125,
+      "publishers": 8,
+      "positive": 8,
+      "negative": 0,
+      "tied": 0
+    },
+    {
+      "model": "Qwen/Qwen2.5-3B-Instruct",
+      "contrast": "FP4_minus_BF16",
+      "effect_pp": 27.15667517,
+      "p_exploratory": 0.0078125,
+      "publishers": 8,
+      "positive": 8,
+      "negative": 0,
+      "tied": 0
+    },
+    {
+      "model": "Qwen/Qwen2.5-3B-Instruct",
+      "contrast": "FP4_minus_NF4",
+      "effect_pp": 8.48214286,
+      "p_exploratory": 0.171875,
+      "publishers": 8,
+      "positive": 5,
+      "negative": 3,
+      "tied": 0,
+      "holm2_primary_p": 0.34375
+    },
+    {
+      "model": "meta-llama/Llama-3.2-3B-Instruct",
+      "contrast": "NF4_minus_BF16",
+      "effect_pp": 5.26643991,
+      "p_exploratory": 0.046875,
+      "publishers": 8,
+      "positive": 6,
+      "negative": 1,
+      "tied": 1
+    },
+    {
+      "model": "meta-llama/Llama-3.2-3B-Instruct",
+      "contrast": "FP4_minus_BF16",
+      "effect_pp": 7.4787415,
+      "p_exploratory": 0.0234375,
+      "publishers": 8,
+      "positive": 7,
+      "negative": 1,
+      "tied": 0
+    },
+    {
+      "model": "meta-llama/Llama-3.2-3B-Instruct",
+      "contrast": "FP4_minus_NF4",
+      "effect_pp": 2.21230159,
+      "p_exploratory": 0.1953125,
+      "publishers": 8,
+      "positive": 6,
+      "negative": 2,
+      "tied": 0,
+      "holm2_primary_p": 0.34375
+    }
+  ],
+  "limitations": [
+    "E1/E2 exported rows do not constitute model-inference reproduction",
+    "E1 F1 requires private human-label evidence for independent reproduction",
+    "E3 source-selection archive and private frozen input not included",
+    "E4 compares FP4/NF4 within same model family, BitAndBytes implementation and E3 dataset",
+    "No independent-corpus or prospective holdout claim"
+  ]
+}

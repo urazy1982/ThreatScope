@@ -1,0 +1,162 @@
+{
+ "cells": [
+  {
+   "model": "Qwen/Qwen2.5-3B-Instruct",
+   "precision": "bf16",
+   "condition": "N0",
+   "TP": 76,
+   "FP": 51,
+   "FN": 25,
+   "TN": 121,
+   "F1": 0.6666666666666666,
+   "matches_author_side": true
+  },
+  {
+   "model": "Qwen/Qwen2.5-3B-Instruct",
+   "precision": "nf4",
+   "condition": "N0",
+   "TP": 78,
+   "FP": 78,
+   "FN": 23,
+   "TN": 94,
+   "F1": 0.6070038910505836,
+   "matches_author_side": true
+  },
+  {
+   "model": "Qwen/Qwen2.5-3B-Instruct",
+   "precision": "bf16",
+   "condition": "N1",
+   "TP": 84,
+   "FP": 55,
+   "FN": 17,
+   "TN": 117,
+   "F1": 0.7,
+   "matches_author_side": true
+  },
+  {
+   "model": "Qwen/Qwen2.5-3B-Instruct",
+   "precision": "nf4",
+   "condition": "N1",
+   "TP": 88,
+   "FP": 88,
+   "FN": 13,
+   "TN": 84,
+   "F1": 0.6353790613718412,
+   "matches_author_side": true
+  },
+  {
+   "model": "meta-llama/Llama-3.2-3B-Instruct",
+   "precision": "bf16",
+   "condition": "N0",
+   "TP": 65,
+   "FP": 52,
+   "FN": 36,
+   "TN": 120,
+   "F1": 0.5963302752293578,
+   "matches_author_side": true
+  },
+  {
+   "model": "meta-llama/Llama-3.2-3B-Instruct",
+   "precision": "nf4",
+   "condition": "N0",
+   "TP": 72,
+   "FP": 67,
+   "FN": 29,
+   "TN": 105,
+   "F1": 0.6,
+   "matches_author_side": true
+  },
+  {
+   "model": "meta-llama/Llama-3.2-3B-Instruct",
+   "precision": "bf16",
+   "condition": "N1",
+   "TP": 81,
+   "FP": 72,
+   "FN": 20,
+   "TN": 100,
+   "F1": 0.6377952755905512,
+   "matches_author_side": true
+  },
+  {
+   "model": "meta-llama/Llama-3.2-3B-Instruct",
+   "precision": "nf4",
+   "condition": "N1",
+   "TP": 76,
+   "FP": 68,
+   "FN": 25,
+   "TN": 104,
+   "F1": 0.6204081632653061,
+   "matches_author_side": true
+  },
+  {
+   "model": "mistralai/Mistral-7B-Instruct-v0.3",
+   "precision": "bf16",
+   "condition": "N0",
+   "TP": 84,
+   "FP": 78,
+   "FN": 17,
+   "TN": 94,
+   "F1": 0.6387832699619772,
+   "matches_author_side": true
+  },
+  {
+   "model": "mistralai/Mistral-7B-Instruct-v0.3",
+   "precision": "nf4",
+   "condition": "N0",
+   "TP": 83,
+   "FP": 77,
+   "FN": 18,
+   "TN": 95,
+   "F1": 0.6360153256704981,
+   "matches_author_side": true
+  },
+  {
+   "model": "mistralai/Mistral-7B-Instruct-v0.3",
+   "precision": "bf16",
+   "condition": "N1",
+   "TP": 85,
+   "FP": 75,
+   "FN": 16,
+   "TN": 97,
+   "F1": 0.6513409961685823,
+   "matches_author_side": true
+  },
+  {
+   "model": "mistralai/Mistral-7B-Instruct-v0.3",
+   "precision": "nf4",
+   "condition": "N1",
+   "TP": 84,
+   "FP": 83,
+   "FN": 17,
+   "TN": 89,
+   "F1": 0.6268656716417911,
+   "matches_author_side": true
+  }
+ ],
+ "did": [
+  {
+   "model": "Qwen/Qwen2.5-3B-Instruct",
+   "did_pp": -0.8844091136159792,
+   "p_exact_signflip": 0.82421875,
+   "positive": 6,
+   "negative": 3,
+   "matches_author_side": true
+  },
+  {
+   "model": "meta-llama/Llama-3.2-3B-Instruct",
+   "did_pp": -7.150081682827352,
+   "p_exact_signflip": 0.54296875,
+   "positive": 5,
+   "negative": 4,
+   "matches_author_side": true
+  },
+  {
+   "model": "mistralai/Mistral-7B-Instruct-v0.3",
+   "did_pp": -4.012100836217682,
+   "p_exact_signflip": 0.5703125,
+   "positive": 4,
+   "negative": 5,
+   "matches_author_side": true
+  }
+ ]
+}

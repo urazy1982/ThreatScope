@@ -1,0 +1,56 @@
+{
+  "status": "SYNTHETIC_GRID_PASS_NO_REAL_V22_MODEL_RESULTS",
+  "synthetic_checkpoint_count": 13824,
+  "windows": 144,
+  "warning": "All values are deliberately simulated and must never enter empirical results tables.",
+  "model_results": [
+    {
+      "arm": "B_schema",
+      "model": "Qwen/Qwen2.5-3B-Instruct",
+      "synthetic_interaction": 0.5,
+      "synthetic_p": 0.00390625,
+      "publishers": 9,
+      "synthetic_holm_p": 0.01171875
+    },
+    {
+      "arm": "B_schema",
+      "model": "meta-llama/Llama-3.2-3B-Instruct",
+      "synthetic_interaction": 0.5,
+      "synthetic_p": 0.00390625,
+      "publishers": 9,
+      "synthetic_holm_p": 0.01171875
+    },
+    {
+      "arm": "B_schema",
+      "model": "mistralai/Mistral-7B-Instruct-v0.3",
+      "synthetic_interaction": 0.5,
+      "synthetic_p": 0.00390625,
+      "publishers": 9,
+      "synthetic_holm_p": 0.01171875
+    },
+    {
+      "arm": "C_single_choice",
+      "model": "Qwen/Qwen2.5-3B-Instruct",
+      "synthetic_interaction": 0.5,
+      "synthetic_p": 0.00390625,
+      "publishers": 9,
+      "synthetic_holm_p": 0.01171875
+    },
+    {
+      "arm": "C_single_choice",
+      "model": "meta-llama/Llama-3.2-3B-Instruct",
+      "synthetic_interaction": 0.5,
+      "synthetic_p": 0.00390625,
+      "publishers": 9,
+      "synthetic_holm_p": 0.01171875
+    },
+    {
+      "arm": "C_single_choice",
+      "model": "mistralai/Mistral-7B-Instruct-v0.3",
+      "synthetic_interaction": 0.5,
+      "synthetic_p": 0.00390625,
+      "publishers": 9,
+      "synthetic_holm_p": 0.01171875
+    }
+  ]
+}

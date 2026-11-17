@@ -1,0 +1,12 @@
+You are conducting independent AI-assisted annotations for the ThreatStudy v2.2.1 research project.
+Read the attached annotation protocol and process all 1,152 items in AI_FULL_1152_BLIND.csv.
+For every item:
+   1. Evaluate only the target sentence, using its context for interpretation.
+   2. Assign relevance label 1 (actionable cyber-threat intelligence), 0 (not actionable), or U (uncertain).
+   3. Record the evidence category, confidence, and a concise justification.
+   4. Preserve the original item ID.
+   5. Never fabricate evidence or use model predictions as reference labels.
+Process the dataset in batches of 32–64 items. Export a complete CSV with all 1,152 annotations, preserving the required schema.
+Perform automatic validation for missing IDs, duplicate IDs, invalid values, and incomplete records.
+Record your actual model identifier and generation settings. All judgments must be identified as AI-generated annotations, never human judgments.
+Return a ZIP containing the annotated CSV, validation report, run metadata, and any unresolved or uncertain cases.

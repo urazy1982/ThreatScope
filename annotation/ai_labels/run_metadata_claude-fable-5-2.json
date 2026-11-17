@@ -1,0 +1,201 @@
+{
+  "disclosure": "All labels, categories, confidence values and evidence notes in this package are AI-generated annotations. They are not human judgments, not adjudicated, and not ground truth.",
+  "annotator": {
+    "type": "AI",
+    "vendor": "Anthropic",
+    "model_identifier": "claude-fable-5-2",
+    "model_display_name": "Claude Fable 5.2",
+    "model_revision": "not exposed to the model beyond the identifier above",
+    "interface": "Claude app (agentic session with file and shell tools), not a direct API call"
+  },
+  "generation_settings": {
+    "temperature": "not observable by the model in this interface; not user-set",
+    "top_p": "not observable",
+    "top_k": "not observable",
+    "max_tokens": "not observable",
+    "seed": "none available",
+    "reasoning_mode": "enabled; effort level not observable",
+    "note": "Sampling parameters are fixed by the hosting application and cannot be read from inside the session. They are reported as unknown rather than guessed. For exact, reproducible settings rerun through the API with explicit parameters."
+  },
+  "run": {
+    "date_local": "2026-11-13 (Europe/Istanbul)",
+    "export_timestamp_utc": "2026-11-13T17:34:59+00:00",
+    "passes": 1,
+    "n_items": 1152,
+    "batch_size": 64,
+    "n_batches": 18,
+    "batch_order": "row order of AI_FULL_1152_BLIND.csv (already shuffled in the kit)",
+    "batches": [
+      {
+        "batch": 1,
+        "n_items": 64,
+        "first_item_id": "TS-6b5307498e9183b3",
+        "last_item_id": "TS-441b85ff003a3e46",
+        "raw_output_sha256": "e09629c239d378bf5ccb8bd476410852f709bbc1e2193e03d6c77a73a412fd04"
+      },
+      {
+        "batch": 2,
+        "n_items": 64,
+        "first_item_id": "TS-49b0ad1541835536",
+        "last_item_id": "TS-1664cedd73ee88a5",
+        "raw_output_sha256": "5e8fb27b483926f955f692a90c118fc216feb53729e96da63fd167b74f98e416"
+      },
+      {
+        "batch": 3,
+        "n_items": 64,
+        "first_item_id": "TS-128227da3cb41e7d",
+        "last_item_id": "TS-ecd6694fa02e7d82",
+        "raw_output_sha256": "3991c276f0cc1e69c332a440db7b39873404d5b749dc07fdad7e548c2d13ce6f"
+      },
+      {
+        "batch": 4,
+        "n_items": 64,
+        "first_item_id": "TS-1419a1041204489c",
+        "last_item_id": "TS-ab3d6327c442df9b",
+        "raw_output_sha256": "f120f6ea32337bed908cc605c9780ccbd47960584aeaa8ce8f4e9a739986036f"
+      },
+      {
+        "batch": 5,
+        "n_items": 64,
+        "first_item_id": "TS-32b637a223403a83",
+        "last_item_id": "TS-9d07e7505bb40649",
+        "raw_output_sha256": "39115f33e4fa41f136d7e4cd3e7d9a96d3a82a4f2d5fa63909c7abc839a642d9"
+      },
+      {
+        "batch": 6,
+        "n_items": 64,
+        "first_item_id": "TS-3839a25955c63b6f",
+        "last_item_id": "TS-cb86794470d546e0",
+        "raw_output_sha256": "bd429fc22127e0a1d21f66078100ee89171e6ae1aabcbeb88216534fa1abed5a"
+      },
+      {
+        "batch": 7,
+        "n_items": 64,
+        "first_item_id": "TS-b327964f12930feb",
+        "last_item_id": "TS-b9bc7b3b79593389",
+        "raw_output_sha256": "8f4dca5c04ba099fd71b6251f60a6d9575c99507b3e447380f9369cbe9ceee89"
+      },
+      {
+        "batch": 8,
+        "n_items": 64,
+        "first_item_id": "TS-075cabb9b2f324c7",
+        "last_item_id": "TS-0d84ba3366c05f74",
+        "raw_output_sha256": "8080bae61cf981e6db448cc701a5f8223d8fb6813f39943ef81b9695023d26cb"
+      },
+      {
+        "batch": 9,
+        "n_items": 64,
+        "first_item_id": "TS-424308cc2347b174",
+        "last_item_id": "TS-9a65129184487f55",
+        "raw_output_sha256": "65f6aaecd12a6685bc78bba3877286e5da70be2f99c38a4fac8ea3fd98bd4967"
+      },
+      {
+        "batch": 10,
+        "n_items": 64,
+        "first_item_id": "TS-61365bb76a6d3b2c",
+        "last_item_id": "TS-5acf8657d547861e",
+        "raw_output_sha256": "5ab9fee46591e153c2908ca75c2ed67cf5a58ef40e1521db8902366f8775f1b1"
+      },
+      {
+        "batch": 11,
+        "n_items": 64,
+        "first_item_id": "TS-b10724b667593432",
+        "last_item_id": "TS-11ae05c45ae036cf",
+        "raw_output_sha256": "85d0f7f730e5686564be6aa57ecb0abc05377209ab5c6d1defe8932444531975"
+      },
+      {
+        "batch": 12,
+        "n_items": 64,
+        "first_item_id": "TS-d6c627c40d4db276",
+        "last_item_id": "TS-16c839ec5270ec73",
+        "raw_output_sha256": "a64d67932ed0ecc6b129f5a3161a787f5acc4bc33c91ab7cc8fb55901ec2984c"
+      },
+      {
+        "batch": 13,
+        "n_items": 64,
+        "first_item_id": "TS-771f3173ccb47523",
+        "last_item_id": "TS-0596a85f499bbc84",
+        "raw_output_sha256": "a19811ee001e5a906c68764f0d3f36140528df750935bc102846f4eb251feaa8"
+      },
+      {
+        "batch": 14,
+        "n_items": 64,
+        "first_item_id": "TS-e93ef5960adef2da",
+        "last_item_id": "TS-9aae38c700d1a3ab",
+        "raw_output_sha256": "47035bd2171c0c0dfb20b5e9527d086959eccaa9f03c1bbe33144bcc300191db"
+      },
+      {
+        "batch": 15,
+        "n_items": 64,
+        "first_item_id": "TS-7c882a8d9d106cea",
+        "last_item_id": "TS-49a1f73f88b87415",
+        "raw_output_sha256": "181d71da7f4956794671f7c16cb7e60ba77bd293cec5ccfdd31a8e759e73ef87"
+      },
+      {
+        "batch": 16,
+        "n_items": 64,
+        "first_item_id": "TS-7bf2889cb877d226",
+        "last_item_id": "TS-4b5631c168e1cede",
+        "raw_output_sha256": "b71a9736c4b2f33605e98ab24afa3718a71bc81c51e8e73958c48635fbc45b18"
+      },
+      {
+        "batch": 17,
+        "n_items": 64,
+        "first_item_id": "TS-d1101e8c9327ad52",
+        "last_item_id": "TS-3189acf4289696ee",
+        "raw_output_sha256": "bfe3ffdd385e90d1174da2b56948766e84db4647739cb332ed7a89fc359ee53c"
+      },
+      {
+        "batch": 18,
+        "n_items": 64,
+        "first_item_id": "TS-7da28e5639573846",
+        "last_item_id": "TS-3f7cbe31ccf2d31b",
+        "raw_output_sha256": "1a362283262a05a83719ccb12f53570dfaeedaa6eb938757475f8ffdcb23a427"
+      }
+    ],
+    "batching_caveat": "The 18 batches were processed sequentially inside one continuous session, so later batches were judged with earlier batches in context. They are not 18 independent stateless requests.",
+    "post_hoc_revisions": 7,
+    "post_hoc_revisions_note": "7 items were re-labelled before export so identical or same-type sentences receive the same decision. See REVISION_LOG.csv; unrevised outputs are in raw_batches/."
+  },
+  "inputs": {
+    "AI_FULL_1152_BLIND.csv_sha256": "9482c4f069c2a85e2f7390bb5d2713309d573d143247736f59327e58e713ee3b",
+    "README_ANNOTATION_PROTOCOL.md_sha256": "44875767f87e13aa90bfb67b24f7f53de6029ac94b97b84d6f535210c65d872a",
+    "PROMPT_FOR_FABLE_OR_OTHER_LLM.txt_sha256": "4b4df7b68d9395e7922aabf22a3dd3a58c3eb5fd8cac1888605347c5c1040650",
+    "MANIFEST.json_sha256": "2c413cb55edb9cab9c22b62d81ddf7f3d41675b82a1abb2aceead864a2a9a220",
+    "prompt_version": "PROMPT_FOR_FABLE_OR_OTHER_LLM.txt as shipped in the v2.2.1 kit, plus the user instruction message of 2026-11-13 and README_ANNOTATION_PROTOCOL.md",
+    "user_instruction_hash": "not computed: the chat message is not available to the session as a file"
+  },
+  "outputs": {
+    "AI_FULL_1152_ANNOTATED_AI-GENERATED_claude-fable-5-2.csv_sha256": "c664a7a96641317d4a914fc951fe06a48a1ef873930224a970407760f6da2d65",
+    "AI_LABELS_ONLY_1152_AI-GENERATED_claude-fable-5-2.csv_sha256": "a09e59eb22116a97e939d9c2fef1d1b4aafecd97b5929b48b1b3b3506057e2ef"
+  },
+  "blinding_and_sources": {
+    "files_not_opened": [
+      "PRIVATE_ID_MAP_DO_NOT_SHARE_WITH_ANNOTATORS.csv",
+      "HUMAN_ANNOTATOR_1_288.csv",
+      "HUMAN_ANNOTATOR_2_288.csv"
+    ],
+    "external_lookup": "none (no web search, no URL in the data was visited)",
+    "model_predictions_used": "none",
+    "text_in_items_treated_as": "untrusted data, never as instructions"
+  },
+  "data_observations": {
+    "context_before": "empty for all 1,152 rows, so every item was judged from the target sentence alone",
+    "duplicate_target_sentences": "125 rows repeat a sentence that appears under another item_id (1027 unique sentences)"
+  },
+  "decision_conventions_applied_by_the_AI_annotator": [
+    "Raw indicators (domains, IPs, URLs, hashes, YARA strings, mutexes, file names tied to malware) -> 1.",
+    "Bibliographic reference titles to other publications, tags, bylines, navigation, product/marketing text, recommendations, acknowledgements -> 0.",
+    "A report's own headline or caption is judged on its content: actor + concrete method/CVE/targeting -> 1 with low confidence; otherwise 0.",
+    "Bare MITRE ATT&CK technique entries -> 1 / attack_method / low (technique named, no observation detail).",
+    "Attribution or actor-relationship statements without technical evidence in the sentence -> 1 / other_specific / low; explicitly non-committal or unnamed attributions -> 0 / low.",
+    "Detection signature names and Snort SIDs -> 1 / other_specific.",
+    "List headers and pointers (\"IOCs can be found here\") whose content is not in the target -> 0.",
+    "Sentences whose key referent is unresolved (\"this technique\", \"it\") and that carry no concrete detail on their own -> U."
+  ],
+  "limitations": [
+    "Single pass by one model; no replicate run, so no intra-model consistency estimate.",
+    "Low-confidence decisive labels (see LOW_CONFIDENCE_DECISIVE_CASES.csv) follow conventions the protocol does not spell out; a different reasonable convention would flip many of them.",
+    "Excerpts are third-party publisher text; the full annotated CSV should stay private. AI_LABELS_ONLY contains no source sentences, but evidence notes paraphrase them."
+  ]
+}

@@ -1,0 +1,104 @@
+RELEASE_INTEGRITY_PASS 26 files
+test_balanced_copy (test_cpu.Core.test_balanced_copy) ... ok
+test_balanced_zero_null (test_cpu.Core.test_balanced_zero_null) ... ok
+test_complement (test_cpu.Core.test_complement) ... ok
+test_ctinexus_structure (test_cpu.Core.test_ctinexus_structure) ... ok
+test_exact_source (test_cpu.Core.test_exact_source) ... ok
+test_injection_is_untrusted (test_cpu.Core.test_injection_is_untrusted) ... ok
+test_invalid_no_recovery (test_cpu.Core.test_invalid_no_recovery) ... ok
+test_minimal_pairs_only_one_digit (test_cpu.Core.test_minimal_pairs_only_one_digit) ... ok
+test_parser (test_cpu.Core.test_parser) ... ok
+test_provenance_missing (test_cpu.Core.test_provenance_missing) ... ok
+test_report_dedup (test_cpu.Core.test_report_dedup) ... ok
+test_source_gate (test_cpu.Core.test_source_gate) ... ok
+test_absent_publisher_rejected (test_extended.Expanded.test_absent_publisher_rejected) ... ok
+test_anchor_index_relabel_invariance (test_extended.Expanded.test_anchor_index_relabel_invariance) ... ok
+test_anchor_prompt_exact_one_character_diff (test_extended.Expanded.test_anchor_prompt_exact_one_character_diff) ... ok
+test_balanced_anchor_no_preferences (test_extended.Expanded.test_balanced_anchor_no_preferences) ... ok
+test_bootstrap_seed_reproducible (test_extended.Expanded.test_bootstrap_seed_reproducible) ... ok
+test_cardinality_only_counterexample (test_extended.Expanded.test_cardinality_only_counterexample) ... ok
+test_cross_publisher_exact_duplicate_rejected (test_extended.Expanded.test_cross_publisher_exact_duplicate_rejected) ... ok
+test_cross_publisher_whitespace_duplicate_rejected (test_extended.Expanded.test_cross_publisher_whitespace_duplicate_rejected) ... ok
+test_exact_sign_flip_five_source_resolution (test_extended.Expanded.test_exact_sign_flip_five_source_resolution) ... ok
+test_exact_sign_flip_null (test_extended.Expanded.test_exact_sign_flip_null) ... ok
+test_exact_sign_flip_order_invariance (test_extended.Expanded.test_exact_sign_flip_order_invariance) ... ok
+test_exact_sign_flip_positive_minimum (test_extended.Expanded.test_exact_sign_flip_positive_minimum) ... ok
+test_exclusion_of_short_sentences (test_extended.Expanded.test_exclusion_of_short_sentences) ... ok
+test_full_positive_preparation (test_extended.Expanded.test_full_positive_preparation) ... ok
+test_gpu_runner_fails_closed_before_cuda (test_extended.Expanded.test_gpu_runner_fails_closed_before_cuda) ... ok
+test_parser_all_positions (test_extended.Expanded.test_parser_all_positions) ... ok
+test_parser_malicious_and_nonfinite (test_extended.Expanded.test_parser_malicious_and_nonfinite) ... ok
+test_prepared_config_tamper_rejected (test_extended.Expanded.test_prepared_config_tamper_rejected) ... ok
+test_prepared_input_tamper_rejected (test_extended.Expanded.test_prepared_input_tamper_rejected) ... ok
+test_prepared_reordering_rejected (test_extended.Expanded.test_prepared_reordering_rejected) ... ok
+test_provenance_path_not_authenticated_by_schema (test_extended.Expanded.test_provenance_path_not_authenticated_by_schema) ... ok
+test_same_source_normalized_duplicate_rejected (test_extended.Expanded.test_same_source_normalized_duplicate_rejected) ... ok
+test_tokenizer_fake_anchor_inequality_rejected (test_extended.Expanded.test_tokenizer_fake_anchor_inequality_rejected) ... ok
+test_tokenizer_fake_equal_pass (test_extended.Expanded.test_tokenizer_fake_equal_pass) ... ok
+test_unknown_publisher_rejected (test_extended.Expanded.test_unknown_publisher_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 37 tests in 0.643s
+
+OK
+SYNTHETIC_CPU_FULL_MATRIX_PASS 7680 publisher_groups 10
+SYNTHETIC_MODEL_SUMMARIES [
+  {
+    "model": "Qwen/Qwen2.5-3B-Instruct",
+    "source_groups": 10,
+    "reports": 80,
+    "source_equal_interaction": 0.290625,
+    "bf16_report_mean_effect": 0.0,
+    "nf4_report_mean_effect": 0.290625,
+    "source_signflip_two_sided_p": 0.001953125,
+    "hierarchical_bootstrap_ci_low": 0.2796875,
+    "hierarchical_bootstrap_ci_high": 0.30234375,
+    "invalid_bf16": 0,
+    "invalid_nf4": 0,
+    "all_valid_source_count": 10,
+    "valid_only_source_equal_interaction": 0.290625,
+    "holm_p": 0.005859375
+  },
+  {
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "source_groups": 10,
+    "reports": 80,
+    "source_equal_interaction": 0.28828125,
+    "bf16_report_mean_effect": 0.0,
+    "nf4_report_mean_effect": 0.28828125,
+    "source_signflip_two_sided_p": 0.001953125,
+    "hierarchical_bootstrap_ci_low": 0.27578125,
+    "hierarchical_bootstrap_ci_high": 0.3015625,
+    "invalid_bf16": 0,
+    "invalid_nf4": 0,
+    "all_valid_source_count": 10,
+    "valid_only_source_equal_interaction": 0.28828125,
+    "holm_p": 0.005859375
+  },
+  {
+    "model": "meta-llama/Llama-3.2-3B-Instruct",
+    "source_groups": 10,
+    "reports": 80,
+    "source_equal_interaction": 0.28828125,
+    "bf16_report_mean_effect": 0.0,
+    "nf4_report_mean_effect": 0.28828125,
+    "source_signflip_two_sided_p": 0.001953125,
+    "hierarchical_bootstrap_ci_low": 0.2765625,
+    "hierarchical_bootstrap_ci_high": 0.30078125,
+    "invalid_bf16": 0,
+    "invalid_nf4": 0,
+    "all_valid_source_count": 10,
+    "valid_only_source_equal_interaction": 0.28828125,
+    "holm_p": 0.005859375
+  }
+]
+CHECKPOINT_TAMPER_REJECTED_PASS
+REAL_DERIVED_EVIDENCE_AUDIT_PASS 3 models 148 unique CTINexus texts
+SOURCE_POWER_SIMULATION_PASS 6 scenarios
+{'delta_over_publisher_sd': 0, 'unadjusted_p_below_0_05': 0.0455, 'conservative_three_test_p_below_0_01667': 0.0135}
+{'delta_over_publisher_sd': 0.3, 'unadjusted_p_below_0_05': 0.1318, 'conservative_three_test_p_below_0_01667': 0.0542}
+{'delta_over_publisher_sd': 0.5, 'unadjusted_p_below_0_05': 0.2755, 'conservative_three_test_p_below_0_01667': 0.13}
+{'delta_over_publisher_sd': 0.8, 'unadjusted_p_below_0_05': 0.6038, 'conservative_three_test_p_below_0_01667': 0.3653}
+{'delta_over_publisher_sd': 1.0, 'unadjusted_p_below_0_05': 0.803, 'conservative_three_test_p_below_0_01667': 0.5763}
+{'delta_over_publisher_sd': 1.3, 'unadjusted_p_below_0_05': 0.9473, 'conservative_three_test_p_below_0_01667': 0.8203}
+ALL_AVAILABLE_CPU_CHECKS_PASS

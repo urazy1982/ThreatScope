@@ -1,0 +1,203 @@
+{
+ "check": {
+  "fully_labelled_windows": 42,
+  "uniquely_identified": 32,
+  "duplicate_classes": [
+   {
+    "publisher": "groupib_apt",
+    "copies": 8,
+    "in_draw": 3
+   },
+   {
+    "publisher": "securelist_apt",
+    "copies": 2,
+    "in_draw": 1
+   }
+  ],
+  "decision_cells_compared_across_copies": 288,
+  "decision_cells_differing": 0,
+  "a1_rederivation": {
+   "consistent_window_sets": 70,
+   "distinct_by_content": 1,
+   "listed_draw_is_one_of_them": true
+  },
+  "e1_guardrail_reproduced": {
+   "cells": 12,
+   "did": 3,
+   "all_match": true
+  },
+  "agreement_reproduced_from_slots": true
+ },
+ "draw_windows": 36,
+ "distinct_windows": 34,
+ "effective_sample_size": {
+  "expanded371": {
+   "adjudicated": {
+    "labelled_slots": 356,
+    "distinct_sentences": 255,
+    "kish_effective_n": 129.1,
+    "relevant": 111,
+    "windows": 55,
+    "reports": 50,
+    "publishers": 9
+   },
+   "h_agree": {
+    "labelled_slots": 259,
+    "distinct_sentences": 170,
+    "kish_effective_n": 80.0,
+    "relevant": 91,
+    "windows": 55,
+    "reports": 50,
+    "publishers": 9
+   },
+   "a1": {
+    "labelled_slots": 352,
+    "distinct_sentences": 251,
+    "kish_effective_n": 126.7,
+    "relevant": 115,
+    "windows": 55,
+    "reports": 50,
+    "publishers": 9
+   },
+   "a2": {
+    "labelled_slots": 367,
+    "distinct_sentences": 266,
+    "kish_effective_n": 135.6,
+    "relevant": 167,
+    "windows": 55,
+    "reports": 50,
+    "publishers": 9
+   },
+   "label": {
+    "labelled_slots": 359,
+    "distinct_sentences": 258,
+    "kish_effective_n": 130.8,
+    "relevant": 126,
+    "windows": 55,
+    "reports": 50,
+    "publishers": 9
+   },
+   "ai": {
+    "labelled_slots": 366,
+    "distinct_sentences": 265,
+    "kish_effective_n": 135.0,
+    "relevant": 123,
+    "windows": 55,
+    "reports": 50,
+    "publishers": 9
+   }
+  },
+  "draw288": {
+   "adjudicated": {
+    "labelled_slots": 273,
+    "distinct_sentences": 255,
+    "kish_effective_n": 229.3,
+    "relevant": 101,
+    "windows": 36,
+    "reports": 36,
+    "publishers": 9
+   },
+   "h_agree": {
+    "labelled_slots": 188,
+    "distinct_sentences": 170,
+    "kish_effective_n": 147.3,
+    "relevant": 81,
+    "windows": 36,
+    "reports": 36,
+    "publishers": 9
+   },
+   "a1": {
+    "labelled_slots": 269,
+    "distinct_sentences": 251,
+    "kish_effective_n": 225.4,
+    "relevant": 104,
+    "windows": 36,
+    "reports": 36,
+    "publishers": 9
+   },
+   "a2": {
+    "labelled_slots": 284,
+    "distinct_sentences": 266,
+    "kish_effective_n": 240.0,
+    "relevant": 146,
+    "windows": 36,
+    "reports": 36,
+    "publishers": 9
+   },
+   "label": {
+    "labelled_slots": 276,
+    "distinct_sentences": 258,
+    "kish_effective_n": 232.2,
+    "relevant": 115,
+    "windows": 36,
+    "reports": 36,
+    "publishers": 9
+   },
+   "ai": {
+    "labelled_slots": 283,
+    "distinct_sentences": 265,
+    "kish_effective_n": 239.1,
+    "relevant": 113,
+    "windows": 36,
+    "reports": 36,
+    "publishers": 9
+   }
+  },
+  "distinct": {
+   "adjudicated": {
+    "labelled_slots": 257,
+    "distinct_sentences": 255,
+    "kish_effective_n": 253.1,
+    "relevant": 101,
+    "windows": 34,
+    "reports": 34,
+    "publishers": 9
+   },
+   "h_agree": {
+    "labelled_slots": 172,
+    "distinct_sentences": 170,
+    "kish_effective_n": 168.1,
+    "relevant": 81,
+    "windows": 34,
+    "reports": 34,
+    "publishers": 9
+   },
+   "a1": {
+    "labelled_slots": 253,
+    "distinct_sentences": 251,
+    "kish_effective_n": 249.1,
+    "relevant": 104,
+    "windows": 34,
+    "reports": 34,
+    "publishers": 9
+   },
+   "a2": {
+    "labelled_slots": 268,
+    "distinct_sentences": 266,
+    "kish_effective_n": 264.1,
+    "relevant": 146,
+    "windows": 34,
+    "reports": 34,
+    "publishers": 9
+   },
+   "label": {
+    "labelled_slots": 260,
+    "distinct_sentences": 258,
+    "kish_effective_n": 256.1,
+    "relevant": 115,
+    "windows": 34,
+    "reports": 34,
+    "publishers": 9
+   },
+   "ai": {
+    "labelled_slots": 267,
+    "distinct_sentences": 265,
+    "kish_effective_n": 263.1,
+    "relevant": 113,
+    "windows": 34,
+    "reports": 34,
+    "publishers": 9
+   }
+  }
+ }
+}

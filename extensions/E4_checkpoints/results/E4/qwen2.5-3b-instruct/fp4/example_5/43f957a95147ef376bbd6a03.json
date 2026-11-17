@@ -1,0 +1,20 @@
+{
+  "anchor": 5,
+  "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+  "generated_tokens": 7,
+  "generation_cap_reached": false,
+  "identity_sha256": "e3c6b2a49b5149f82dcda4cef85763eecd5ed2aa4279817977acb84e07f3b772",
+  "indices": [],
+  "input_sha256": "27cf73fe1aa9a7449cf7bd08506ab7c21d75ba8e61e387ce2446758957211047",
+  "input_tokens": 524,
+  "latency_seconds": 0.15856,
+  "model": "Qwen/Qwen2.5-3B-Instruct",
+  "precision": "fp4",
+  "prompt_sha256": "d9c8ee9e61602f1337dcfd778c37caadde76b1dcfd103f2d6b7c22df352a6641",
+  "raw": "target\":\"relevant:[4]",
+  "raw_sha256": "2462dcf0ade5ca4735d616ca3e1f3afd259ddd2aafcedc5e7252a4668c94fd66",
+  "record_sha256": "846093bf6f00245e661377f97c2b7e2a04f554815e429085494263c8bdb8f82d",
+  "revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+  "valid": false,
+  "window_id": "43f957a95147ef376bbd6a03"
+}

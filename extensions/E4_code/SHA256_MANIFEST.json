@@ -1,0 +1,19 @@
+{
+  "E4_CONFIGURATION_FIX.md": "cc4f80ab9b47a9dd6fa4d5d611478bb0615d1fd99e995392890934f320b99a64",
+  "PROTOCOL_FREEZE.md": "b4f3d70f7b3dd017b52464cab2245c4ac6925b1ffffdcd1ef39b0bc6042a6ff6",
+  "README.md": "05750f1194347a8ecb47a717dbbdb9791baed04fba5e324bef79e3a2e270ea76",
+  "reference_config.json": "031216ba1c63758f4210f3eb220e2caf024f6f25cd8cf45e78ea87873f4c062d",
+  "run_full.sh": "efd93b4011c06c4ade4c19c61df8e82a99904eba0bff7b16fb9900e2dbcaa87d",
+  "run_preflight.sh": "1f6ba27586c649c84c7139b5e7990265dceb568ffb41e2899e94f3bb8b27778e",
+  "run_smoke.sh": "7be4f34007bae14b88d0f18d21fba3f809f8eb2ca0a7a8cdef3bd7c1e69d1009",
+  "scripts/audit_e4.py": "b131ca9cddd42e3ed205349e0c14ac23505c931a55376762a32dbbc90c0e5ed1",
+  "scripts/check_historical_baseline.py": "59627b080e71b50fca65dacbda4c9c20a0d0440e8a298f5baa850213519907bd",
+  "scripts/e4_runner.py": "8adff0a0cfe5c1a58961937b70c72d6a717e1c2253b55d4949f43a85a7220122",
+  "scripts/preflight.py": "f73618aa8e29016cdc0816c7b844996be0877b122d569ba2920901fa709da30f",
+  "tests/E3_reference_decisions.csv": "e750458e3a91688601255d15a6507adeeeb8c54f48d803064f25af0559ba4d5f",
+  "tests/test_e4.py": "a39943699b596df7afbca46b5a6cc9d3184bcc58a8e22e26c2d728328816aa23",
+  "tools/verify_package.py": "755a40b828f964e0667b2146917453a59bad3df5175a12cc102c50b2ad861caa",
+  "vendor/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "vendor/core.py": "1b93e8b6614d2769e04b30855cd9cafdb39881a7d8b9ac54734d027420d7a982",
+  "vendor/token_encoding.py": "077d8830dad4ce872a85bd1971e21bd951de01264d320edf6cf4a59d94d679b2"
+}

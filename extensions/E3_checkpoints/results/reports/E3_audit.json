@@ -1,0 +1,50 @@
+{
+  "status": "PASS",
+  "protocol": "ThreatScope-E3-v0.4-historical-ArmA-interior-report-holdout",
+  "input_sha256": "84c02a30c6f077d1c2d0e645be480616e66d93dd61ca5d660acb77bed37216b3",
+  "cells": [
+    {
+      "model": "Qwen/Qwen2.5-3B-Instruct",
+      "precision": "bf16",
+      "total": 576,
+      "valid": 567,
+      "invalid": 9
+    },
+    {
+      "model": "Qwen/Qwen2.5-3B-Instruct",
+      "precision": "nf4",
+      "total": 576,
+      "valid": 563,
+      "invalid": 13
+    },
+    {
+      "model": "meta-llama/Llama-3.2-3B-Instruct",
+      "precision": "bf16",
+      "total": 576,
+      "valid": 576,
+      "invalid": 0
+    },
+    {
+      "model": "meta-llama/Llama-3.2-3B-Instruct",
+      "precision": "nf4",
+      "total": 576,
+      "valid": 574,
+      "invalid": 2
+    },
+    {
+      "model": "mistralai/Mistral-7B-Instruct-v0.3",
+      "precision": "bf16",
+      "total": 576,
+      "valid": 576,
+      "invalid": 0
+    },
+    {
+      "model": "mistralai/Mistral-7B-Instruct-v0.3",
+      "precision": "nf4",
+      "total": 576,
+      "valid": 576,
+      "invalid": 0
+    }
+  ],
+  "total": 3456
+}

@@ -1,0 +1,27 @@
+{
+  "anchor": 5,
+  "error": null,
+  "generated_tokens": 23,
+  "generation_cap_reached": false,
+  "identity_sha256": "e60297ca6abb446d96d93f5d436077f28e82b4f0753f78467b92a8b10b878053",
+  "indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    6
+  ],
+  "input_sha256": "3e2e018f6031886ac59f3e149e7a4654be2fd604bb4f4ecbced8c0d5b07d2563",
+  "input_tokens": 558,
+  "latency_seconds": 0.48779,
+  "model": "mistralai/Mistral-7B-Instruct-v0.3",
+  "precision": "nf4",
+  "prompt_sha256": "ca3cdb98b062a753ed6584621332009baa5945da197c02a10f505042f3c832dd",
+  "raw": "{\"relevant\":[0, 1, 2, 3, 4, 6]}",
+  "raw_sha256": "49db3ed4f9b0d11e85506c7d7641d6130ee62bb3f226dba5945b3cbddb1834ca",
+  "record_sha256": "4e4fe8ee87e3fd609bbac411f313ac77ccd5d3289dda66cc8c87dd8c67c0025a",
+  "revision": "c170c708c41dac9275d15a8fff4eca08d52bab71",
+  "valid": true,
+  "window_id": "a008738b41f742a40e25109c"
+}

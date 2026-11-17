@@ -1,0 +1,46 @@
+{
+  "ctinexus": {
+    "files": 298,
+    "unique_reports": 148,
+    "exact_duplicate_histogram": {
+      "2": 147,
+      "4": 1
+    },
+    "source_label_coverage": 0,
+    "annotation_unique": 148,
+    "demo_unique": 138,
+    "test_unique": 10,
+    "publisher_test_supported": false
+  },
+  "v151": {
+    "analytical_csv_hashes_verified": 6,
+    "window_records": 3408,
+    "arm_records": 12,
+    "reports": 40,
+    "sources": 5,
+    "invalid_outputs": 20,
+    "legacy_imported": 289,
+    "exact_singleton_example_0_to_4_switches": 1,
+    "source_level_results": [
+      {
+        "model": "Qwen/Qwen2.5-3B-Instruct",
+        "delta": 0.10979608707632954,
+        "source_exact_p": 0.0625,
+        "holm_source_p": 0.1875
+      },
+      {
+        "model": "mistralai/Mistral-7B-Instruct-v0.3",
+        "delta": 0.12324331771837968,
+        "source_exact_p": 0.0625,
+        "holm_source_p": 0.1875
+      },
+      {
+        "model": "meta-llama/Llama-3.2-3B-Instruct",
+        "delta": 0.1466244144392395,
+        "source_exact_p": 0.0625,
+        "holm_source_p": 0.1875
+      }
+    ],
+    "limit": "Derived-data reanalysis, not original model inference or article-text authenticity verification"
+  }
+}

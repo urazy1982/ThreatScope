@@ -1,0 +1,19 @@
+study,model,estimand,effect_pp_rounded,exact_p_if_checked,holm_p_if_checked,publisher_clusters,interpretation
+Arm A,Qwen,NF4-BF16 example-D,11.36,,,9,original
+Arm A,Llama,NF4-BF16 example-D,4.97,,,9,original
+Arm A,Mistral,NF4-BF16 example-D,6.01,,,9,original
+Arm B,Qwen,NF4-BF16 example-D,11.42,,,9,original amendment
+Arm B,Llama,NF4-BF16 example-D,7.16,,,9,original amendment
+Arm B,Mistral,NF4-BF16 example-D,4.85,,,9,original amendment
+Arm C,Qwen,NF4-BF16 example-D,0.3,,,9,original amendment
+Arm C,Llama,NF4-BF16 example-D,6.94,,,9,original amendment
+Arm C,Mistral,NF4-BF16 example-D,2.48,,,9,original amendment
+E1,Qwen,N1-N0 cross-precision disagreement,-0.1752645503,0.95703125,1,9,exploratory complete case
+E1,Llama,N1-N0 cross-precision disagreement,2.4742849743,0.359375,1,9,exploratory complete case
+E1,Mistral,N1-N0 cross-precision disagreement,2.1701388889,0.359375,1,9,exploratory complete case
+E2,Qwen,greedy minus scoring example-D interaction,0.3968253968,0.359375,,9,exploratory
+E3,Qwen,NF4-BF16 example-D,18.6745,0.0078125,0.0234375,8,exploratory holdout
+E3,Llama,NF4-BF16 example-D,5.2664,0.046875,0.09375,8,exploratory holdout
+E3,Mistral,NF4-BF16 example-D,1.95,0.203125,0.203125,8,exploratory holdout
+E4,Qwen,FP4-NF4 example-D,8.48,0.171875,0.34375,8,exploratory format
+E4,Llama,FP4-NF4 example-D,2.21,0.1953125,0.34375,8,exploratory format

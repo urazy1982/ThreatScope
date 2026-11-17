@@ -1,0 +1,20 @@
+{
+  "anchor": 5,
+  "error": "ValueError: ROOT_SCHEMA",
+  "generated_tokens": 39,
+  "generation_cap_reached": false,
+  "identity_sha256": "e3c6b2a49b5149f82dcda4cef85763eecd5ed2aa4279817977acb84e07f3b772",
+  "indices": [],
+  "input_sha256": "4e975207955b45638ec9c695520004c6698b0465f077fa24068837a5db19bc35",
+  "input_tokens": 567,
+  "latency_seconds": 0.80146,
+  "model": "Qwen/Qwen2.5-3B-Instruct",
+  "precision": "fp4",
+  "prompt_sha256": "5d1a2e1c2b93e6f38d5ed1d25e46fd6e2908f04c3043a911dd68b355d746186b",
+  "raw": "[{\"i\":3,\"target\":\"Virtual server hosting services such as Quickpacket, Routerhosting, Hostwinds, and others are the most commonly used based on our observations.\"}]",
+  "raw_sha256": "82959f6b2e319d963135f3afe391f749608df3dfbf63767dfe9280294c8ec45c",
+  "record_sha256": "b5854eada5f41d376513666fba429f0c4a41e88ebc171ed3824e4651abbbd86c",
+  "revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+  "valid": false,
+  "window_id": "883cffdb484265daa4a6cbca"
+}

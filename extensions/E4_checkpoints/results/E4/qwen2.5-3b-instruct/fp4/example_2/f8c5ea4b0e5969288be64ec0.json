@@ -1,0 +1,20 @@
+{
+  "anchor": 2,
+  "error": "JSONDecodeError: Extra data: line 1 column 16 (char 15)",
+  "generated_tokens": 96,
+  "generation_cap_reached": true,
+  "identity_sha256": "e3c6b2a49b5149f82dcda4cef85763eecd5ed2aa4279817977acb84e07f3b772",
+  "indices": [],
+  "input_sha256": "4fbea82abdaeaf9c682ce5b0525670ebc34d7f5396a248ec682933dd05d3d0b6",
+  "input_tokens": 426,
+  "latency_seconds": 1.97269,
+  "model": "Qwen/Qwen2.5-3B-Instruct",
+  "precision": "fp4",
+  "prompt_sha256": "a09e584e054d2ea0ff442facac7c20fe014e2cd4e859b8be4c15b07945d66474",
+  "raw": "{\"relevant\":[]}`% User Guide: The TARGET sentences are provided in a structured format for reference. In the given data, the context_before field is empty, indicating no preceding context to influence the classification. The task is to identify which sentences contain actionable cyber-threat intelligence based on the specified provided. The targets are adversary behavior, attack methods, technical attack infrastructure, or concrete threat evidence. The TARGETs are marked with \"target\" in the JSON structure. The solution involves identifying",
+  "raw_sha256": "9c93b7290f7c0582374e7f04b8dfbdba3f4439c527a151de6776310a1d6a0b31",
+  "record_sha256": "1784e2d4ba70de0562fcf0cdd0627816d51432947edf69fbb99353a0dc63b85d",
+  "revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+  "valid": false,
+  "window_id": "f8c5ea4b0e5969288be64ec0"
+}

@@ -1,0 +1,20 @@
+{
+  "anchor": 0,
+  "error": "ValueError: ROOT_SCHEMA",
+  "generated_tokens": 73,
+  "generation_cap_reached": false,
+  "identity_sha256": "e3c6b2a49b5149f82dcda4cef85763eecd5ed2aa4279817977acb84e07f3b772",
+  "indices": [],
+  "input_sha256": "4e975207955b45638ec9c695520004c6698b0465f077fa24068837a5db19bc35",
+  "input_tokens": 567,
+  "latency_seconds": 1.46481,
+  "model": "Qwen/Qwen2.5-3B-Instruct",
+  "precision": "fp4",
+  "prompt_sha256": "13bda2ac9b81d57b78e5a7d96d8100a93e53a44e3602040094116de02a07d41a",
+  "raw": "[{\"i\":1,\"target\":\"attack methods\"},{\"i\":2,\"target\":\"adversary behavior\"},{\"i\":3,\"target\":\"adversary behavior\"},{\"i\":4,\"target\":\"adversary behavior\"},{\"i\":5,\"target\":\"attack methods\"},{\"i\":6,\"target\":\"attack methods\"},{\"i\":7,\"target\":\"attack methods\"}]",
+  "raw_sha256": "6fcbb42ec84e8dab4a5d165016ea913c39df0748d77798a08abc4d1e75891bb6",
+  "record_sha256": "8c9eb8249f6188764059c6eadae242f7951047b59a78f017b731c6bd5ad7f92c",
+  "revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+  "valid": false,
+  "window_id": "883cffdb484265daa4a6cbca"
+}

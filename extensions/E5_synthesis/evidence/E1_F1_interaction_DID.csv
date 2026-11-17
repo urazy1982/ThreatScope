@@ -1,0 +1,4 @@
+model,estimand,publisher_equal_DID_pp,exact_signflip_p,positive_publishers,negative_publishers,note
+Qwen/Qwen2.5-3B-Instruct,F1_NF4_minus_BF16_difference_of_N1_minus_N0,-0.8844091136159791,0.82421875,6,3,Exploratory human-reference precision-by-prompt interaction; not Arm A index sensitivity
+meta-llama/Llama-3.2-3B-Instruct,F1_NF4_minus_BF16_difference_of_N1_minus_N0,-7.150081682827352,0.54296875,5,4,Exploratory human-reference precision-by-prompt interaction; not Arm A index sensitivity
+mistralai/Mistral-7B-Instruct-v0.3,F1_NF4_minus_BF16_difference_of_N1_minus_N0,-4.012100836217682,0.5703125,4,5,Exploratory human-reference precision-by-prompt interaction; not Arm A index sensitivity

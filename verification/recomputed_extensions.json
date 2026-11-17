@@ -1,0 +1,353 @@
+{
+ "E2": {
+  "prompts": 2304,
+  "windows": 144,
+  "publishers": 9,
+  "greedy_bf16_D_pp": -0.09920634920634913,
+  "greedy_nf4_D_pp": 0.5952380952380955,
+  "greedy_delta_pp": 0.6944444444444445,
+  "greedy_delta_p": 0.43359375,
+  "scoring_bf16_D_pp": 0.2976190476190477,
+  "scoring_nf4_D_pp": 0.5952380952380955,
+  "scoring_delta_pp": 0.2976190476190477,
+  "scoring_delta_p": 0.78515625,
+  "did_pp": 0.3968253968253968,
+  "did_p": 0.359375,
+  "did_signs": {
+   "pos": 5,
+   "neg": 2,
+   "zero": 2
+  },
+  "did_publisher_pp": {
+   "asec_apt": -0.8928571428571428,
+   "bitdefender_apt": 0.0,
+   "groupib_apt": 0.8928571428571428,
+   "securelist_apt": -0.8928571428571428,
+   "sentinellabs_apt": 0.0,
+   "talos_apt": 1.7857142857142856,
+   "trendmicro_apt": 0.8928571428571428,
+   "unit42_apt": 0.8928571428571428,
+   "volexity_apt": 0.892857142857143
+  },
+  "agree_bf16": 0.9739583333333334,
+  "agree_nf4": 0.9861111111111112,
+  "did_ci_pp": [
+   -0.2976190476190476,
+   1.1904761904761905
+  ]
+ },
+ "E1": {
+  "records": 1728,
+  "valid": 1675,
+  "models": {
+   "Qwen": {
+    "cells": {
+     "bf16_N0": {
+      "invalid": 6,
+      "valid_empty": 29
+     },
+     "bf16_N1": {
+      "invalid": 3,
+      "valid_empty": 17
+     },
+     "nf4_N0": {
+      "invalid": 4,
+      "valid_empty": 0
+     },
+     "nf4_N1": {
+      "invalid": 6,
+      "valid_empty": 1
+     }
+    },
+    "as_run": {
+     "windows": 130,
+     "effect_pp": -0.17526455026455023,
+     "p": 0.95703125,
+     "N0_pp": 22.254464285714285,
+     "N1_pp": 22.079199735449734,
+     "p_holm3": 1.0
+    },
+    "cc_hier": {
+     "windows": 130,
+     "effect_pp": 0.03720238095238098,
+     "p": 1.0,
+     "N0_pp": 22.209821428571427,
+     "N1_pp": 22.24702380952381
+    },
+    "itt_hier": {
+     "windows": 144,
+     "effect_pp": -0.08680555555555555,
+     "p": 1.0,
+     "N0_pp": 23.958333333333332,
+     "N1_pp": 23.87152777777778
+    }
+   },
+   "Llama": {
+    "cells": {
+     "bf16_N0": {
+      "invalid": 33,
+      "valid_empty": 0
+     },
+     "bf16_N1": {
+      "invalid": 0,
+      "valid_empty": 0
+     },
+     "nf4_N0": {
+      "invalid": 0,
+      "valid_empty": 0
+     },
+     "nf4_N1": {
+      "invalid": 1,
+      "valid_empty": 0
+     }
+    },
+    "as_run": {
+     "windows": 110,
+     "effect_pp": 2.4742849742849744,
+     "p": 0.359375,
+     "N0_pp": 20.382511007511006,
+     "N1_pp": 22.856795981795983,
+     "p_holm3": 1.0
+    },
+    "cc_hier": {
+     "windows": 110,
+     "effect_pp": 1.9221230158730158,
+     "p": 0.48046875,
+     "N0_pp": 20.163690476190474,
+     "N1_pp": 22.08581349206349
+    },
+    "itt_hier": {
+     "windows": 144,
+     "effect_pp": -4.427083333333333,
+     "p": 0.16015625,
+     "N0_pp": 25.60763888888889,
+     "N1_pp": 21.180555555555557
+    }
+   },
+   "Mistral": {
+    "cells": {
+     "bf16_N0": {
+      "invalid": 0,
+      "valid_empty": 0
+     },
+     "bf16_N1": {
+      "invalid": 0,
+      "valid_empty": 8
+     },
+     "nf4_N0": {
+      "invalid": 0,
+      "valid_empty": 0
+     },
+     "nf4_N1": {
+      "invalid": 0,
+      "valid_empty": 0
+     }
+    },
+    "as_run": {
+     "windows": 144,
+     "effect_pp": 2.170138888888889,
+     "p": 0.359375,
+     "N0_pp": 10.069444444444445,
+     "N1_pp": 12.239583333333334,
+     "p_holm3": 1.0
+    },
+    "cc_hier": {
+     "windows": 144,
+     "effect_pp": 2.170138888888889,
+     "p": 0.359375,
+     "N0_pp": 10.069444444444445,
+     "N1_pp": 12.239583333333334
+    },
+    "itt_hier": {
+     "windows": 144,
+     "effect_pp": 2.170138888888889,
+     "p": 0.359375,
+     "N0_pp": 10.069444444444445,
+     "N1_pp": 12.239583333333334
+    }
+   }
+  }
+ },
+ "E34": {
+  "records": 4608,
+  "parser_mismatches": 0,
+  "E3_generations": 3456,
+  "E4_generations": 1152,
+  "reports": 72,
+  "windows": 72,
+  "publishers": 8,
+  "allocation": {
+   "asec_apt": 9,
+   "groupib_apt": 7,
+   "securelist_apt": 10,
+   "sentinellabs_apt": 9,
+   "talos_apt": 9,
+   "trendmicro_apt": 10,
+   "unit42_apt": 9,
+   "volexity_apt": 9
+  },
+  "E3": {
+   "Qwen": {
+    "effect_pp": 18.67453231292517,
+    "p": 0.0078125,
+    "signs": {
+     "pos": 8,
+     "neg": 0,
+     "zero": 0
+    },
+    "loo_min_pp": 17.11896663427276,
+    "loo_max_pp": 20.19436345966958,
+    "ci_pp": [
+     12.15029761904762,
+     25.634566326530614
+    ],
+    "publisher_pp": {
+     "securelist_apt": 8.035714285714286,
+     "trendmicro_apt": 13.214285714285715,
+     "unit42_apt": 13.88888888888889,
+     "talos_apt": 22.42063492063492,
+     "groupib_apt": 29.336734693877553,
+     "volexity_apt": 29.563492063492063,
+     "sentinellabs_apt": 16.269841269841272,
+     "asec_apt": 16.666666666666668
+    },
+    "bf16_D_pp": 3.306051587301588,
+    "nf4_D_pp": 21.98058390022676,
+    "bf16_invalid": 9,
+    "nf4_invalid": 13,
+    "calls_per_precision": 576,
+    "p_holm3": 0.0234375
+   },
+   "Llama": {
+    "effect_pp": 5.266439909297052,
+    "p": 0.046875,
+    "signs": {
+     "pos": 6,
+     "neg": 1,
+     "zero": 1
+    },
+    "loo_min_pp": 4.063006154842889,
+    "loo_max_pp": 6.217201166180758,
+    "ci_pp": [
+     0.6327947845804986,
+     10.27281746031746
+    ],
+    "publisher_pp": {
+     "securelist_apt": 12.321428571428571,
+     "trendmicro_apt": 3.3928571428571423,
+     "unit42_apt": -1.3888888888888895,
+     "talos_apt": 7.401486830834377e-17,
+     "groupib_apt": 6.3775510204081645,
+     "volexity_apt": 7.142857142857143,
+     "sentinellabs_apt": 13.690476190476192,
+     "asec_apt": 0.5952380952380953
+    },
+    "bf16_D_pp": -5.176799886621315,
+    "nf4_D_pp": 0.08964002267573745,
+    "bf16_invalid": 0,
+    "nf4_invalid": 2,
+    "calls_per_precision": 576,
+    "p_holm3": 0.09375
+   },
+   "Mistral": {
+    "effect_pp": 1.9458616780045352,
+    "p": 0.203125,
+    "signs": {
+     "pos": 4,
+     "neg": 4,
+     "zero": 0
+    },
+    "loo_min_pp": 1.3054745707806932,
+    "loo_max_pp": 2.762390670553936,
+    "ci_pp": [
+     -1.6170634920634919,
+     5.417729591836735
+    ],
+    "publisher_pp": {
+     "securelist_apt": -0.35714285714285743,
+     "trendmicro_apt": 6.428571428571429,
+     "unit42_apt": -0.19841269841269815,
+     "talos_apt": -3.7698412698412693,
+     "groupib_apt": -1.020408163265306,
+     "volexity_apt": 4.166666666666666,
+     "sentinellabs_apt": 6.15079365079365,
+     "asec_apt": 4.166666666666667
+    },
+    "bf16_D_pp": -1.3644416099773238,
+    "nf4_D_pp": 0.5814200680272112,
+    "bf16_invalid": 0,
+    "nf4_invalid": 0,
+    "calls_per_precision": 576,
+    "p_holm3": 0.203125
+   }
+  },
+  "E4": {
+   "Qwen": {
+    "effect_pp": 8.482142857142856,
+    "p": 0.171875,
+    "signs": {
+     "pos": 5,
+     "neg": 3,
+     "zero": 0
+    },
+    "ci_pp": [
+     -2.844387755102042,
+     19.808673469387756
+    ],
+    "publisher_pp": {
+     "securelist_apt": 9.107142857142858,
+     "trendmicro_apt": 19.464285714285715,
+     "unit42_apt": 30.357142857142858,
+     "talos_apt": -1.1904761904761931,
+     "groupib_apt": 1.7857142857142831,
+     "volexity_apt": -12.3015873015873,
+     "sentinellabs_apt": -3.373015873015875,
+     "asec_apt": 24.007936507936506
+    },
+    "fp4_D_pp": 30.462726757369616,
+    "fp4_invalid": 47,
+    "calls": 576,
+    "fp4_invalid_pct": 8.159722222222221,
+    "cc_effect_pp": 8.696056547619046,
+    "cc_p": 0.1640625,
+    "cc_windows": 53,
+    "fp4_minus_bf16_pp": 27.156675170068027,
+    "fp4_minus_bf16_p": 0.0078125,
+    "p_holm2": 0.34375
+   },
+   "Llama": {
+    "effect_pp": 2.2123015873015874,
+    "p": 0.1953125,
+    "signs": {
+     "pos": 6,
+     "neg": 2,
+     "zero": 0
+    },
+    "ci_pp": [
+     -1.81937358276644,
+     6.395266439909297
+    ],
+    "publisher_pp": {
+     "securelist_apt": -2.499999999999999,
+     "trendmicro_apt": 0.357142857142857,
+     "unit42_apt": 9.325396825396826,
+     "talos_apt": -2.182539682539683,
+     "groupib_apt": 3.571428571428572,
+     "volexity_apt": 6.746031746031745,
+     "sentinellabs_apt": 1.5873015873015863,
+     "asec_apt": 0.7936507936507936
+    },
+    "fp4_D_pp": 2.301941609977325,
+    "fp4_invalid": 0,
+    "calls": 576,
+    "fp4_invalid_pct": 0.0,
+    "cc_effect_pp": 1.7627728174603174,
+    "cc_p": 0.34375,
+    "cc_windows": 70,
+    "fp4_minus_bf16_pp": 7.47874149659864,
+    "fp4_minus_bf16_p": 0.0234375,
+    "p_holm2": 0.34375
+   }
+  }
+ }
+}

@@ -1,0 +1,62 @@
+{
+  "files_sha256": {
+    "model_summary.csv": "8b46c84fcd0e82869e08d788d3b6b3603565a4e5cb1c24a44eeb6d6442a4e886",
+    "source_effects.csv": "a43eb16468a9553093e676a9aab2a6f9cc550e1b6e87a115dbf2ff1c6915863e",
+    "window_effects.csv": "102729a79b6bfe38301ce16ab671ce56fa6407d03ea63941c5820a7d7dafdcc5"
+  },
+  "models": [
+    {
+      "all_valid_source_count": 8,
+      "bf16_report_mean_effect": 0.04191468253968254,
+      "hierarchical_bootstrap_ci_high": 0.15042162698412698,
+      "hierarchical_bootstrap_ci_low": 0.08134920634920635,
+      "holm_p": 0.01171875,
+      "invalid_bf16": 69,
+      "invalid_nf4": 5,
+      "model": "Qwen/Qwen2.5-3B-Instruct",
+      "nf4_report_mean_effect": 0.15550595238095238,
+      "reports": 72,
+      "source_equal_interaction": 0.11359126984126984,
+      "source_groups": 9,
+      "source_signflip_two_sided_p": 0.00390625,
+      "valid_only_source_equal_interaction": null
+    },
+    {
+      "all_valid_source_count": 9,
+      "bf16_report_mean_effect": -0.05183531746031746,
+      "hierarchical_bootstrap_ci_high": 0.08358134920634921,
+      "hierarchical_bootstrap_ci_low": 0.016865079365079368,
+      "holm_p": 0.015625,
+      "invalid_bf16": 2,
+      "invalid_nf4": 11,
+      "model": "meta-llama/Llama-3.2-3B-Instruct",
+      "nf4_report_mean_effect": -0.0021081349206349136,
+      "reports": 72,
+      "source_equal_interaction": 0.049727182539682536,
+      "source_groups": 9,
+      "source_signflip_two_sided_p": 0.015625,
+      "valid_only_source_equal_interaction": 0.04815405328798186
+    },
+    {
+      "all_valid_source_count": 9,
+      "bf16_report_mean_effect": 0.03187003968253969,
+      "hierarchical_bootstrap_ci_high": 0.08829365079365079,
+      "hierarchical_bootstrap_ci_low": 0.029017857142857144,
+      "holm_p": 0.015625,
+      "invalid_bf16": 0,
+      "invalid_nf4": 0,
+      "model": "mistralai/Mistral-7B-Instruct-v0.3",
+      "nf4_report_mean_effect": 0.0920138888888889,
+      "reports": 72,
+      "source_equal_interaction": 0.060143849206349215,
+      "source_groups": 9,
+      "source_signflip_two_sided_p": 0.0078125,
+      "valid_only_source_equal_interaction": 0.060143849206349215
+    }
+  ],
+  "no_gold_labels": true,
+  "protocol": "threatstudy-aptpublisher-balance-v2.1.4-overlap-repair-20261113",
+  "rows": 6912,
+  "source_count": 9,
+  "status": "COMPLETE"
+}

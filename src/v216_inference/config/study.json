@@ -1,0 +1,50 @@
+{
+  "protocol": "threatstudy-ctinexus-index-balance-v2.0.2-20261113-cpu-hardened",
+  "source_dataset": "CTINexus 150-report, 10-publisher corpus; original source data not redistributed",
+  "dataset_url": "https://chengyutong2049.github.io/CTINexus-website/docs/dataset/",
+  "source_names": [
+    "Trend Micro",
+    "Symantec",
+    "The Hacker News",
+    "AVERTIUM",
+    "Bleeping Computer",
+    "Dark Reading",
+    "Google TAG",
+    "Microsoft",
+    "Security Week",
+    "Threat Post"
+  ],
+  "target_reports_per_source": 8,
+  "windows_per_report": 2,
+  "sentences_per_window": 8,
+  "anchor_indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "models": {
+    "Qwen/Qwen2.5-3B-Instruct": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+    "mistralai/Mistral-7B-Instruct-v0.3": "c170c708c41dac9275d15a8fff4eca08d52bab71",
+    "meta-llama/Llama-3.2-3B-Instruct": "0cb88a4f764b7a12671c53f0838cd831a0843b95"
+  },
+  "precisions": [
+    "bf16",
+    "nf4"
+  ],
+  "max_new_tokens": 96,
+  "max_input_tokens": 8192,
+  "seed": 20261113,
+  "selection_salt": "ThreatStudy-v2-predeclared-20261113",
+  "min_publishers": 10,
+  "min_reports_per_publisher": 8,
+  "min_sentences_per_report": 16,
+  "report_bootstrap_draws": 4000,
+  "exact_sign_test": "publisher-level 2^10 exhaustive sign flips",
+  "no_gold_labels": true,
+  "source_provenance_status": "UNVERIFIED_REPORT_SOURCE_LABELS_MUST_BE_AUTHENTICATED_BEFORE_GPU"
+}

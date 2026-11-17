@@ -1,0 +1,13 @@
+{
+  "source_master_zip_sha256": "cce66b2da7bcf54c743838545dcd2a53ddeed1a8c75f9c42b8da98b1565ea772",
+  "source_results_zip_sha256": "78ade75ab24ec7a7e9620d9bc91f4e26c979b81e1b97966d07df4c39358108b0",
+  "arm": "C",
+  "archived_checkpoint_record_hashes_checked": 6912,
+  "all_record_hashes_valid": true,
+  "records": 6912,
+  "complete_model_precision_window_groups": 864,
+  "archived_per_window_effects_matched": 432,
+  "max_aggregate_effect_difference": 5.551115123125783e-17,
+  "winners_csv_sha256": "3d0745411fdd2086cc8e2adb81df61647ae7dde7998c83db2e8ca2483a7f0b36",
+  "note": "These are archived GPU scoring predictions, not new inferences. Original sources distributed without report text."
+}

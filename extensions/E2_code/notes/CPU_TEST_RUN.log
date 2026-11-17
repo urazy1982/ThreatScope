@@ -1,0 +1,18 @@
+test_archived_armC_reference_counts (test_e2.E2Tests.test_archived_armC_reference_counts) ... ok
+test_archived_reference_sha (test_e2.E2Tests.test_archived_reference_sha) ... ok
+test_canonical_singletons (test_e2.E2Tests.test_canonical_singletons) ... ok
+test_checkpoint_tampered_raw (test_e2.E2Tests.test_checkpoint_tampered_raw) ... ok
+test_checkpoint_valid (test_e2.E2Tests.test_checkpoint_valid) ... ok
+test_checkpoint_wrong_candidate_id (test_e2.E2Tests.test_checkpoint_wrong_candidate_id) ... ok
+test_checkpoint_wrong_prompt (test_e2.E2Tests.test_checkpoint_wrong_prompt) ... ok
+test_duplicate_candidate_rejected (test_e2.E2Tests.test_duplicate_candidate_rejected) ... ok
+test_historical_prompts_single_index_mutation (test_e2.E2Tests.test_historical_prompts_single_index_mutation) ... ok
+test_original_effect_singleton (test_e2.E2Tests.test_original_effect_singleton) ... ok
+test_prefix_only_valid_ids (test_e2.E2Tests.test_prefix_only_valid_ids) ... ok
+test_signflip_all_positive (test_e2.E2Tests.test_signflip_all_positive) ... ok
+test_unknown_prefix_fails (test_e2.E2Tests.test_unknown_prefix_fails) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.097s
+
+OK

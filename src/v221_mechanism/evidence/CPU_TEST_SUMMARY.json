@@ -1,0 +1,20 @@
+{
+  "status": "CPU_VALIDATED_GPU_NOT_RUN",
+  "title": "One Digit, Different Decisions: Quantization-Dependent Example Sensitivity in Structured Cyber-Threat Intelligence Relevance Selection",
+  "v22_new_unit_tests": 95,
+  "v216_original_unit_tests": 94,
+  "v216_archived_llm_checkpoints_verified": 6912,
+  "v22_arm_B_C_synthetic_checkpoint_records": 13824,
+  "v22_arm_B_C_real_llm_inference_records": 0,
+  "grammar_canonical_subsets": 256,
+  "cardinality_preserving_null_draws_per_model": 10000,
+  "null_models": 3,
+  "planned_arm_A_environment_replay_calls": 432,
+  "environment_replay_calls_actually_executed": 0,
+  "source_publisher_groups": 9,
+  "full_human_gold_labels": false,
+  "osf_registered": false,
+  "new_arm_B_C_real_tokenizers_tested_on_cpu_server": false,
+  "reason_real_tokenizer_preflight_not_run": "Pinned pretrained Hugging Face tokenizers inaccessible from this server (DNS blocked). Local CPU-only gate supplied for Ubuntu-Qua.",
+  "original_dataset_fingerprint": "461682f329a5cca95715d6d7a12356dddb3f38f3adf0e221a2443bdecfdd354e"
+}

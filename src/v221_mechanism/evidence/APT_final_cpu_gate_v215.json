@@ -1,0 +1,40 @@
+{
+  "archive_sha256": "c8b1cd2a66aadb6943b67cb79fd24ff29bd5a3389f33fa050222b08da35c637c",
+  "config_sha256": "ed6c393370828f23d12990da609995be33a3f6853aefa7691fb37911219cbdc8",
+  "dataset_sha256": "461682f329a5cca95715d6d7a12356dddb3f38f3adf0e221a2443bdecfdd354e",
+  "exact_overlap_full_apt_vs_smah_windows": 0,
+  "gpu_calls_planned": 6912,
+  "gpu_gate": "CLOSED_PENDING_FINAL_REVIEW",
+  "input_sha256": "e22310e37efe29c2f29f8ec51b931d765a371cc9f7628b52337fa86ce338500b",
+  "limitations": [
+    "SMAH baseline contains only selected windows, not original full reports",
+    "Near-duplicate shingle screen is not definitive semantic identity evidence",
+    "Preflight v2.1.4 output lacks dataset-bound checksum and cannot alone authorize GPU",
+    "GPU gate remains CLOSED in v2.1.4/v2.1.5"
+  ],
+  "max_input_tokens": {
+    "Qwen/Qwen2.5-3B-Instruct": 1285,
+    "meta-llama/Llama-3.2-3B-Instruct": 919,
+    "mistralai/Mistral-7B-Instruct-v0.3": 1367
+  },
+  "near_duplicate_flag_count": 0,
+  "near_duplicate_flags": [],
+  "reports": 72,
+  "smah_sha256": "00e606241dfdb3f57d5a2e25c9b696a4c3d5090d376f47047cce3fa53b503d97",
+  "source_counts": {
+    "asec_apt": 8,
+    "bitdefender_apt": 8,
+    "groupib_apt": 8,
+    "securelist_apt": 8,
+    "sentinellabs_apt": 8,
+    "talos_apt": 8,
+    "trendmicro_apt": 8,
+    "unit42_apt": 8,
+    "volexity_apt": 8
+  },
+  "source_metadata_sha256": "3275d2c19071d800bf3e0147105e66114b2aa94025576cd43e187edcff78ce12",
+  "source_revision": "c06c0183be808d2e7b2bcbdb351426b75c8cde0f",
+  "status": "CPU_AUDIT_PASS_NEAR_DUP_SCREEN_ONLY",
+  "tokenizer_preflight": "PASS_UNBOUND_TO_DATASET_USE_AS_SUPPORTING_EVIDENCE",
+  "windows": 144
+}

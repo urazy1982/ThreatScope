@@ -1,0 +1,7 @@
+model,precision,choices_on_example,relevance_on_example,choices_off_example,relevance_off_example
+Qwen/Qwen2.5-3B-Instruct,bf16,32,0.71875,246,0.6869918699186992
+Qwen/Qwen2.5-3B-Instruct,nf4,31,0.7419354838709677,224,0.65625
+meta-llama/Llama-3.2-3B-Instruct,bf16,12,0.75,212,0.41509433962264153
+meta-llama/Llama-3.2-3B-Instruct,nf4,27,0.48148148148148145,189,0.4444444444444444
+mistralai/Mistral-7B-Instruct-v0.3,bf16,32,0.65625,238,0.6764705882352942
+mistralai/Mistral-7B-Instruct-v0.3,nf4,36,0.75,255,0.6980392156862745

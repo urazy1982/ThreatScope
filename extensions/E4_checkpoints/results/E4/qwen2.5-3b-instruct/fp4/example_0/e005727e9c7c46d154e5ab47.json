@@ -1,0 +1,20 @@
+{
+  "anchor": 0,
+  "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+  "generated_tokens": 48,
+  "generation_cap_reached": false,
+  "identity_sha256": "e3c6b2a49b5149f82dcda4cef85763eecd5ed2aa4279817977acb84e07f3b772",
+  "indices": [],
+  "input_sha256": "dee64c29d5e75d589172ae0e627ed7290b31c90b699c4300f1473ef7e6ceec91",
+  "input_tokens": 453,
+  "latency_seconds": 0.96576,
+  "model": "Qwen/Qwen2.5-3B-Instruct",
+  "precision": "fp4",
+  "prompt_sha256": "7d9b650bcfd5f501b5ee8de3f330bc53082e06ad5a0be7f5ed5a2b294b615024",
+  "raw": "unatech, context,parse,mtambiguous. Therefore, I am unable to accurately determine the relevant TARGET indices based solely on the provided examples. If you could provide more specific TARGET sentences, I would be able to classify them accordingly.",
+  "raw_sha256": "d47ef1fe70a454e4e1b1348b4a24539df2e83345cde8e93d25fceb6e132c861d",
+  "record_sha256": "ff8e76dc57d59ea337c98aca646e6cb37120961db4ba705d1776aedac6825e76",
+  "revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+  "valid": false,
+  "window_id": "e005727e9c7c46d154e5ab47"
+}

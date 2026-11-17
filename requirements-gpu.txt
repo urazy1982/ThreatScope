@@ -1,0 +1,11 @@
+# Inference environment used for every v2.1.6 and v2.2.1 GPU cell (runtime-locked).
+# Reproducing the statistics needs none of this: reproduce/*.py use the standard library only.
+--extra-index-url https://download.pytorch.org/whl/cu128
+torch==2.10.0+cu128
+transformers==5.22.2
+bitsandbytes==0.50.2
+# corpus staging (CPU) and tokenizer gate; versions not recorded in the run metadata
+huggingface_hub
+beautifulsoup4
+lxml
+numpy

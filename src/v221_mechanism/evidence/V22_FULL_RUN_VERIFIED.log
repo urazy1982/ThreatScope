@@ -1,0 +1,8 @@
+V22_CORE_RELEASE_HASH_PASS 50 files
+----------------------------------------------------------------------
+Ran 95 tests in 10.074s
+
+OK
+V22_CORE_RELEASE_HASH_PASS 50 files
+
+V22_CORE_CPU_CHECKS_PASS: 95 tests + 6912 real checkpoint reanalysis + 13824 synthetic B/C records + 3x10000 null samples + 256 canonical JSON forms.

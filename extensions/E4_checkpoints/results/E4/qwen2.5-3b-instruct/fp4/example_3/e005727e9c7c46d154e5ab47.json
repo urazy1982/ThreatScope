@@ -1,0 +1,20 @@
+{
+  "anchor": 3,
+  "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+  "generated_tokens": 89,
+  "generation_cap_reached": false,
+  "identity_sha256": "e3c6b2a49b5149f82dcda4cef85763eecd5ed2aa4279817977acb84e07f3b772",
+  "indices": [],
+  "input_sha256": "dee64c29d5e75d589172ae0e627ed7290b31c90b699c4300f1473ef7e6ceec91",
+  "input_tokens": 453,
+  "latency_seconds": 1.87363,
+  "model": "Qwen/Qwen2.5-3B-Instruct",
+  "precision": "fp4",
+  "prompt_sha256": "5c6db69ed3f7da1a00f4029d57f791ee5ebeb2d99493bf4792f361444a070521",
+  "raw": "unatech answer from judgment based on the provided sentences. The given sentences do not explicitly state which specific targets (adversary behavior, attack methods, technical attack infrastructure, or concrete threat evidence) are described. Therefore, no specific targets are selected.\n\n```json\n{\n  \"relevant\":\":targets\":\":\":[]  \n}\n\n\n\n\n\n\n \n  relevant.\n}\n```[] relevantad :vod.\n :[]  \n```",
+  "raw_sha256": "a8d3b22686be39fb8b05fc0112f56e6f86e9645b817245710b50b3162b4cdcff",
+  "record_sha256": "e85c4e03fc7683c429612f032780d410d54a5199f2d9589136bb5c9a220cb97d",
+  "revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+  "valid": false,
+  "window_id": "e005727e9c7c46d154e5ab47"
+}

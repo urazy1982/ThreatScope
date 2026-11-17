@@ -1,0 +1,149 @@
+{
+  "dataset_sha256": "461682f329a5cca95715d6d7a12356dddb3f38f3adf0e221a2443bdecfdd354e",
+  "input_sha256": "e22310e37efe29c2f29f8ec51b931d765a371cc9f7628b52337fa86ce338500b",
+  "models": [
+    {
+      "model": "Qwen/Qwen2.5-3B-Instruct",
+      "raw_delta": 0.11359126984126984,
+      "raw_p": 0.00390625,
+      "raw_ci_95": [
+        0.08122519841269842,
+        0.14905753968253968
+      ],
+      "mass_normalized_delta_exploratory": 0.09731434240362812,
+      "mass_p_exploratory": 0.00390625,
+      "mass_ci_95": [
+        0.07505787037037037,
+        0.12655068972033257
+      ],
+      "raw_diagonal_contribution": 0.24503968253968253,
+      "raw_cardinality_contribution": -0.1314484126984127,
+      "bf16_own_example_count": 507,
+      "nf4_own_example_count": 754,
+      "bf16_total_selected": 3718,
+      "nf4_total_selected": 4778,
+      "bf16_invalid": 69,
+      "nf4_invalid": 5,
+      "bf16_singleton_copy": 15,
+      "nf4_singleton_copy": 119,
+      "valid_pair_windows": 119,
+      "valid_only_delta": 0.09639550264550265,
+      "valid_only_p": 0.00390625,
+      "leave_one_publisher_out_raw_range": [
+        0.10728236607142858,
+        0.11802455357142858
+      ],
+      "leave_one_publisher_out_mass_range": [
+        0.09113786139455782,
+        0.10049691751700679
+      ],
+      "raw_holm": 0.01171875,
+      "mass_holm_exploratory": 0.01171875
+    },
+    {
+      "model": "meta-llama/Llama-3.2-3B-Instruct",
+      "raw_delta": 0.049727182539682536,
+      "raw_p": 0.015625,
+      "raw_ci_95": [
+        0.016989087301587304,
+        0.08333333333333333
+      ],
+      "mass_normalized_delta_exploratory": 0.016604072184429323,
+      "mass_p_exploratory": 0.0078125,
+      "mass_ci_95": [
+        0.00696334089191232,
+        0.026734930083144363
+      ],
+      "raw_diagonal_contribution": -0.013888888888888888,
+      "raw_cardinality_contribution": 0.06361607142857142,
+      "bf16_own_example_count": 568,
+      "nf4_own_example_count": 554,
+      "bf16_total_selected": 4962,
+      "nf4_total_selected": 4449,
+      "bf16_invalid": 2,
+      "nf4_invalid": 11,
+      "bf16_singleton_copy": 0,
+      "nf4_singleton_copy": 1,
+      "valid_pair_windows": 135,
+      "valid_only_delta": 0.05133928571428572,
+      "valid_only_p": 0.01171875,
+      "leave_one_publisher_out_raw_range": [
+        0.04143415178571429,
+        0.05719866071428571
+      ],
+      "leave_one_publisher_out_mass_range": [
+        0.014208652210884352,
+        0.01880580357142857
+      ],
+      "raw_holm": 0.015625,
+      "mass_holm_exploratory": 0.015625
+    },
+    {
+      "model": "mistralai/Mistral-7B-Instruct-v0.3",
+      "raw_delta": 0.060143849206349215,
+      "raw_p": 0.0078125,
+      "raw_ci_95": [
+        0.030629960317460316,
+        0.08878968253968253
+      ],
+      "mass_normalized_delta_exploratory": 0.020301870748299325,
+      "mass_p_exploratory": 0.015625,
+      "mass_ci_95": [
+        0.0071275037792894935,
+        0.03264951814058957
+      ],
+      "raw_diagonal_contribution": 0.013888888888888888,
+      "raw_cardinality_contribution": 0.04625496031746032,
+      "bf16_own_example_count": 657,
+      "nf4_own_example_count": 671,
+      "bf16_total_selected": 4999,
+      "nf4_total_selected": 4626,
+      "bf16_invalid": 0,
+      "nf4_invalid": 0,
+      "bf16_singleton_copy": 16,
+      "nf4_singleton_copy": 25,
+      "valid_pair_windows": 144,
+      "valid_only_delta": 0.060143849206349215,
+      "valid_only_p": 0.0078125,
+      "leave_one_publisher_out_raw_range": [
+        0.05273437500000001,
+        0.06794084821428571
+      ],
+      "leave_one_publisher_out_mass_range": [
+        0.01737218324829932,
+        0.024424691751700683
+      ],
+      "raw_holm": 0.015625,
+      "mass_holm_exploratory": 0.015625
+    }
+  ],
+  "source_count": 9,
+  "windows": 144,
+  "records": 6912,
+  "source_pairwise_differences_exploratory": [
+    {
+      "model_a": "Qwen/Qwen2.5-3B-Instruct",
+      "model_b": "meta-llama/Llama-3.2-3B-Instruct",
+      "between_model_delta": 0.0638640873015873,
+      "source_signflip_p_exploratory": 0.0078125
+    },
+    {
+      "model_a": "Qwen/Qwen2.5-3B-Instruct",
+      "model_b": "mistralai/Mistral-7B-Instruct-v0.3",
+      "between_model_delta": 0.05344742063492063,
+      "source_signflip_p_exploratory": 0.015625
+    },
+    {
+      "model_a": "meta-llama/Llama-3.2-3B-Instruct",
+      "model_b": "mistralai/Mistral-7B-Instruct-v0.3",
+      "between_model_delta": -0.010416666666666671,
+      "source_signflip_p_exploratory": 0.578125
+    }
+  ],
+  "limitations": [
+    "All additional effects beyond the v2.1.6 original statistic are posthoc/exploratory.",
+    "Uniform-over-selected-set mass is not teacher-forced candidate probability.",
+    "No human gold labels; no accuracy or false-positive claims.",
+    "No v2.2 Arm B/C LLM inference on the CPU server."
+  ]
+}

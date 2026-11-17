@@ -1,0 +1,20 @@
+{
+  "anchor": 1,
+  "error": "JSONDecodeError: Extra data: line 2 column 1 (char 19)",
+  "generated_tokens": 42,
+  "generation_cap_reached": false,
+  "identity_sha256": "e3c6b2a49b5149f82dcda4cef85763eecd5ed2aa4279817977acb84e07f3b772",
+  "indices": [],
+  "input_sha256": "227eeb44a22b1dbfe6c534cdfa33d01f862523df330e610d7d82c525c805db44",
+  "input_tokens": 431,
+  "latency_seconds": 0.89477,
+  "model": "Qwen/Qwen2.5-3B-Instruct",
+  "precision": "fp4",
+  "prompt_sha256": "2ced21ebee74ef0bc66d2555de7690125f133be7de442352d8359c7509da792e",
+  "raw": "{\"relevant\":[1]}  \n{\"relevant\":[2]}  \n{\"relevant\":[3]}  \n{\"relevant\":[4]}  \n{\"relevant\":[6]}  \n{\"relevant\":[7]}  \n{\"relevant\":[]}}",
+  "raw_sha256": "57783cee50448b3dde232290b997321c575d5936c37912ee99c5cd5e2a5ed72d",
+  "record_sha256": "70efdb295b7836f923cd7dd550f654e37585eff1aba83c7db3b65ee83737a7c7",
+  "revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+  "valid": false,
+  "window_id": "c2a68a433313d120628131fe"
+}

@@ -1,0 +1,1 @@
+ThreatStudy v2.1.2 fixes tokenizer preflight token-count measurement. The old preflight output reporting 2 input tokens is invalid. This release modifies only preflight logic and two regression fixtures; see PREFLIGHT_HOTFIX_v212.md for a no-redownload staged-workspace update. No GPU authorization is implied.

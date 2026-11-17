@@ -1,0 +1,20 @@
+{
+  "anchor": 2,
+  "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+  "generated_tokens": 69,
+  "generation_cap_reached": false,
+  "identity_sha256": "e3c6b2a49b5149f82dcda4cef85763eecd5ed2aa4279817977acb84e07f3b772",
+  "indices": [],
+  "input_sha256": "27cf73fe1aa9a7449cf7bd08506ab7c21d75ba8e61e387ce2446758957211047",
+  "input_tokens": 524,
+  "latency_seconds": 1.38004,
+  "model": "Qwen/Qwen2.5-3B-Instruct",
+  "precision": "fp4",
+  "prompt_sha256": "474805fa09b6301f66f73174053593e1c77e1e76825d172fa9125bedb773b8cf",
+  "raw": "target\":\"[\"2\"] [{\"i\":2,\"target\":\"Notably, Framework POS malware variants appear to continue to have low detection ratio according to the detections displayed on VirusTotal (as of September 18, 2019, only 9 out of 66 antivirus engines only treat the malware as suspicious.)\"}]",
+  "raw_sha256": "2f0272f03b2a6ddbd92e8079f585bd879af1213511f300ff03e36feb4c9db759",
+  "record_sha256": "574def2097ada712b8ee94e3ef2501c1330870850b00ee762586566936976a7b",
+  "revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+  "valid": false,
+  "window_id": "43f957a95147ef376bbd6a03"
+}

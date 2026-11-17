@@ -1,0 +1,6 @@
+{
+  "status": "CPU_256_SUBSET_PASS",
+  "valid_canonical_outputs": 256,
+  "parser_equivalence_over_canonical_subsets": true,
+  "restriction": "Canonical ascending subsets only; parser also accepts other JSON spellings"
+}

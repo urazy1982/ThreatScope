@@ -1,0 +1,20 @@
+{
+  "anchor": 6,
+  "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+  "generated_tokens": 34,
+  "generation_cap_reached": false,
+  "identity_sha256": "e3c6b2a49b5149f82dcda4cef85763eecd5ed2aa4279817977acb84e07f3b772",
+  "indices": [],
+  "input_sha256": "dee64c29d5e75d589172ae0e627ed7290b31c90b699c4300f1473ef7e6ceec91",
+  "input_tokens": 453,
+  "latency_seconds": 0.71491,
+  "model": "Qwen/Qwen2.5-3B-Instruct",
+  "precision": "fp4",
+  "prompt_sha256": "39356b553ca2a4b7d4150c17c8b6dd41236fd4b6e1cec769866ba8bb912060c3",
+  "raw": "unatech answer froms the following:\n\n```json\n{\n   \n[\" \n  {\n\"target relevant [2, 4, 6].\n}  \n```",
+  "raw_sha256": "fb7772ced19ff6cf615fe9248c3b3fcd232d107a9b1459853fd972da2026fbf7",
+  "record_sha256": "475f854f6fb6b9369acf00f69db403c70725713ca07efb61c5b929fbe30f9ae3",
+  "revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+  "valid": false,
+  "window_id": "e005727e9c7c46d154e5ab47"
+}

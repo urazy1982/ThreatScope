@@ -1,0 +1,14 @@
+{
+  "status": "COMPLETE_TEXT_FREE_EXPORT",
+  "e1_records": 1728,
+  "e2_records": 2304,
+  "e2_agreement_bf16": 0.9739583333333334,
+  "e2_agreement_nf4": 0.9861111111111112,
+  "original_e1_files_verified_by_existence": 1764,
+  "original_e2_files_verified_by_record_hash": 2308,
+  "notes": [
+    "E1 source checkpoints are not included; CSV contains validated extraction/format decisions only.",
+    "Reference/human-label limitations from original paper remain applicable.",
+    "Run original run_analysis_only.sh and E2 audit to independently verify source checkpoints before export."
+  ]
+}

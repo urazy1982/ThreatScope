@@ -1,0 +1,16 @@
+{
+  "corpus_release": "CZLi/apt-reports",
+  "repo_url": "https://huggingface.co/datasets/CZLi/apt-reports",
+  "archive_filename": "apt_github_distribution_20260922T211548298793Z.zip",
+  "approx_archive_size_gb": 10.7,
+  "collection_count_publisher_apt_described": 1023,
+  "publisher_catalog": "https://github.com/peng-gao-lab/cti-crawler/blob/main/cti-crawler/config/sources/apt/vendor_apt.yaml",
+  "publisher_catalog_blob_sha": "f991942a69ba75708c22c981b1f3d006377b6074",
+  "release_license": "research-use-only; original articles retain publisher copyrights",
+  "staging_scope": "02_APT_publishers HTML originals only",
+  "selection_rule": "First ten frozen-priority publisher IDs with at least eight index-linked, domain-verified, length-eligible, nonduplicate articles; select eight per ID using salted SHA256 of publisher and original URL",
+  "model_calls_if_approved": 7680,
+  "data_safety": "Do not redistribute article text; only provenance summaries and hashes",
+  "current_gate": "METADATA_AND_ARCHIVE_NOT_DOWNLOADED_TO_CPU_SERVER; GPU_CLOSED",
+  "ctinexus_audit": "148 unique reports; publisher labels not present"
+}
