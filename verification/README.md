@@ -1,7 +1,7 @@
 # Independent recomputation of extensions E1–E4
 
 `recompute_extensions.py` recomputes every E1–E4 quantity reported in the manuscript
-*One Digit, Different Decisions: Quantization-Dependent Prompt Sensitivity in Cyber-Threat Intelligence*
+*One Digit, Different Decisions: Quantization-Dependent Prompt Sensitivity of Language Models in Cyber Threat Intelligence*
 (Section 6 and Supplementary Section S10). It was written for the manuscript audit, separately from the
 analysis scripts in `extensions/`, and uses the Python standard library only.
 

@@ -1,10 +1,13 @@
 cff-version: 1.2.0
-message: "Please cite this ThreatScope software/data release; once published, also cite the associated article."
-title: "ThreatScope: Quantization-Dependent Example-Index Sensitivity — Reproducibility and Extension Evidence"
-type: software
+message: "Please cite this ThreatScope data and code release by its Zenodo DOI; once published, also cite the associated article."
+title: "ThreatScope: Code, Decision Records and Relevance Labels for “One Digit, Different Decisions”"
+type: dataset
 version: 1.1.0
-date-released: 2026-11-16
-license: MIT
+date-released: 2026-11-20
+doi: "10.5281/zenodo.24392692"
+license:
+  - CC-BY-4.0
+  - MIT
 repository-code: "https://github.com/urazy1982/ThreatScope"
 keywords:
   - cyber threat intelligence
@@ -22,7 +25,7 @@ authors:
     affiliation: "Department of Computer Engineering, Gazi University, Ankara, Türkiye"
 references:
   - type: unpublished
-    title: "One Digit, Different Decisions: Quantization-Dependent Prompt Sensitivity in Cyber-Threat Intelligence"
+    title: "One Digit, Different Decisions: Quantization-Dependent Prompt Sensitivity of Language Models in Cyber Threat Intelligence"
     authors:
       - family-names: Yavanoğlu
         given-names: Uraz

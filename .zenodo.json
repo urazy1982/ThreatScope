@@ -1,0 +1,33 @@
+{
+  "title": "ThreatScope: Code, Decision Records and Relevance Labels for “One Digit, Different Decisions”",
+  "upload_type": "dataset",
+  "version": "1.1.0",
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "creators": [
+    {
+      "name": "Yavanoğlu, Uraz",
+      "affiliation": "Department of Computer Engineering, Gazi University, Ankara, Türkiye",
+      "orcid": "0000-0001-8358-8150"
+    }
+  ],
+  "description": "<p>Text-free reproducibility release for the manuscript <em>One Digit, Different Decisions: Quantization-Dependent Prompt Sensitivity of Language Models in Cyber Threat Intelligence</em> (submitted to Applied Artificial Intelligence). It contains code, protocols, configuration, per-call model decisions with their hashes, analysis outputs, independent audits, the annotation kit, and the human and AI-generated relevance labels keyed by window and target index. No third-party report text is included.</p><p>Licences: data, results and documentation under CC BY 4.0 (LICENSE-DATA.md); code under the MIT licence (LICENSE).</p>",
+  "keywords": [
+    "cyber threat intelligence",
+    "large language models",
+    "quantization",
+    "prompt sensitivity",
+    "reproducibility",
+    "BF16",
+    "NF4",
+    "FP4"
+  ],
+  "notes": "Version 1.1.0 includes the main-study release v1.0.0 and adds extensions E1–E4. Code is MIT-licensed; everything else is CC BY 4.0.",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/urazy1982/ThreatScope",
+      "relation": "isIdenticalTo",
+      "resource_type": "dataset"
+    }
+  ]
+}

@@ -24,8 +24,7 @@
 * E1/E2 per-record decision tables are available, but their *complete original raw inference checkpoint bodies* were not provided for this E6 assembly.
 * Original full 10.69 GB APT archive and private 72-report E3 input are not redistributed. Exact end-to-end neural inference and source provenance require the user's local corpus and pinned weights.
 * Independent human annotation raw sheets and adjudication transcripts are not reproduced here.
-* Manuscript PDF was not edited or formally accepted in this release package; `MANUSCRIPT_REVISION_INSERTIONS.md` is the author-editable change text.
 
 ## Release recommendation
 
-Add `extensions/`, `README_EXTENSION_E6.md`, `MANUSCRIPT_REVISION_INSERTIONS.md`, `E6_READINESS_AUDIT.md`, and `verify_e6.py` to the existing repository on a new tag such as `v1.1.0-extension-evidence`. Do not alter or force-update v1.0.0. Confirm the final public URL after uploading. Keep `restricted` materials outside GitHub.
+Add `extensions/`, `README_EXTENSION_E6.md`, `E6_READINESS_AUDIT.md`, and `verify_e6.py` to the existing repository on a new tag such as `v1.1.0-extension-evidence`. Do not alter or force-update v1.0.0. Confirm the final public URL after uploading. Keep `restricted` materials outside GitHub.

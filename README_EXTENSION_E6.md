@@ -22,7 +22,7 @@ The original v1.0.0 `annotation/` tree is preserved as an archived historical ar
 
 ## Scientific interpretation
 
-See `extensions/E5_synthesis/SCIENTIFIC_SYNTHESIS.md`, `MANUSCRIPT_REVISION_INSERTIONS.md`, and `E6_READINESS_AUDIT.md`.
+See `extensions/E5_synthesis/SCIENTIFIC_SYNTHESIS.md` and `E6_READINESS_AUDIT.md`.
 
 ## Publication and authorship
 
